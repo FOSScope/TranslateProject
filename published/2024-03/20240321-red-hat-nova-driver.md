@@ -1,11 +1,13 @@
 ---
-title: 'Red Hat 推出基于 Rust 的「Nova」驱动程序：Nvidia GPU 更优秀的 Nouveau'
-date: 
+title: Red Hat 推出基于 Rust 的「Nova」驱动程序：Nvidia GPU 更优秀的 Nouveau
 author:
   - fosscope-translation-team
   - excniesnied
   - Cubik65536
-cover: https://news.itsfoss.com/content/images/size/w1304/2024/03/redhat-to-replace-noveau-with-nova-driver.png
+banner: >-
+  https://static.fosscope.com/articles_img/2024/03/red-hat-nova-driver/redhat-to-replace-noveau-with-nova-driver.png
+cover: >-
+  https://static.fosscope.com/articles_img/2024/03/red-hat-nova-driver/redhat-to-replace-noveau-with-nova-driver.png
 categories:
   - 翻译
   - 新闻
@@ -14,15 +16,22 @@ tags:
   - Nova
   - Red Hat
   - Nvidia
-authorInfo: |
+authorInfo: >
   via: https://news.itsfoss.com/red-hat-nova-driver/
 
+
   作者：[Ankush Das](https://news.itsfoss.com/author/ankush/)
+
   选题：[Cubik65536](https://github.com/Cubik65536)
+
   译者：[excniesnied](https://github.com/excniesnied)
+
   校对：[Cubik65536](https://github.com/Cubik65536)
 
-  本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
+
+  本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject)
+  原创编译，[开源观察](https://fosscope.com/) 荣誉推出
+date: 2024-03-30 00:48:32
 ---
 
 基于 Rust 的 Nvidia 驱动程序？真是令人振奋的消息！
@@ -57,7 +66,7 @@ Danilo 提到，他们希望通过这个项目开发一个更简单且现代的�
 
 因此，该项目的方法将通过三个主要分支进行，其中 Nova 存根驱动程序（一个模块）依赖于 PCI 和设备分支。
 
-![nova driver](https://news.itsfoss.com/content/images/2024/03/nova-driver.jpg)
+![nova driver](https://static.fosscope.com/articles_img/2024/03/red-hat-nova-driver/nova-driver.jpg)
 
 你可以查看托管在 Freedesktop 的内核图形开发部分内的 [仓库](https://gitlab.freedesktop.org/drm/nova?ref=news.itsfoss.com)。
 
