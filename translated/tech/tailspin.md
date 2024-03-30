@@ -1,5 +1,5 @@
 ---
-title: '使用Tailspin带高亮地查看日志文件'
+title: '使用 Tailspin 带高亮地查看日志文件'
 date: 
 author:
   - fosscope-translation-team
