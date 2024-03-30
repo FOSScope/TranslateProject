@@ -1,9 +1,11 @@
 ---
-title: '[转载] 使用Tailspin带高亮地查看日志文件'
+title: '使用Tailspin带高亮地查看日志文件'
 date: 
 author:
-  - Sagar Sharma
-  - cysnies
+  - fosscope-translation-team
+  - cys2004
+  - <校对者ID>
+banner: https://static.fosscope.com/articles_img/2024/03/tailspin/logspin-a-logfile-highlighter.webp
 cover: https://static.fosscope.com/articles_img/2024/03/tailspin/logspin-a-logfile-highlighter.webp
 categories:
   - 翻译
@@ -16,9 +18,13 @@ tags:
 authorInfo: |
   via: https://itsfoss.com/tailspin/
 
-  本文由 [Sagar Sharma](https://itsfoss.com/author/sagar/) 编写，[开源观察](https://fosscope.com/) 转载发布
----
+  作者：[Sagar Sharma](https://itsfoss.com/author/sagar/)
+  选题：[cys2004](https://github.com/cys2004)
+  译者：[cys2004](https://github.com/cys2004)
+  校对：[<校对者ID>](https://github.com/<校对者ID>)
 
+  本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
+---
 使用 Tailspin 命令行工具，让阅读日志文件变得更加容易和有趣。
 
 <!-- more -->
