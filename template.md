@@ -2,8 +2,6 @@
 title: <标题>
 date: <发布时间>
 author:
-  - <作者ID>
-author:
   - fosscope-translation-team
   - <译者ID>
   - <校对者ID>
