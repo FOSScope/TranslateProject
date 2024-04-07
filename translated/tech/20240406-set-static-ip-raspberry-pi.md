@@ -5,8 +5,8 @@ author:
   - fosscope-translation-team
   - GlassFoxowo
   - <校对者ID>
-banner: https://static.fosscope.com/resources/articles_img/2024/04/set-static-ip-raspberry-pi/set-static-ip-raspberry-pi.png
-cover: https://static.fosscope.com/resources/articles_img/2024/04/set-static-ip-raspberry-pi/set-static-ip-raspberry-pi.png
+banner: https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/set-static-ip-raspberry-pi.png
+cover: https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/set-static-ip-raspberry-pi.png
 categories:
   - 翻译
   - 技术
@@ -90,7 +90,7 @@ ip a
 
 两者都会给您当前树莓派的 IP 地址。
 
-![获取树莓派的 IP 地址](https://static.fosscope.com/resources/articles_img/2024/04/set-static-ip-raspberry-pi/get-ip-address-raspberry-pi-os.webp)
+![获取树莓派的 IP 地址](https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/get-ip-address-raspberry-pi-os.webp)
 
 如上面的截图所示，我的树莓派的 IP 地址是192.168.1.34。
 
@@ -104,7 +104,7 @@ ip route | grep default
 
 如下面的截图所示，在我的情况下，网关IP是192.168.1.1。
 
-![获取网关 IP 地址](https://static.fosscope.com/resources/articles_img/2024/04/set-static-ip-raspberry-pi/gateway-ip-raspberry-pi.png)
+![获取网关 IP 地址](https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/gateway-ip-raspberry-pi.png)
 
 ### 第3步：获取DNS服务器详细信息（可选）
 
@@ -116,7 +116,7 @@ ip route | grep default
 grep nameserver /etc/resolv.conf
 ```
 
-![DNS服务器 IP 地址](https://static.fosscope.com/resources/articles_img/2024/04/set-static-ip-raspberry-pi/dns-server-ip-raspberry-pi.png)
+![DNS服务器 IP 地址](https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/dns-server-ip-raspberry-pi.png)
 
 📋
 
@@ -138,7 +138,7 @@ sudo nmtui
 
 您将看到一个类似于此的界面。在这里，选择**编辑连接**并按Enter。
 
-![在网络管理器中编辑网络连接](https://static.fosscope.com/resources/articles_img/2024/04/set-static-ip-raspberry-pi/network-manager-terminal.png)
+![在网络管理器中编辑网络连接](https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/network-manager-terminal.png)
 
 💡
 
@@ -146,19 +146,19 @@ sudo nmtui
 
 它将显示您在树莓派上过去的连接。我相信您想为当前连接的网络设置静态 IP。向下移动到适当的网络。现在按 tab 键几次以选择编辑选项，然后按 Enter 键。
 
-![在 nmtui 中编辑网络连接](https://static.fosscope.com/resources/articles_img/2024/04/set-static-ip-raspberry-pi/edit-network-connection-nmtui.png)
+![在 nmtui 中编辑网络连接](https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/edit-network-connection-nmtui.png)
 
 使用箭头键再次向下滚动到**IPv4配置**选项。将其从**自动**更改为**手动**。
 
-![更改IPv4配置](https://static.fosscope.com/resources/articles_img/2024/04/set-static-ip-raspberry-pi/change-ipv4-configuration-raspberry-pi.png)
+![更改IPv4配置](https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/change-ipv4-configuration-raspberry-pi.png)
 
 接下来，选择 IPv4 配置行的 Show 选项。
 
-![通过更改 IPv4 配置在树莓派上设置静态 IP](https://static.fosscope.com/resources/articles_img/2024/04/set-static-ip-raspberry-pi/change-ipv4-configuration-raspberry-pi-1.png)
+![通过更改 IPv4 配置在树莓派上设置静态 IP](https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/change-ipv4-configuration-raspberry-pi-1.png)
 
 再次使用箭头键向下移动并到达 IPv4 配置部分。这次，您将看到添加地址、网关和 DNS 服务器的选项。
 
-![IPv4 配置更改](https://static.fosscope.com/resources/articles_img/2024/04/set-static-ip-raspberry-pi/editing-ipv4-config-nmtui-raspberry-pi.png)
+![IPv4 配置更改](https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/editing-ipv4-config-nmtui-raspberry-pi.png)
 
 转到地址行并点击 Enter 键。它可能会带您回到开头。再次向下滚动。
 
@@ -166,11 +166,11 @@ sudo nmtui
 
 重要的是以 IP/24的格式输入您选择的 IP 地址和子网掩码。
 
-![在树莓派上设置静态 IP](https://static.fosscope.com/resources/articles_img/2024/04/set-static-ip-raspberry-pi/changed-ipv4-config-raspberry-pi.png)
+![在树莓派上设置静态 IP](https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/changed-ipv4-config-raspberry-pi.png)
 
 填写所有细节，例如 IP 地址与掩码、网关 IP 和 DNS。
 
-![更改 IPv4 配置以在树莓派上设置静态 IP](https://static.fosscope.com/resources/articles_img/2024/04/set-static-ip-raspberry-pi/all-ipv4-settings-changed-raspberry-pi.png)
+![更改 IPv4 配置以在树莓派上设置静态 IP](https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/all-ipv4-settings-changed-raspberry-pi.png)
 
 如果您注意到上面，我在 DNS 中使用了网关 IP。我还添加了1.1.1.1，[Cloudflare的DNS](https://www.cloudflare.com/en-gb/learning/dns/what-is-1.1.1.1/?ref=fosscope.com)作为备用。
 
@@ -186,13 +186,13 @@ sudo nmtui
 
 首先，单击网络图标，然后转到高级选项，点击编辑连接。
 
-![在树莓派中编辑连接](https://static.fosscope.com/resources/articles_img/2024/04/set-static-ip-raspberry-pi/edit-connections-to-set-static-ip.webp)
+![在树莓派中编辑连接](https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/edit-connections-to-set-static-ip.webp)
 
 在树莓派中编辑连接
 
 在这里，您转到 IPv4 设置，将其设置为手动，然后添加所有细节，例如 IP 地址、掩码、网关 IP、DNS 服务器等。您拥有所有细节。
 
-![在树莓派上设置静态 IP](https://static.fosscope.com/resources/articles_img/2024/04/set-static-ip-raspberry-pi/editing-network-connections-to-set-static-ip.webp)
+![在树莓派上设置静态 IP](https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/editing-network-connections-to-set-static-ip.webp)
 
 重新启动您的系统，您会看到静态 IP现在已在您的树莓派上设置。
 
