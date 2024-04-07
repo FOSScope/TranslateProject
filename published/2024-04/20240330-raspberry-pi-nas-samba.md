@@ -1,10 +1,10 @@
 ---
 title: '使用 Samba (SMB) 服务器将你的树莓派打造成 NAS'
-date: 
+date: 2024-04-08 01:44:25
 author:
 - fosscope-translation-team
 - cys2004
-- <校对者ID>
+- GlassFoxowo
 banner: https://static.fosscope.com/articles_img/2024/03/raspberry-pi-nas-samba/raspberry-pi-samba-nas.webp
 cover: https://static.fosscope.com/articles_img/2024/03/raspberry-pi-nas-samba/raspberry-pi-samba-nas.webp
 categories:
@@ -21,7 +21,7 @@ authorInfo: |
   作者：[Abhishek Kumar](https://itsfoss.com/author/abhishek-kumar/)
   选题：[cys2004](https://github.com/cys2004)
   译者：[cys2004](https://github.com/cys2004)
-  校对：[<校对者ID>](https://github.com/<校对者ID>)
+  校对：[GlassFoxowo](https://github.com/GlassFoxowo-Dev)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
 
@@ -56,7 +56,7 @@ Samba 是一个软件套件，它利用 [服务器消息块 （SMB）/ 通用互
 
 ## 安装 Samba 及其依赖项
 
-首先，请确保 [在你的树莓派上安装了Raspbian OS](https://itsfoss.com/tutorial-how-to-install-raspberry-pi-os-raspbian-wheezy/)。这里我不会讨论这些步骤。
+首先，请确保 [在你的树莓派上安装了 Raspbian OS](https://itsfoss.com/tutorial-how-to-install-raspberry-pi-os-raspbian-wheezy/)。这里我不会讨论这些步骤。
 
 在 Linux 上工作的第一步是确保你安装了所有最新的软件包。
 
@@ -141,7 +141,7 @@ sudo systemctl restart smbd
 
 ![Mount NAS on Windows](https://static.fosscope.com/articles_img/2024/03/raspberry-pi-nas-samba/file-explorer-mapping-network-drive-samba-tutorial-raspberrypi.webp)
 
-之后，它会要求你为你的共享设置驱动器字母和服务器的地址。在我的案例中，它是`\\192.168.1.11\itsfossnas`。
+之后，它会要求你为你的共享设置驱动器字母和服务器的地址。在我的示例中，它是`\\192.168.1.11\itsfossnas`。
 
 ![Mount NAS on Windows](https://static.fosscope.com/articles_img/2024/03/raspberry-pi-nas-samba/adding-server-address-with-smb-share-details-samba-tutorial-raspberrypi.webp)
 
@@ -157,8 +157,8 @@ sudo systemctl restart smbd
 
 ## 结论
 
-我不会说这会是你的永久存储和备份解决方案，但令人印象深刻的是，这样一个小小的设备能做如此之多的事情。
+我不会说这会是你永久的存储和备份解决方案，但值得一提的是，这样一个小小的设备就能做这么多事。
 
-我认为，在你全力以赴购买一台昂贵的NAS之前，了解一下网络存储方案是非常好的。
+我认为，在你下定决心购买一台昂贵的NAS之前，了解一下网络存储方案不是坏事。
 
 希望你学到了一些新东西。欢迎在评论中分享你的经验或是你的 DIY 存储解决方案。
