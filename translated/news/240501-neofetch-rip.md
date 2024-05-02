@@ -17,11 +17,11 @@ tags:
   - Kiss Linux
   - Fastfetch
 authorInfo: |
-  via: <原文链接>
+  via: https://news.itsfoss.com/neofetch-rip/
 
-  作者：[<原作者>](<原作者信息页>)
-  选题：[<选题者ID>](https://github.com/<选题者ID>)
-  译者：[<译者ID>](https://github.com/<译者ID>)
+  作者：[SOURAV RUDRA](https://news.itsfoss.com/author/sourav/)
+  选题：[Cubik65536](https://github.com/Cubik65536)
+  译者：[excniesnied](https://github.com/excniesNIED)
   校对：[<校对者ID>](https://github.com/<校对者ID>)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
