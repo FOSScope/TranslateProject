@@ -19,7 +19,7 @@ tags:
 authorInfo: |
   via: https://news.itsfoss.com/neofetch-rip/
 
-  作者：[SOURAV RUDRA](https://news.itsfoss.com/author/sourav/)
+  作者：[Sourav Rudra](https://news.itsfoss.com/author/sourav/)
   选题：[Cubik65536](https://github.com/Cubik65536)
   译者：[excniesnied](https://github.com/excniesNIED)
   校对：[<校对者ID>](https://github.com/<校对者ID>)
