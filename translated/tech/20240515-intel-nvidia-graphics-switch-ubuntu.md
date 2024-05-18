@@ -1,10 +1,10 @@
 ---
 title: 在 Ubuntu 上切换 Intel 和 Nvidia 显卡
-date: <发布时间>
+date: 2024-05-18 13:41:37
 author:
   - fosscope-translation-team
   - GlassFoxowo
-  - <校对者ID>
+  - void-mori
 banner: https://static.fosscope.com/articles_img/2024/05/intel-nvidia-graphics-switch-ubuntu/cover.png
 cover: https://static.fosscope.com/articles_img/2024/05/intel-nvidia-graphics-switch-ubuntu/cover.png
 categories:
@@ -20,7 +20,7 @@ authorInfo: |
   作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
   选题：[Cubik65536](https://github.com/Cubik65536)
   译者：[GlassFoxowo](https://github.com/GlassFoxowo-Dev)
-  校对：[<校对者ID>](https://github.com/<校对者ID>)
+  校对：[void-mori](https://github.com/void-mori)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
 ---
