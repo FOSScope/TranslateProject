@@ -1,10 +1,10 @@
 ---
 title: '使用别名提高你在 Linux 终端中的效率'
-date: 
+date: 2024-05-18 12:46:37
 author:
 - fosscope-translation-team
 - cys2004
-- <校对者ID>
+- GlassFoxowo
 banner: https://static.fosscope.com/articles_img/2024/04/linux-alias/alias-command.webp
 cover: https://static.fosscope.com/articles_img/2024/04/linux-alias/alias-command.webp
 categories:
@@ -21,13 +21,13 @@ authorInfo: |
   作者：[Sagar Sharma](https://itsfoss.com/author/sagar/)
   选题：[cys2004](https://github.com/cys2004)
   译者：[cys2004](https://github.com/cys2004)
-  校对：[<校对者ID>](https://github.com/<校对者ID>)
+  校对：[GlassFoxowo](https://github.com/GlassFoxowo-Dev)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
 
 ---
 
-释放终端中别名的超能力吧！
+释放终端别名的超能力吧！
 
 <!-- more -->
 
@@ -35,13 +35,13 @@ authorInfo: |
 
 例如，要更新我的 Ubuntu 系统，我不会使用以下命令：
 
-```
+```bash
 sudo apt update && sudo apt upgrade -y
 ```
 
-而是使用`upd`，效果是一样的。为什么？因为我为上述更新命令组合设置了一个别名`upd`。
+而是直接打`upd`，效果是一样的。为什么？因为我为上述更新命令组合设置了一个别名`upd`。
 
-```
+```bash
 alias upd="sudo apt update && sudo apt upgrade -y"
 ```
 
@@ -57,7 +57,7 @@ alias upd="sudo apt update && sudo apt upgrade -y"
 
 要为当前会话创建一个别名，可以按照以下方式使用别名命令：
 
-```
+```bash
 alias 别名="你的自定义命令"
 ```
 
@@ -73,7 +73,7 @@ alias 别名="你的自定义命令"
 
 是的，你可以用同名的别名替代现有命令。
 
-```
+```bash
 alias ls="ls -la"
 ```
 
@@ -89,19 +89,19 @@ alias ls="ls -la"
 
 首先，打开`.bashrc`文件进行编辑：
 
-```
+```bash
 nano ~/.bashrc
 ```
 
 使用`Alt + /`在 nano 文本编辑器中跳转到文件末尾，并按照以下示例添加行：
 
-```
+```bash
 alias 别名='你的自定义命令'
 ```
 
 例如，在这里我为`ls -lah`创建了一个别名，当我使用`ls`时将执行`ls -lah`：
 
-```
+```bash
 alias ls='ls -lah'
 ```
 
@@ -111,7 +111,7 @@ alias ls='ls -lah'
 
 要使更改生效，需要重新加载`.bashrc`文件：
 
-```
+```bash
 source ~/.bashrc
 ```
 
@@ -123,7 +123,7 @@ source ~/.bashrc
 
 要列出所有已存在的别名，只需执行以下命令：
 
-```
+```bash
 alias
 ```
 
