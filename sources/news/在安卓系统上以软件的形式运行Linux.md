@@ -1,35 +1,35 @@
 ---
-title: <在安卓系统上以软件的形式运行Linux>
-date: <2024-06-22>
+title: 在安卓系统上以软件的形式运行Linux
+date: 
 author:
   - fosscope-translation-team
-  - <Fisherman110>
-  - <void-mori>
-banner: <https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/06/run-linux-in-android.png>
-cover: <https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/06/run-linux-in-android.png>
+  - Fisherman110
+  - void-mori
+banner: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/06/run-linux-in-android.png
+cover: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/06/run-linux-in-android.png
 categories:
   - 翻译
-  - <news>
+  - news
 tags:
-  - <news>
+  - news
 authorInfo: |
-  via: <https://news.itsfoss.com/lindroid/>
+  via: https://news.itsfoss.com/lindroid/
 
-  作者：[<Sourav Rudra>](<https://news.itsfoss.com/author/sourav/>)
-  选题：[<Cubik65536>](https://github.com/Cubik65536)
-  译者：[<Fisherman110>](https://github.com/Fisherman110)
-  校对：[<void-mori>](https://github.com/void-mori)
+  作者：[Sourav Rudra](https://news.itsfoss.com/author/sourav/)
+  选题：[Cubik65536](https://github.com/Cubik65536)
+  译者：[Fisherman110](https://github.com/Fisherman110)
+  校对：[void-mori](https://github.com/void-mori)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
 ---
 
 <!-- 所有在被 `<>` 标记的地方都需要被替换成对应的内容 -->
 
-<Linux能够以各种形式和规模运行，这是毋庸置疑的>
+Linux能够以各种形式和规模运行，这是毋庸置疑的
 
 <!-- more -->
 
-<
+
 毫无疑问，安卓是世界上最流行的开源操作系统。（对不住了，arch用户）安卓使用高度定制的Linux内核给用户提供了良好的智能手机使用体验。
 
 当然，并非每个人都喜欢谷歌概念下的安卓操作系统，他们还有LineageOS, CalyxOS等谷歌系列以外的系统可以选择。
@@ -61,11 +61,11 @@ Lindroid默认的图形界面是KWin,Wayland默认启用，对X11的支持还在
 
 开发者通过实现硬件加速确保了它（Lindroid）在运行软件方面也毫不逊色。这是通过使用libhybris库来调用宿主机的EGL和硬件混合渲染来实现的。
 
-当被问到Wine能否在这上面运行的时候， Erfan补充道，他还没有测试Wine,但是他继续不久之后进行测试，他会尝试建立GL(存疑？)来确保Wine和Proton的适配性。
+当被问到Wine能否在这上面运行的时候， Erfan补充道，他还没有测试Wine,但是他继续不久之后进行测试，他会尝试建立GL（存疑？）来确保Wine和Proton的适配性。
 
 他也展示了Lindroid在类似Ubuntu Touch (Lomiri), Droidian (Phosh), 和 Plasma Mobile 这样的发行版上面运行的情况。
 
-如果你迫切想要了解更多关于这个炫酷项目的信息，你可以去X（twitter)频道寻找信息，或者参考Luka在Volla Community Days的演说(4:01:00 timestamp)，他在这场演说中回答了很多观众提出的有趣问题。
+如果你迫切想要了解更多关于这个炫酷项目的信息，你可以去X(twitter)频道寻找信息，或者参考Luka在Volla Community Days的演说(4:01:00 timestamp)，他在这场演说中回答了很多观众提出的有趣问题。
 
 ## 想要上手此项目？
 
@@ -79,10 +79,9 @@ Lindroid默认的图形界面是KWin,Wayland默认启用，对X11的支持还在
 值得一提的是，他宣布Lindroid将会正式在LibreMobileOS上以Ulumo之名上线，它的特性是有一个Ubuntu实例。
 
 
-我期待那（Ulumo)会是一个安装后就不用管理的省心Lindroid解决方案。此外，他在这方面（Ulumo)没有发表其他看法了。
+我期待那（Ulumo）会是一个安装后就不用管理的省心Lindroid解决方案。此外，他在这方面（Ulumo）没有发表其他看法了。
 
 
 如果你想要参与开发或者了解工程进度的话，你可以访问这个工程的GitHub页面。
                                                                        
 [Lindroid(GitHub)](https://github.com/linux-on-droid/)                                                                     
-> 
