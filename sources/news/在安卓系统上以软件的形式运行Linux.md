@@ -4,7 +4,7 @@ date: <2024-06-22>
 author:
   - fosscope-translation-team
   - <Fisherman110>
-  - <校对者ID>
+  - <void-mori>
 banner: <https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/06/run-linux-in-android.png>
 cover: <https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/06/run-linux-in-android.png>
 categories:
@@ -18,7 +18,7 @@ authorInfo: |
   作者：[<Sourav Rudra>](<https://news.itsfoss.com/author/sourav/>)
   选题：[<Cubik65536>](https://github.com/Cubik65536)
   译者：[<Fisherman110>](https://github.com/Fisherman110)
-  校对：[<校对者ID>](https://github.com/<校对者ID>)
+  校对：[<void-mori>](https://github.com/void-mori)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
 ---
