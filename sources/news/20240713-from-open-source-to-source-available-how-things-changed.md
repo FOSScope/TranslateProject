@@ -3,7 +3,7 @@ title: From Open Source to Source Available: How Things Changed
 date: <发布时间>
 author:
   - fosscope-translation-team
-  - <译者ID>
+  - RobertCheng-956
   - <校对者ID>
 banner: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/05/open-source-source-available.png
 cover: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/05/open-source-source-available.png
@@ -18,7 +18,7 @@ authorInfo: |
 
   作者：[Ankush Das](https://news.itsfoss.com/author/ankush/)
   选题：[excniesnied](https://github.com/excniesNIED)
-  译者：[<译者ID>](https://github.com/<译者ID>)
+  译者：[<译者ID>](https://github.com/RobertCheng-956)
   校对：[<校对者ID>](https://github.com/<校对者ID>)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
