@@ -47,18 +47,18 @@ type = "talk"
 description = "评论"
 directory = "{{step}}/talk"
 
-### Configurations Below are NOT used for now ###
+### Configurations Below are NOT used for now and **may not represent the final version of the related rule definitions**.
 
-# [[actions]]
-# action = "select"
-# description = "Select an article to translate."
-# command = "TOUCH source/{{article_id}}.md"
+[[actions]]
+action = "select"
+description = "Select an article to translate."
+command = "TOUCH source/{{article_id}}.md"
 
-# [[actions]]
-# action = "translate"
-# description = "Translate the article."
-# command = "MV source/{{article_id}}.md translated/{{article_id}}.md"
+[[actions]]
+action = "translate"
+description = "Translate the article."
+command = "MV source/{{article_id}}.md translated/{{article_id}}.md"
 
-# [git]
-# branch_naming = "{{action_name}}/{{type_name}}/{{article_id}}"
-# commit_message = "[{{action_desc}}][{{type_desc}}]: {{article_title}}"
+[git]
+branch_naming = "{{action_name}}/{{type_name}}/{{article_id}}"
+commit_message = "[{{action_desc}}][{{type_desc}}]: {{article_title}}"
