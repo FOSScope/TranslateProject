@@ -1,0 +1,64 @@
+article_template = """---
+title: {{title}}
+date: <发布时间>
+author:
+  - fosscope-translation-team
+  - {{translator}}
+  - {{proofreader}}
+banner: {{cover_image}}
+cover: {{cover_image}}
+categories:
+  - 翻译
+  - <类型>
+tags:
+  - <标签>
+authorInfo: |
+  via: {{via}}
+
+  作者：[{{author}}]({{author_link}})
+  选题：[{{selector}}](https://github.com/{{selector}})
+  译者：[{{translator}}](https://github.com/{{translator}})
+  校对：[{{proofreader}}](https://github.com/{{proofreader}})
+
+  本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
+---
+
+<!-- 所有在被 `<>` 标记的地方都需要填写对应信息 -->
+
+{{summary}}
+
+<!-- more -->
+
+{{content}}
+"""
+
+[[articles]]
+type = "news"
+description = "新闻"
+directory = "{{step}}/news"
+
+[[articles]]
+type = "tech"
+description = "技术"
+directory = "{{step}}/tech"
+
+[[articles]]
+type = "talk"
+description = "评论"
+directory = "{{step}}/talk"
+
+### Configurations Below are NOT used for now ###
+
+# [[actions]]
+# action = "select"
+# description = "Select an article to translate."
+# command = "TOUCH source/{{article_id}}.md"
+
+# [[actions]]
+# action = "translate"
+# description = "Translate the article."
+# command = "MV source/{{article_id}}.md translated/{{article_id}}.md"
+
+# [git]
+# branch_naming = "{{action_name}}/{{type_name}}/{{article_id}}"
+# commit_message = "[{{action_desc}}][{{type_desc}}]: {{article_title}}"
