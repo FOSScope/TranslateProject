@@ -1,32 +1,31 @@
 ---
-title: <标题>
-date: <发布时间>
+title: {{title}}
+date: {{release_date}}
 author:
   - fosscope-translation-team
-  - <译者ID>
-  - <校对者ID>
-banner: <封面图片地址>
-cover: <封面图片地址（与 banner 一致）>
+  - {{translator}}
+  - {{proofreader}}
+banner: {{cover_image}}
+cover: {{cover_image}}
 categories:
   - 翻译
-  - <类型>
-tags:
-  - <标签>
+  - {{category}}
+tags: {{tags}}
 authorInfo: |
-  via: <原文链接>
+  via: {{via}}
 
-  作者：[<原作者>](<原作者信息页>)
-  选题：[<选题者ID>](https://github.com/<选题者ID>)
-  译者：[<译者ID>](https://github.com/<译者ID>)
-  校对：[<校对者ID>](https://github.com/<校对者ID>)
+  作者：[{{author}}]({{author_link}})
+  选题：[{{selector}}](https://github.com/{{selector}})
+  译者：[{{translator}}](https://github.com/{{translator}})
+  校对：[{{proofreader}}](https://github.com/{{proofreader}})
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
 ---
 
-<!-- 所有在被 `<>` 标记的地方都需要被替换成对应的内容 -->
+<!-- 所有在被 `{{ }}` 标记的地方都需要填写对应信息 -->
 
-<摘要>
+{{summary}}
 
 <!-- more -->
 
-<正文>
+{{content}}
