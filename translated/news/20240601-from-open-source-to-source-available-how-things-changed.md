@@ -18,8 +18,8 @@ authorInfo: |
 
   作者：[Ankush Das](https://news.itsfoss.com/author/ankush/)
   选题：[excniesnied](https://github.com/excniesNIED)
-  译者：[<译者ID>](https://github.com/<译者ID>)
-  校对：[RobertCheng-956](https://github.com/RobertCheng-956)
+  译者：[RobertCheng-956](https://github.com/RobertCheng-956)
+  校对：[<校对者ID>](https://github.com/<校对者ID>)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
 ---
