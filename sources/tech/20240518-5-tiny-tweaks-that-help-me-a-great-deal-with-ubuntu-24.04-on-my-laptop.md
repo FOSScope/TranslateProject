@@ -3,7 +3,7 @@ title: 5 Tiny Tweaks That Help Me a Great Deal with Ubuntu 24.04 on My Laptop
 date: <发布时间>
 author:
   - fosscope-translation-team
-  - <译者ID>
+  - Betty-hub182
   - <校对者ID>
 banner: https://itsfoss.com/content/images/size/w600/format/webp/2024/05/ubuntu-laptop-tiny-tweaks.png
 cover: https://itsfoss.com/content/images/size/w600/format/webp/2024/05/ubuntu-laptop-tiny-tweaks.png
@@ -12,12 +12,12 @@ categories:
   - 技术
 tags:
   - Ubuntu
-authorInfo: |
+authorInfo: |-
   via: https://itsfoss.com/ubuntu-tweaks-for-laptop/
 
   作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
   选题：[excniesnied](https://github.com/excniesNIED)
-  译者：[<译者ID>](https://github.com/<译者ID>)
+  译者：[Betty-hub182](https://github.com/Betty-hub182)
   校对：[<校对者ID>](https://github.com/<校对者ID>)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
