@@ -43,16 +43,15 @@ authorInfo: |-
 
 笔记本电脑制造商已经意识到了这种行为的变化，如今，你很难在触控板上看到专用的左键和右键。对了，你仍然可以转到底部，按下它进行左键和右键操作。
 
-然而，我更习惯 "轻敲以点击" 的行为。我觉得这样更方便。
+然而，我更习惯 「轻敲以点击」 的行为。我觉得这样更方便。
 
 该功能可以从触控板设置中启用或禁用。这取决于你喜欢什么。
 
 ![Enable Tap to click for laptops on Ubuntu 24.04 ](https://itsfoss.com/content/images/2024/05/tap-to-click-ubuntu-24-04.webp)
 
-{% note color:green 💡你也可以使用 “打字时禁用触控板” 功能，它位于触控板设置的顶部。 %}
+{% note color:green 💡你也可以使用 「打字时禁用触控板」 功能，它位于触控板设置的顶部。 %}
 
-由于你在笔记本电脑上使用 Ubuntu， 你应该使用它的三指滑动手势 [utilize its three-finger swipe gestures](https://itsfoss.com/three-finger-swipe-gnome/).
-
+由于你在笔记本电脑上使用 Ubuntu， 你应该 [使用它的三指滑动手势](https://itsfoss.com/three-finger-swipe-gnome/)。
 {% link https://itsfoss.com/three-finger-swipe-gnome/ %}
 
 ## 显示电量百分比
@@ -67,13 +66,13 @@ authorInfo: |-
 
 ![img](https://itsfoss.com/content/images/2024/05/display-battery-percentage-ubuntu-24-04.webp)
 
-{% note color:green 💡 您知道您可以检查连接的蓝牙设备的电池电量吗？它显示在电源设置中，但要显示在顶部面板中，您必须使用 GNOME 扩展 [like this one](https://extensions.gnome.org/extension/3991/bluetooth-battery/?ref=itsfoss.com). %}
+{% note color:green 💡 您知道您可以检查连接的蓝牙设备的电池电量吗？它显示在电源设置中，但要显示在顶部面板中，您必须使用 [ GNOME 扩展](https://extensions.gnome.org/extension/3991/bluetooth-battery/?ref=itsfoss.com) 。
 
 ## 由于不活动而禁用自动锁定
 
 如果你的 Ubuntu 笔记本电脑无人值守，屏幕会自动变暗并锁定系统。 而这只需五分钟即可完成。
 
-目前，这可能是有争议的，因为它肯定是一个 “安全功能”，但我不喜欢它。
+目前，这可能是有争议的，因为它肯定是一个「安全功能」，但我不喜欢它。
 
 我不喜欢仅仅 5 分钟没有使用笔记本电脑就再次输入密码。
 
@@ -91,7 +90,7 @@ authorInfo: |-
 
 ## 使用不同的电源配置
 
-在 Ubuntu 中，你有三种电源模式:
+在 Ubuntu 中，你有三种电源模式：
 
 - 性能：高 CPU/GPU 使用率和电池使用时间缩短
 - 平衡：标准 CPU/GPU 使用率和电池使用率
@@ -111,29 +110,29 @@ authorInfo: |-
 
 {% video youtube:GDdGK8Z_qzs width:100% autoplay:0 %}
 
-我的 TUXEDO 笔记本电脑默认预装了 Linux  [TUXEDO laptop came with Linux pre-installed by default](https://itsfoss.com/get-linux-laptops/)。 由于 [TUXEDO](https://www.tuxedocomputers.com/index.php?ref=itsfoss.com) 是一个 Linux 系统制造商， 他们有自己的 TUXEDO 控制中心应用程序 [TUXEDO Control Center app](https://www.tuxedocomputers.com/en/TUXEDO-Control-Center-TCC.tuxedo?ref=itsfoss.com) 可以让你改变到不同的电源配置文件，控制 CPU 风扇，创建自定义配置文件以及进行许多高级更改。请注意，您**不能**在非 TUXEDO 设备上使用它。
+[我的 TUXEDO 笔记本电脑默认预装了 Linux](https://itsfoss.com/get-linux-laptops/)。 由于 [TUXEDO](https://www.tuxedocomputers.com/index.php?ref=itsfoss.com) 是一个 Linux 系统制造商， 他们有自己的 [TUXEDO 控制中心应用程序](https://www.tuxedocomputers.com/en/TUXEDO-Control-Center-TCC.tuxedo?ref=itsfoss.com)可以让你改变到不同的电源配置文件，控制 CPU 风扇，创建自定义配置文件以及进行许多高级更改。请注意，您**不能**在非 TUXEDO 设备上使用它。
 
 {% link https://news.itsfoss.com/tuxedo-infinitybook-pro-16-review/ %}
 
 ## 通过分数缩放获得正确显示
 
-我的 TUXEDO InfinityBook 有一个 2 K (2560x1600px) 的屏幕. 而我的 Dell XPS 有一个 4 K 的屏幕。
+我的 TUXEDO InfinityBook 有一个 2K (2560x1600px) 的屏幕. 而我的 Dell XPS 有一个 4K 的屏幕。
 
-图标、字体和其他所有内容在两个屏幕上看起来都很小。 但如果我把分辨率缩放到 200 %，它们看起来就太大了，尤其是在 2 K 的屏幕上。
+图标、字体和其他所有内容在两个屏幕上看起来都很小。 但如果我把分辨率缩放到 200 %，它们看起来就太大了，尤其是在 2K 的屏幕上。
 
 值得庆幸的是，Ubuntu 提供了分数缩放选项。 启用它，你可以将显示缩放 25 %。
 
 ![Using Fractional Scaling on Ubuntu 24.04](https://itsfoss.com/content/images/2024/05/enable-fractional-scaling.png)
 
-这样，我在 2 K 屏幕上设置了 125 %，在 4 K 屏幕上设置了 150 %。
+这样，我在 2K 屏幕上设置了 125 %，在 4K 屏幕上设置了 150 %。
 
 这完全是个人偏好的问题，我很高兴有一个选项来设置这些偏好。
 
 ## 你还可以做更多的调整
 
-我将本文限制在以笔记本电脑为中心的调整上。 否则，我通常会在我的Ubuntu 系统上进行更多调整。 夜灯、点击最小化 [click to minimize](https://itsfoss.com/click-to-minimize-ubuntu/), 和请勿打扰只是我此刻想到的几个功能。
+我将本文限制在以笔记本电脑为中心的调整上。 否则，我通常会在我的Ubuntu 系统上进行更多调整。 夜灯、[点击最小化](https://itsfoss.com/click-to-minimize-ubuntu/) ，和请勿打扰只是我此刻想到的几个功能。
 
-这里还有一些你可以探索的 Ubuntu 自定义技巧 [few more Ubuntu customization tips you can explore](https://itsfoss.com/gnome-tricks-ubuntu/)。
+这里还有[一些你可以探索的 Ubuntu 自定义技巧 ](https://itsfoss.com/gnome-tricks-ubuntu/)。
 
 {% link https://itsfoss.com/gnome-tricks-ubuntu/ %}
 
