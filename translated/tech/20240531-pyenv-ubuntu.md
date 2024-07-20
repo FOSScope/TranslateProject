@@ -3,7 +3,7 @@ title: 如何使用 Pyenv 在 Ubuntu 上安装多个 Python 版本
 date: <发布时间>
 author:
   - fosscope-translation-team
-  - <译者ID>
+  - Cubik65536
   - <校对者ID>
 banner: <封面图片地址>
 cover: <封面图片地址（与 banner 一致）>
