@@ -5,8 +5,8 @@ author:
   - fosscope-translation-team
   - excniesNIED
   - {{proofreader}}
-banner: {{cover_image}}
-cover: {{cover_image}}
+banner: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/apple-reconsiders-opensource-emulation.png
+cover: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/apple-reconsiders-opensource-emulation.png
 categories:
   - 翻译
   - {{category}}
