@@ -11,7 +11,7 @@ categories:
   - 翻译
   - 新闻
 tags: 
-  - Programming Languages
+  - 编程语言
 authorInfo: |
   via: https://news.itsfoss.com/new-open-source-programming-languages
 
@@ -132,7 +132,3 @@ You can learn more about KGL by going over the [recent blog](https://jamesg.blog
 <center>{% button Knowledge Graph Language https://github.com/capjamesg/knowledge-graph-language %}</center>
 
 *💬 Well, that was it for this list. If you are aware of any new programming languages that I missed, do let me know in the comments below!*
-
-**Suggested Read** 📖
-
-{% link https://itsfoss.com/best-linux-distributions-progammers %}
