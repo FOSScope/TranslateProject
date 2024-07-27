@@ -3,7 +3,7 @@ title: Netflix Open-Sources its Secret Sauce to Meet The Demands Of its Platform
 date: {{release_date}}
 author:
   - fosscope-translation-team
-  - {{translator}}
+  - excniesNIED
   - {{proofreader}}
 banner: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/netflix-opensource-maestro.png
 cover: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/netflix-opensource-maestro.png
@@ -18,7 +18,7 @@ authorInfo: |
 
   作者：[Ankush Das](https://news.itsfoss.com/author/ankush/)
   选题：[excniesNIED](https://github.com/excniesNIED)
-  译者：[{{translator}}](https://github.com/{{translator}})
+  译者：[excniesNIED](https://github.com/excniesNIED)
   校对：[{{proofreader}}](https://github.com/{{proofreader}})
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
