@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - published/**/*.md
+  workflow_dispatch:
 
 jobs:
   sync:
