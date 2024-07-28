@@ -1,0 +1,36 @@
+name: Sync Markdown Files to Site Source
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - published/**/*.md
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout TranslationProject
+        uses: actions/checkout@v2
+
+      - name: Checkout Fosscope Repository
+        uses: actions/checkout@v2
+        with:
+          repository: FOSScope/fosscope.com
+          token: ${{ secrets.TOKEN_SYNC_PUBLISHED_FILES }}
+          path: fosscope
+
+      - name: Sync Markdown Files
+        run: |
+          rsync -av --delete published/ fosscope/source/_posts/translate/ --include='*.md' --exclude='*'
+
+      - name: Commit and Push Changes
+        run: |
+          cd fosscope
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add source/_posts/translate/*.md
+          git commit -m "${{ github.event.head_commit.message }}" || echo "No commit message"
+          git push origin main
