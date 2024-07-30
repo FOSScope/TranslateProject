@@ -3,6 +3,8 @@ name: Publish Articles
 on:
   push:
     branches: [ "main" ]
+    paths:
+      - published/**/*.md
   workflow_dispatch:
 
 jobs:
