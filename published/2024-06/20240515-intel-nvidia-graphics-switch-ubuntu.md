@@ -1,6 +1,7 @@
 ---
 title: 在 Ubuntu 上切换 Intel 和 Nvidia 显卡
 date: 2024-05-18 13:41:37
+abbrlink: 89cda420
 author:
   - fosscope-translation-team
   - GlassFoxowo

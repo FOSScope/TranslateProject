@@ -1,6 +1,7 @@
 ---
 title: {{title}}
 date: {{release_date}}
+abbrlink: {{abbrlink}}
 author:
   - fosscope-translation-team
   - {{translator}}

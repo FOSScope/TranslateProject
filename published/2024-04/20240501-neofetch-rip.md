@@ -1,6 +1,7 @@
 ---
 title: 不好了！Neofetch 已经不复存在了！
 date: 2024-05-04 12:11:34
+abbrlink: b8d5ebb2
 author:
   - fosscope-translation-team
   - excniesnied

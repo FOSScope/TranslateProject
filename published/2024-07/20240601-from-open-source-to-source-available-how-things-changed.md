@@ -1,14 +1,13 @@
 ---
 title: 开放源代码和可获取源代码，二者有何区别？
 date: 2024-07-20 23:27:27
+abbrlink: 3bcd542b
 author:
   - fosscope-translation-team
   - RobertCheng-956
   - Cubik65536
-banner: >-
-  https://static.fosscope.com/articles_img/2024/07/from-open-source-to-source-available-how-things-changed/open-source-source-available.webp
-cover: >-
-  https://static.fosscope.com/articles_img/2024/07/from-open-source-to-source-available-how-things-changed/open-source-source-available.webp
+banner: https://static.fosscope.com/articles_img/2024/07/from-open-source-to-source-available-how-things-changed/open-source-source-available.webp
+cover: https://static.fosscope.com/articles_img/2024/07/from-open-source-to-source-available-how-things-changed/open-source-source-available.webp
 categories:
   - 翻译
   - 新闻
@@ -24,7 +23,6 @@ authorInfo: |
   校对：[Cubik65536](https://github.com/Cubik65536)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
-abbrlink: 3bcd542b
 ---
 
 对二者感到疑惑？这篇文章将有助于您理解开放源代码（即「开源」）与可获取源代码之间的区别。

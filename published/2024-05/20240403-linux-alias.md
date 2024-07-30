@@ -1,6 +1,7 @@
 ---
 title: '使用别名提高你在 Linux 终端中的效率'
 date: 2024-05-18 12:46:37
+abbrlink: f8fac624
 author:
 - fosscope-translation-team
 - cys2004

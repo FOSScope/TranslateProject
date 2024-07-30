@@ -1,6 +1,7 @@
 ---
 title: 带有安卓应用支持的 blendOS v4 现已发布
 date: 2024-06-09 10:00:00
+abbrlink: 134154de
 author:
   - fosscope-translation-team
   - Cubik65536

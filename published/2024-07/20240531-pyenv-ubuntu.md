@@ -1,6 +1,7 @@
 ---
 title: 如何使用 Pyenv 在 Ubuntu 上安装多个 Python 版本
 date: 2024-07-20 23:12
+abbrlink: 865fc027
 author:
   - fosscope-translation-team
   - Cubik65536

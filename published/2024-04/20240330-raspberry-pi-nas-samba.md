@@ -1,6 +1,7 @@
 ---
 title: '使用 Samba (SMB) 服务器将你的树莓派打造成 NAS'
 date: 2024-04-08 01:44:25
+abbrlink: 2a42015b
 author:
 - fosscope-translation-team
 - cys2004
@@ -24,7 +25,6 @@ authorInfo: |
   校对：[GlassFoxowo](https://github.com/GlassFoxowo-Dev)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
-
 ---
 
 这是一个适合树莓派初学者的项目，你可以将你的树莓派变成使用 SMB 服务器的 NAS。
