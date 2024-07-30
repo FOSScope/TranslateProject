@@ -1,0 +1,21 @@
+name: Publish Articles
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  publish:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Publish Articles
+      uses: LarchLiu/actions-save-files@v1
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: published
+        publish_dir: ./published
+        exclude_assets: '.github,./published/README.md'
