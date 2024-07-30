@@ -9,8 +9,11 @@ on:
 
 jobs:
   publish:
-
     runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        shell: bash
 
     steps:
     - uses: actions/checkout@v4
@@ -27,3 +30,11 @@ jobs:
         publish_dir: published
         destination_dir: .
         exclude_assets: '.github,README.md'
+    - name: Ask Website Repository to Deploy
+      env:
+        CI_TOKEN: ${{ secrets.CI_TOKEN }}
+        PARENT_REPO: FOSScope/fosscope.com
+        PARENT_BRANCH: main
+        WORKFLOW_ID: 110012392 # Sync Translation Articles
+      run: |
+        curl -fL --retry 3 -X POST -H "Accept: application/vnd.github.v3+json" -H "Authorization: token ${{ env.CI_TOKEN }}" https://api.github.com/repos/${{ env.PARENT_REPO }}/actions/workflows/${{ env.WORKFLOW_ID }}/dispatches -d '{"ref":"${{ env.PARENT_BRANCH }}"}'
