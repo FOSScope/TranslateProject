@@ -23,4 +23,5 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: published
         publish_dir: published/*
+        destination_dir: .
         exclude_assets: '.github,published/README.md'
