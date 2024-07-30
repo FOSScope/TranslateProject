@@ -12,6 +12,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: Delete Existing Publish Branch
+      uses: dawidd6/action-delete-branch@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branches: published
     - name: Publish Articles
       uses: LarchLiu/actions-save-files@v1
       with:
