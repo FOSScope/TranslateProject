@@ -6,8 +6,8 @@ author:
   - fosscope-translation-team
   - {{translator}}
   - {{proofreader}}
-banner: https://itsfoss.com/content/images/size/w600/format/webp/2024/07/open-external-links-in-appimage.png
-cover: https://itsfoss.com/content/images/size/w600/format/webp/2024/07/open-external-links-in-appimage.png
+banner: https://itsfoss.com/content/images/size/w600/format/webp/2024/07/transfer-files-between-cli-and-remote-systems.png
+cover: https://itsfoss.com/content/images/size/w600/format/webp/2024/07/transfer-files-between-cli-and-remote-systems.png
 categories:
   - 翻译
   - 技术
