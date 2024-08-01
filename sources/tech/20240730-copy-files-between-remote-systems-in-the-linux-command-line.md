@@ -54,7 +54,7 @@ My environmental setup consists of a Raspberry Pi working as the remote server. 
 
 The [scp command](https://itsfoss.com/scp-command/), short for secure copy, uses the SSH connection to transfer files between remote systems. I like it because its syntax is similar to [the cp command](https://itsfoss.com/cp-command/).
 
-{% note color:grenn 💡 I keep a separate terminal session open with SSH connection into the remote server. This gives me the ability to view and copy the file locations on the remote server. This is important because you won't get tab completion over SCP.  %}
+{% note color:green 💡 I keep a separate terminal session open with SSH connection into the remote server. This gives me the ability to view and copy the file locations on the remote server. This is important because you won't get tab completion over SCP.  %}
 
 ### Copy files from local machine to remote server
 
