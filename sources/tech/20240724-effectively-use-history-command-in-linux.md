@@ -50,7 +50,7 @@ history
 
 It showed commands that you have run in the past. For me, it shows the following:
 
-[![History command example](https://itsfoss.com/content/images/2024/07/history-command-examples.png)](https://itsfoss.com/content/images/2024/07/history-command-examples.png)
+![History command example](https://itsfoss.com/content/images/2024/07/history-command-examples.png)
 
 The history is usually stored in the `~/.bash_history` directory. ~ denotes the home directory, in case you didn't know.
 
@@ -78,7 +78,7 @@ Did you notice that the history command shows a number in front of the command e
 
 Here's an actual example where I run the commands at 152nd entry in the history.
 
-[![show only last few lines of the history](https://itsfoss.com/content/images/2024/07/run-command-from-history.png)](https://itsfoss.com/content/images/2024/07/run-command-from-history.png)
+![show only last few lines of the history](https://itsfoss.com/content/images/2024/07/run-command-from-history.png)
 
 ## Getting more from the last run command
 
@@ -92,7 +92,7 @@ sudo !!
 
 It will show the full command that is being run. Here's an example:
 
-[![history trick with sudo command](https://itsfoss.com/content/images/2024/07/history-trick-with-sudo.png)](https://itsfoss.com/content/images/2024/07/history-trick-with-sudo.png)
+![history trick with sudo command](https://itsfoss.com/content/images/2024/07/history-trick-with-sudo.png)
 
 If you made a typo anywhere in the previous command, you can fix it in this fashion:
 
@@ -104,7 +104,7 @@ This will replace the first `foo` with `bar` in the last run command.
 
 Here's a practical example:
 
-[![fix typo in the last ran command](https://itsfoss.com/content/images/2024/07/fix-typo--in-command-history.png)](https://itsfoss.com/content/images/2024/07/fix-typo--in-command-history.png)
+![fix typo in the last ran command](https://itsfoss.com/content/images/2024/07/fix-typo--in-command-history.png)
 
 {% note color:green 💡 Another tip, which is more of a terminal shortcut and may not work everywhere but still very handy. To use the last argument of the last ran command, use the `Alt+.` keys. Viewing a deeply nested directory with ls command and would like to switch into it? Instead of typing everything, just use cd and press Alt+.  %}
 
@@ -112,7 +112,7 @@ Here's a practical example:
 
 You can press up (and down) key to cycle through the command history and press enter when your desired command comes up. This works fine for the last few commands but you should not keep on pressing the up key 100 times to get the command from the history.
 
-[![img](https://itsfoss.com/content/images/2024/07/linux-history-command-meme.png)](https://itsfoss.com/content/images/2024/07/linux-history-command-meme.png)
+![img](https://itsfoss.com/content/images/2024/07/linux-history-command-meme.png)
 
 One way to search in the history would be to filter it with grep command.
 
@@ -124,7 +124,7 @@ history | grep tail
 
 **Another way is to use the reverse search feature**. Press Ctrl+R and you'll find yourself in the reverse search interface. Start typing for your search term and it starts showing matching commands from the history.
 
-[![Reverse search Linux command history](https://itsfoss.com/content/images/2024/07/reverse-search-command-history.png)](https://itsfoss.com/content/images/2024/07/reverse-search-command-history.png)
+![Reverse search Linux command history](https://itsfoss.com/content/images/2024/07/reverse-search-command-history.png)
 
 Of course, there can be multiple matches with the same search string. Press Ctrl+R repeatedly to cycle through all the matches. Only a single match is shown at a time.
 
@@ -142,7 +142,7 @@ history -d N
 
 In the example below, I delete the long flatpak add command listed at number 181:
 
-[![Deleting command from history](https://itsfoss.com/content/images/2024/07/delete-command-history.png)](https://itsfoss.com/content/images/2024/07/delete-command-history.png)
+![Deleting command from history](https://itsfoss.com/content/images/2024/07/delete-command-history.png)
 
 You can also provide a range of lines to delete:
 
@@ -158,7 +158,7 @@ If you do not want a command to be recorded in the history, just put a space bef
 
 In the example below, I ran a random command that doesn't even exist but I put space before it. It threw an error, obviously, but it is not recorded in the history.
 
-[![img](https://itsfoss.com/content/images/2024/07/exclude-command-from-history.png)](https://itsfoss.com/content/images/2024/07/exclude-command-from-history.png)
+![img](https://itsfoss.com/content/images/2024/07/exclude-command-from-history.png)
 
 Did you notice that the second `history 7` was also not recorded in the history? That's because of the `HISTCONTROL` environment variable. It can have the following values:
 
