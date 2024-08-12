@@ -1,11 +1,11 @@
 ---
-title: 5 个细微的调整,帮助我在笔记本电脑上使用 Ubuntu 24.04
+title: 在笔记本电脑上使用 Ubuntu 24.04 时，5 个微小的调整帮了我大忙
 date: 2024-08-12 11:11:11
 abbrlink: 20240518-5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop
 author:
   - fosscope-translation-team
-  - Betty-hub182
-  - excniesNIED
+  - betty-hub182
+  - excniesnied
 banner: https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/ubuntu-laptop-tiny-tweaks.webp
 cover: https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/ubuntu-laptop-tiny-tweaks.webp
 categories:
@@ -50,7 +50,7 @@ authorInfo: |
 
 ![Enable Tap to click for laptops on Ubuntu 24.04 ](https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/tap-to-click-ubuntu-24-04.webp)
 
-{% note color:green 💡您也可以使用 「打字时禁用触控板」 功能，它位于**触控板**设置的顶部。%}
+{% note color:green 💡 您也可以使用「打字时禁用触控板」 功能，它位于**触控板**设置的顶部。%}
 
 既然您在笔记本电脑上使用 Ubuntu， 那么就应该 [使用它的三指滑动手势](https://itsfoss.com/three-finger-swipe-gnome/)。
 
