@@ -1,7 +1,7 @@
 ---
 title: 如何在树莓派上设置静态 IP 地址
-date: {{release_date}}
-abbrlink: {{abbrlink}}
+date: 2024-08-12 11:45:14
+abbrlink: 20240406-set-static-ip-raspberry-pi
 author:
   - fosscope-translation-team
   - GlassFoxowo
