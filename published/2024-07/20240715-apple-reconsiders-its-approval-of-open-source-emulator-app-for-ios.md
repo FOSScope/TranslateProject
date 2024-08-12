@@ -6,8 +6,8 @@ author:
   - fosscope-translation-team
   - excniesNIED
   - Cubik65536
-banner: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/apple-reconsiders-opensource-emulation.png
-cover: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/apple-reconsiders-opensource-emulation.png
+banner: https://static.fosscope.com/articles_img/2024/07/apple-reconsiders-its-approval-of-open-source-emulator-app-for-ios/apple-reconsiders-opensource-emulation.webp
+cover: https://static.fosscope.com/articles_img/2024/07/apple-reconsiders-its-approval-of-open-source-emulator-app-for-ios/apple-reconsiders-opensource-emulation.webp
 categories:
   - 翻译
   - 新闻
