@@ -3,7 +3,7 @@ title: My 30-Day Experiment With Native Linux Games
 date: {{release_date}}
 author:
   - fosscope-translation-team
-  - {{translator}}
+  - 2024zht
   - {{proofreader}}
 banner: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/linux-gaming-review.png
 cover: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/linux-gaming-review.png
@@ -18,7 +18,7 @@ authorInfo: |
 
   作者：[Sourav Rudra](https://news.itsfoss.com/author/sourav/)
   选题：[excniesNIED](https://github.com/excniesNIED)
-  译者：[{{translator}}](https://github.com/{{translator}})
+  译者：[2024zht](https://github.com/2024zht)
   校对：[{{proofreader}}](https://github.com/{{proofreader}})
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
