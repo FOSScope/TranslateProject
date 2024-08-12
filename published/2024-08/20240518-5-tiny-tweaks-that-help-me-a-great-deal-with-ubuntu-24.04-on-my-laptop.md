@@ -1,13 +1,13 @@
 ---
 title: 5 个细微的调整,帮助我在笔记本电脑上使用 Ubuntu 24.04
-date: {{release_date}}
-abbrlink: {{abbrlink}}
+date: 2024-08-12 11:11:11
+abbrlink: 20240518-5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop
 author:
   - fosscope-translation-team
   - Betty-hub182
   - excniesNIED
-banner: https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/ubuntu-laptop-tiny-tweaks.png
-cover: https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/ubuntu-laptop-tiny-tweaks.png
+banner: https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/ubuntu-laptop-tiny-tweaks.webp
+cover: https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/ubuntu-laptop-tiny-tweaks.webp
 categories:
   - 翻译
   - 技术
@@ -54,7 +54,7 @@ authorInfo: |
 
 既然您在笔记本电脑上使用 Ubuntu， 那么就应该 [使用它的三指滑动手势](https://itsfoss.com/three-finger-swipe-gnome/)。
 
-{% link https://itsfoss.com/three-finger-swipe-gnome/ GNOME 滑动手势终极指南 icon:https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/gnome-finger-swipe-gestures.png %}
+{% link https://itsfoss.com/three-finger-swipe-gnome/ GNOME 滑动手势终极指南 icon:https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/gnome-finger-swipe-gestures.webp %}
 
 ## 显示电量百分比
 
@@ -62,7 +62,7 @@ authorInfo: |
 
 这样，我就不会突然收到「电量不足」通知。
 
-![Displaying battery percentage on Ubuntu 24.04](https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/displaying-battery-percentage-ubuntu.png)
+![Displaying battery percentage on Ubuntu 24.04](https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/displaying-battery-percentage-ubuntu.webp)
 
 您可以从**电源**设置的底部位置启用此选项。
 
@@ -80,15 +80,15 @@ authorInfo: |
 
 在**隐私和安全**设置中，有一个专门的**屏幕锁定**部分。
 
-![Automatic screen lock feature in Ubuntu](https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/screen-lock-settings-ubuntu-24-04.png)
+![Automatic screen lock feature in Ubuntu](https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/screen-lock-settings-ubuntu-24-04.webp)
 
 在这里，您可以很容易地禁用**自动屏幕锁定**功能。
 
-![Disabling automatic screen lock feature in Ubuntu](https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/disable-automatic-screenlock-ubuntu.png)
+![Disabling automatic screen lock feature in Ubuntu](https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/disable-automatic-screenlock-ubuntu.webp)
 
 您还可以探索锁屏的其他设置，例如在锁屏上获取通知。
 
-{% note color:green 💡您可以按 Super（Windows）键 + L 来快速锁定 Ubuntu 系统。%}
+{% note color:green 💡 您可以按 Super（Windows）键 + L 来快速锁定 Ubuntu 系统。%}
 
 ## 使用不同的电源配置
 
@@ -114,7 +114,7 @@ authorInfo: |
 
 [我的 TUXEDO 笔记本电脑默认预装了 Linux](https://itsfoss.com/get-linux-laptops/)。由于 [TUXEDO](https://www.tuxedocomputers.com/index.php) 是一个 Linux 系统制造商， 他们有自己的 [TUXEDO 控制中心应用程序](https://www.tuxedocomputers.com/en/TUXEDO-Control-Center-TCC.tuxedo) 可以让您改变到不同的电源配置文件、控制 CPU 风扇、创建自定义配置文件以及进行许多高级更改。请注意，您**不能**在非 TUXEDO 设备上使用它。
 
-{% link https://news.itsfoss.com/tuxedo-infinitybook-pro-16-review/ TUXEDO InfinityBook Pro 16 评测： 你能买到的最好的 Linux 笔记本电脑（如果您能承担价格） icon:https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/tuxedo-infinitybook-pro-review.png %}
+{% link https://news.itsfoss.com/tuxedo-infinitybook-pro-16-review/ TUXEDO InfinityBook Pro 16 评测： 你能买到的最好的 Linux 笔记本电脑（如果您能承担价格） icon:https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/tuxedo-infinitybook-pro-review.webp %}
 
 ## 通过分数缩放比例正确显示
 
@@ -124,7 +124,7 @@ authorInfo: |
 
 值得庆幸的是，Ubuntu 提供了分数缩放选项。启用它，您可以将显示缩放 25%。
 
-![Using Fractional Scaling on Ubuntu 24.04](https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/enable-fractional-scaling.png)
+![Using Fractional Scaling on Ubuntu 24.04](https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/enable-fractional-scaling.webp)
 
 这样，我在 2K 屏幕上设置了 125%，在 4K 屏幕上设置了 150%。
 
@@ -136,6 +136,6 @@ authorInfo: |
 
 这里还有 [一些您可以探索的 Ubuntu 自定义技巧 ](https://itsfoss.com/gnome-tricks-ubuntu/)。
 
-{% link https://itsfoss.com/gnome-tricks-ubuntu/ 定制 Ubuntu GNOME 的 15 个简单技巧 icon:https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/gnome-customisation-tips.png %}
+{% link https://itsfoss.com/gnome-tricks-ubuntu/ 定制 Ubuntu GNOME 的 15 个简单技巧 icon:https://static.fosscope.com/articles_img/2024/08/5-tiny-tweaks-that-help-me-a-great-deal-with-ubuntu-24.04-on-my-laptop/gnome-customisation-tips.webp %}
 
 *💬 在笔记本电脑上使用 Ubuntu 或任何其他 Linux 发行版时，您会更改那些设置？ 请在评论中分享。*
