@@ -5,7 +5,7 @@ abbrlink: 20240406-set-static-ip-raspberry-pi
 author:
   - fosscope-translation-team
   - GlassFoxowo
-  - excniesNIED
+  - excniesnied
 banner: https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/set-static-ip-raspberry-pi.png
 cover: https://static.fosscope.com/articles_img/2024/04/set-static-ip-raspberry-pi/set-static-ip-raspberry-pi.png
 categories:
