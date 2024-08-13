@@ -1,12 +1,12 @@
 ---
-title: 我与原生 Linux 游戏的30天实验
+title: 我与原生 Linux 游戏的 30 天实验
 date: {{release_date}}
 author:
   - fosscope-translation-team
   - 2024zht
-  - {{proofreader}}
-banner: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/linux-gaming-review.png
-cover: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/linux-gaming-review.png
+  - excniesnied
+banner: https://static.fosscope.com/articles_img/2024/08/my-30-day-experiment-with-native-linux-games/linux-gaming-review.webp
+cover: https://static.fosscope.com/articles_img/2024/08/my-30-day-experiment-with-native-linux-games/linux-gaming-review.webp
 categories:
   - 翻译
   - 新闻
@@ -19,7 +19,7 @@ authorInfo: |
   作者：[Sourav Rudra](https://news.itsfoss.com/author/sourav/)
   选题：[excniesNIED](https://github.com/excniesNIED)
   译者：[2024zht](https://github.com/2024zht)
-  校对：[{{proofreader}}](https://github.com/{{proofreader}})
+  校对：[excniesNIED](https://github.com/excniesNIED)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
 ---
@@ -36,9 +36,9 @@ authorInfo: |
 
 ## 原生 Linux 游戏：应该让更多人知道这个！
 
-[![an illustration with a penguin and gamepad with a blue green background having a prism pattern](https://news.itsfoss.com/content/images/2024/07/Native_Linux_Games_a.png)](https://news.itsfoss.com/content/images/2024/07/Native_Linux_Games_a.png)
+![an illustration with a penguin and gamepad with a blue green background having a prism pattern](https://static.fosscope.com/articles_img/2024/08/my-30-day-experiment-with-native-linux-games/Native_Linux_Games_a.webp)
 
-本文中，我将通过官方 Steam 客户端（*.deb*）为 Linux 安装的三款流行原生游戏进行介绍。所使用的测试系统具有以下规格：
+本文中，我将通过官方 Steam 客户端（*.deb*）为 Linux 安装的三款流行原生游戏进行介绍。 测试系统的规格如下：
 
 - **机型：** Dell G15 5530
 - **RAM：** 16 GB
@@ -54,9 +54,9 @@ authorInfo: |
 
 ## 反恐精英 2
 
-我们从广受欢迎的 [《反恐精英 2》](https://store.steampowered.com/app/730/CounterStrike_2/) 开始，这是知名游戏 CS:GO 的续作。为了保持 120 帧的稳定帧率（这是我笔记本电脑内置显示器的最大支持），我不得不调整了一些图形设置，主要是介于中等或高之间。
+我们从广受欢迎的 [《反恐精英 2》](https://store.steampowered.com/app/730/CounterStrike_2/) 开始，这是知名游戏《CS:GO》的续作。为了保持 120 帧的稳定帧率（这是我笔记本电脑内置显示器支持的最高帧率），我不得不调整了一些图形设置，主要是介于中等或高之间。
 
-[![a screenshot of counter strike 2 running on ubuntu 22.04.4 lts](https://news.itsfoss.com/content/images/2024/07/Native_Linux_Games_b.jpg)](https://news.itsfoss.com/content/images/2024/07/Native_Linux_Games_b.jpg)
+![a screenshot of counter strike 2 running on ubuntu 22.04.4 lts](https://static.fosscope.com/articles_img/2024/08/my-30-day-experiment-with-native-linux-games/Native_Linux_Games_b.jpg)
 
 我尝试了多种游戏模式，如休闲模式、死亡竞赛、军备竞赛、竞技模式，以及我最喜欢的首相模式。在几乎所有这些比赛中，我都能获得流畅的 120 帧体验，没有任何音视频问题。
 
@@ -64,51 +64,51 @@ authorInfo: |
 
 另一个问题是当我连接了外部显示器时。每当我尝试将游戏拖动到更快的笔记本电脑屏幕上时，游戏拒绝最大化，我必须点击任务栏中的游戏图标才能使它回到前台。
 
-同样的情况有时也会发生在仅使用笔记本电脑的显示器时，为了解决这个问题，通常通过在应用程序之间切换（alt-tab）就能解决。
+同样的情况有时也会发生在仅使用笔记本电脑的显示器时，为了解决这个问题，通常通过在应用程序之间切换 {% kbd Alt %} + {% kbd Tab %} 就能解决。
 
-## 美国卡车模拟器
+## 美洲卡车模拟器
 
-另一款我玩过的游戏是 [《美国卡车模拟器》](https://store.steampowered.com/app/270880/American_Truck_Simulator/)，如果你看过我定期更新的 [最佳 Steam 特卖游戏](https://news.itsfoss.com/best-steam-games-linux-sale/) 列表，你可能知道我喜欢玩模拟游戏。
+另一款我玩过的游戏是 [《美洲卡车模拟器》](https://store.steampowered.com/app/270880/American_Truck_Simulator/)，如果你看过我定期更新的 [最佳 Steam 特卖游戏](https://news.itsfoss.com/best-steam-games-linux-sale/) 列表，你可能知道我喜欢玩模拟游戏。
 
-[![a screenshot of american truck simulator running on ubuntu 22.04.4 lts](https://news.itsfoss.com/content/images/2024/07/Native_Linux_Games_c.jpg)](https://news.itsfoss.com/content/images/2024/07/Native_Linux_Games_c.jpg)
+![a screenshot of american truck simulator running on ubuntu 22.04.4 lts](https://static.fosscope.com/articles_img/2024/08/my-30-day-experiment-with-native-linux-games/Native_Linux_Games_c.jpg)
 
-尽管它的姐妹游戏 [《欧洲卡车模拟器 2》](https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/) 是我个人在这两款游戏中的最爱，但《美国卡车模拟器》在我用 Linux 玩的时候也表现得相当不错。
+尽管它的姐妹游戏 [《欧洲卡车模拟器 2》](https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/) 是我个人在这两款游戏中的最爱，但《美洲卡车模拟器》在我用 Linux 玩的时候也表现得相当不错。
 
-我进行了一些长途旅行，从美国的西南部到西北部，我从未遇到过任何崩溃问题，而我的彼得比尔特卡车，却经历了不少事情。☠️
+我进行了一些长途旅行，从美洲的西南部到西北部，我从未遇到过任何崩溃问题，而我的彼得比尔特卡车，却经历了不少事情。☠️
 
-[World of Trucks](https://www.worldoftrucks.com/) 的整合功能如预期般工作，我也能够从我旧的职业存档中继续游戏。
+[《卡车世界》](https://www.worldoftrucks.com/) 的整合功能如预期般工作，我也能够从我旧的职业存档中继续游戏。
 
-甚至网络电台也按预期工作，让我能够在巡航标志性的路线时，调谐到一些现实生活中的美国广播频道。遗憾的是，这个游戏也有一些问题。
+甚至网络电台也按预期工作，让我能够在巡航标志性的路线时，调谐到一些现实生活中的美洲广播频道。遗憾的是，这个游戏也有一些问题。
 
-你看到的上面的照片，你注意到它看起来有多么褪色和明亮吗？
+上面这张照片，你注意到它看起来有多么褪色和明亮吗？
 
 当我使用游戏内的拍照模式（该模式也与 Steam 的截图工具绑定）时，结果就是这样，而且要明确的是，由于游戏中的雨天天气，游戏世界是阴暗和阴沉的。
 
 但情况变得更糟了。👇
 
-[![a screenshot of american truck simulator running on ubuntu 22.04.4 lts](https://news.itsfoss.com/content/images/2024/07/Native_Linux_Games_d.jpg)](https://news.itsfoss.com/content/images/2024/07/Native_Linux_Games_d.jpg)
+![a screenshot of american truck simulator running on ubuntu 22.04.4 lts](https://static.fosscope.com/articles_img/2024/08/my-30-day-experiment-with-native-linux-games/Native_Linux_Games_d.jpg)
 
-原始图像的方向是错误的，并且是镜像的，我不得不使用 [Shotwell](https://shotwell-project.org/doc/html/) 进行编辑，然后才将其添加到文章中。在 Steam 社区中也有 [一份报告](https://steamcommunity.com/app/270880/discussions/0/4554911223882789939/)，另一位用户遇到了类似的问题。我真心希望 [SCS Software](https://www.scssoft.com/) 能修复导致这一问题的任何原因。
+原始图像的方向是错误的，并且是镜像的，我不得不使用 [Shotwell](https://shotwell-project.org/doc/html/) 进行编辑，然后才将其添加到文章中。在 Steam 社区中也有 [一份报告](https://steamcommunity.com/app/270880/discussions/0/4554911223882789939/)，另一位用户遇到了类似的问题。我真心希望 [SCS 软件公司](https://www.scssoft.com/) 能修复导致这一问题的任何原因。
 
-我遇到的另一个问题是无法在游戏窗口外使用鼠标光标。即使在游戏中，超级键也不起作用，幸运的是，我可以通过 alt-tab 切换，但没有鼠标光标，我又回到了原点。
+我遇到的另一个问题是无法在游戏窗口外使用鼠标光标。即使在游戏中，超级键也不起作用，幸运的是，我可以通过 {% kbd Alt %} + {% kbd Tab %} 切换，但没有鼠标光标，我又回到了原点。
 
 需要注意的是，上述问题在内部笔记本电脑显示器和连接外部 60 Hz显示器时都发生了。
 
-## 铁路路线
+## 铁路线
 
-[![a screenshot of rail route running on ubuntu 22.04.4 lts](https://news.itsfoss.com/content/images/2024/07/Native_Linux_Games_e.jpg)](https://news.itsfoss.com/content/images/2024/07/Native_Linux_Games_e.jpg)
+![a screenshot of rail route running on ubuntu 22.04.4 lts](https://static.fosscope.com/articles_img/2024/08/my-30-day-experiment-with-native-linux-games/Native_Linux_Games_e.jpg)
 
-在本文提到的游戏中，[铁路路线](https://store.steampowered.com/app/1124180/Rail_Route/) 无疑是**表现最佳**的，它从未崩溃，在我更改工作区或显示器时也没有出现任何异常行为，窗口切换更是轻松自如。
+在本文提到的游戏中，[《铁路线》](https://store.steampowered.com/app/1124180/Rail_Route/)无疑是**表现最佳**的，它从未崩溃，在我更改工作区或显示器时也没有出现任何异常行为，窗口切换更是轻松自如。
 
 如你所见，我能够在高峰时段游戏模式中管理一个庞大的客运和货运网络。这既有趣又具有挑战性。
 
 **推荐阅读** 📖
 
-{% link https://news.itsfoss.com/windows-game-on-linux-experience/ 在 Linux 上运行我最喜欢的 Windows 游戏：这是我的体验 icon:https://news.itsfoss.com/content/images/2024/07/cyberpunk-game-ubuntu-review.jpg %}
+{% link https://news.itsfoss.com/windows-game-on-linux-experience/ 在 Linux 上运行我最喜欢的 Windows 游戏：过程如下 icon:https://static.fosscope.com/articles_img/2024/08/my-30-day-experiment-with-native-linux-games/cyberpunk-game-ubuntu-review.jpg %}
 
 ## 我的想法
 
-尽管我遇到了一些问题，但我仍然每天在我的 Linux 电脑上玩游戏，我相信随着时间的推移，体验会越来越好，特别是如果越来越多的人开始在 Linux 上玩游戏。这样，开发者可以收到准确的报告来修复问题，这应该间接地帮助其他非原生游戏。
+尽管我遇到了一些问题，但我仍然每天在我的 Linux 电脑上玩游戏。我相信随着时间的推移，游戏体验会越来越好，特别是如果越来越多的人开始在 Linux 上玩游戏。这样，开发者可以收到准确的报告来修复问题，这应该间接地帮助其他非原生游戏。
 
 *💭 你对 Linux 游戏体验有何看法？你在 Linux 系统上玩什么游戏？*
 
