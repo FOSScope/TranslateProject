@@ -66,19 +66,19 @@ authorInfo: |
 
 同样的情况有时也会发生在仅使用笔记本电脑的显示器时，为了解决这个问题，通常通过在应用程序之间切换 {% kbd Alt %} + {% kbd Tab %} 就能解决。
 
-## 美洲卡车模拟器
+## 美国卡车模拟器
 
-另一款我玩过的游戏是 [《美洲卡车模拟器》](https://store.steampowered.com/app/270880/American_Truck_Simulator/)，如果你看过我定期更新的 [最佳 Steam 特卖游戏](https://news.itsfoss.com/best-steam-games-linux-sale/) 列表，你可能知道我喜欢玩模拟游戏。
+另一款我玩过的游戏是 [《美国卡车模拟器》](https://store.steampowered.com/app/270880/American_Truck_Simulator/)，如果你看过我定期更新的 [最佳 Steam 特卖游戏](https://news.itsfoss.com/best-steam-games-linux-sale/) 列表，你可能知道我喜欢玩模拟游戏。
 
 ![a screenshot of american truck simulator running on ubuntu 22.04.4 lts](https://static.fosscope.com/articles_img/2024/08/my-30-day-experiment-with-native-linux-games/Native_Linux_Games_c.jpg)
 
-尽管它的姐妹游戏 [《欧洲卡车模拟器 2》](https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/) 是我个人在这两款游戏中的最爱，但《美洲卡车模拟器》在我用 Linux 玩的时候也表现得相当不错。
+尽管它的姐妹游戏 [《欧洲卡车模拟器 2》](https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/) 是我个人在这两款游戏中的最爱，但《美国卡车模拟器》在我用 Linux 玩的时候也表现得相当不错。
 
-我进行了一些长途旅行，从美洲的西南部到西北部，我从未遇到过任何崩溃问题，而我的彼得比尔特卡车，却经历了不少事情。☠️
+我进行了一些长途旅行，从美国的西南部到西北部，我从未遇到过任何崩溃问题，而我的彼得比尔特卡车，却经历了不少事情。☠️
 
 [《卡车世界》](https://www.worldoftrucks.com/) 的整合功能如预期般工作，我也能够从我旧的职业存档中继续游戏。
 
-甚至网络电台也按预期工作，让我能够在巡航标志性的路线时，调谐到一些现实生活中的美洲广播频道。遗憾的是，这个游戏也有一些问题。
+甚至网络电台也按预期工作，让我能够在巡航标志性的路线时，调谐到一些现实生活中的美国广播频道。遗憾的是，这个游戏也有一些问题。
 
 上面这张照片，你注意到它看起来有多么褪色和明亮吗？
 
