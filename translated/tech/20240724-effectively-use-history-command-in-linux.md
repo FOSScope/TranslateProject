@@ -148,7 +148,7 @@ history -d N
 history -d 160-180
 ```
 
-{% note color:green 💡 `history -c` 命令将清除整个 Bash 历史记录。  %}
+{% note color:green 💡 `history -c` 命令将清除整个 Bash 历史记录。 %}
 
 ## 从历史记录中排除某些命令
 
@@ -164,7 +164,7 @@ history -d 160-180
 - ignoredups：如果连续运行两个或更多相同的命令，只有第一个会被记录。
 - ignoreboth：同时使用上述提到的两个功能。
 
-{% note color:green 💡 您还可以在 `.bashrc` 文件中设置 `HISTIGNORE` 变量，并从历史记录中排除一些常见命令。使用方法如下：`HISTIGNORE='pwd:echo *:clear'`  %}
+{% note color:green 💡 您还可以在 `.bashrc` 文件中设置 `HISTIGNORE` 变量，并从历史记录中排除一些常见命令。使用方法如下：`HISTIGNORE='pwd:echo *:clear'` %}
 
 ## 额外提示：为什么有些命令没有被记录在历史记录中？
 
