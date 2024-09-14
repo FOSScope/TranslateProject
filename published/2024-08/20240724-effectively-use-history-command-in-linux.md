@@ -1,11 +1,12 @@
 ---
 title: 在 Linux 中高效使用 history 命令
-date: {{release_date}}
-abbrlink: {{abbrlink}}
+date: 2024-09-14 13:14:12
+abbrlink: 20240724-effectively-use-history-command-in-linux
 author:
   - fosscope-translation-team
   - 2024zht
   - excniesnied
+  - Cubik65536
 banner: https://static.fosscope.com/articles_img/2024/08/effectively-use-history-command-in-linux/effectly-use-history-commands-linux.webp
 cover: https://static.fosscope.com/articles_img/2024/08/effectively-use-history-command-in-linux/effectly-use-history-commands-linux.webp
 categories:
@@ -19,7 +20,7 @@ authorInfo: |
   作者：[Abhishek Prakash](https://itsfoss.com/author/abhishek/)
   选题：[excniesNIED](https://github.com/excniesNIED)
   译者：[2024zht](https://github.com/2024zht)
-  校对：[excniesNIED](https://github.com/excniesNIED)
+  校对：[excniesNIED](https://github.com/excniesNIED) [Cubik65536](https://github.com/Cubik65536)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
 ---
@@ -44,7 +45,7 @@ authorInfo: |
 
 打开终端并运行以下命令：
 
-```
+``` bash
 history
 ```
 
@@ -56,37 +57,37 @@ history
 
 如果您有任何疑问，可以查看 `HISTFILE` 变量来获取您的 shell 的历史文件位置。
 
-```
+``` bash
 echo $HISTFILE
 ```
 
 **历史记录中会存储多少条命令**？这取决于 `HISTFILESIZE` 变量的值。在 Debian 和 Ubuntu 系统中，通常设置为 2000。
 
-```
+``` bash
 echo $HISTFILESIZE
 ```
 
-{% note color:green 💡 历史记录中的行数太多，让您的屏幕显得杂乱无章？您可以使用 `history N` 命令仅显示历史记录中的最后 N 行。 %}
+{% note color:green 💡 历史记录中的行数太多，让您的屏幕显得杂乱无章？您可以使用 `history N` 命令来显示历史记录中的最后 N 行。 %}
 
 ## 从历史记录中运行命令
 
 您是否注意到 `history` 命令在命令条目前面显示了一个数字？您可以使用这个编号来运行历史记录中的某个命令。例如，要运行历史记录中的第 N 个条目，可以使用：
 
-```
+``` bash
 !N
 ```
 
-下面是一个实际例子，我运行了历史记录中第152 条命令。
+下面是一个实际例子，我运行了历史记录中第 152 条命令。
 
 ![show only last few lines of the history](https://static.fosscope.com/articles_img/2024/08/effectively-use-history-command-in-linux/run-command-from-history.webp)
 
 ## 从最后一次运行的命令中获取更多信息
 
-这并不是一个直接使用 `history` 命令的示例，但它涉及到命令的历史记录，我想讨论一下。
+这并不是一个直接使用 `history` 命令的示例，但它涉及到命令的历史记录，所以我想讨论一下。
 
 您可以使用 `!!` 来获取最后一个运行的命令。这在您忘记用 `sudo` 运行某个命令时非常有用。您不需要重新输入整个命令，只需使用：
 
-```
+``` bash
 sudo !!
 ```
 
@@ -96,7 +97,7 @@ sudo !!
 
 如果您在前一个命令中出现了任何拼写错误，可以这样修正：
 
-```
+``` bash
 ^foo^bar
 ```
 
@@ -106,7 +107,7 @@ sudo !!
 
 ![fix typo in the last ran command](https://static.fosscope.com/articles_img/2024/08/effectively-use-history-command-in-linux/fix-typo--in-command-history.webp)
 
-{% note color:green 💡 另一个小技巧更像是终端快捷键，并非在所有地方都适用，但仍然非常方便。 要使用上一个命令的最后一个参数，可以使用 {% kbd Alt %} + {% kbd . %} 键。例如，使用 `ls` 命令查看一个深度嵌套的目录，并且想要切换到该目录中，无需重新输入所有内容，只需使用 `cd` 命令并按下 {% kbd Alt %} + {% kbd . %} 键即可。 %}
+{% note color:green 💡 另一个小技巧更像是终端快捷键，并非在所有地方都适用，但仍然非常方便。要使用上一个命令的最后一个参数，可以使用 {% kbd Alt %} + {% kbd . %} 键。例如，使用 `ls` 命令查看一个深度嵌套的目录后想要切换到该目录中？无需重新输入所有内容，只需使用 `cd` 命令并按下 {% kbd Alt %} + {% kbd . %} 键即可。 %}
 
 ## 在命令历史记录中搜索
 
@@ -118,13 +119,15 @@ sudo !!
 
 假设您想查找之前运行过的 `tail` 命令：
 
-```
+``` bash
 history | grep tail
 ```
 
-**另一种方法是使用反向搜索功能**。按下 {% kbd Ctrl %} + {% kbd R %}，您将进入反向搜索界面。输入您的搜索词，它会从历史记录中显示匹配的命令。![Reverse search Linux command history](https://static.fosscope.com/articles_img/2024/08/effectively-use-history-command-in-linux/reverse-search-command-history.webp)
+**另一种方法是使用反向搜索功能**。按下 {% kbd Ctrl %} + {% kbd R %}，您将进入反向搜索界面。输入您的搜索词，它会从历史记录中显示匹配的命令。
 
-当然，搜索同一个字符串可能会有多个匹配项。反复按 {% kbd Ctrl %} + {% kbd R %} 键可以循环浏览所有匹配项。每次只显示一个匹配项。
+![Reverse search Linux command history](https://static.fosscope.com/articles_img/2024/08/effectively-use-history-command-in-linux/reverse-search-command-history.webp)
+
+当然，搜索同一个字符串可能会有多个匹配项。反复按 {% kbd Ctrl %} + {% kbd R %} 键可以循环浏览所有匹配项。每次只有一个匹配项会被显示。
 
 如果您找到了您要查找的命令，按右箭头键退出反向搜索并开始使用该命令。
 
@@ -132,9 +135,9 @@ history | grep tail
 
 ## 从历史记录中删除命令
 
-要从历史记录中删除一个命令，，可以使用该命令的条目编号：
+要从历史记录中删除一个命令，可以使用该命令的条目编号：
 
-```
+``` bash
 history -d N
 ```
 
@@ -144,7 +147,7 @@ history -d N
 
 您也可以提供一个范围来删除多行命令：
 
-```
+``` bash
 history -d 160-180
 ```
 
@@ -170,7 +173,7 @@ history -d 160-180
 
 您是否注意到并非所有运行的命令都被记录在历史记录中？如果您同时运行多个终端会话，这可能是原因之一。
 
-确实如此。历史记录 `~/.bash_history` 通常在您关闭终端会话时才会被修改。
+实际上，历史记录 `~/.bash_history` 通常在您关闭终端会话时才会被修改。
 
 如果您查看 `history` 命令和 `~/.bash_history` 文件的内容，您会发现当前会话中运行的命令并没有出现在 `~/.bash_history` 文件中。
 
@@ -178,7 +181,7 @@ history -d 160-180
 
 当您开始关闭终端会话时，只有最后一个关闭的会话的历史记录会被记录下来。其他会话的命令历史则会丢失。这是默认行为。
 
-您可以在 `bashrc` 文件中使用 `export PROMPT_COMMAND='history -a'`（追加模式）来改变这一行为。 它的作用是在终端显示 [命令提示符](https://itsfoss.com/basic-terminal-tips-ubuntu/#2-terminal-vs-shell-vs-prompt-vs-command-line)（终端上的那个 $ 符号）之前，将刚刚运行的命令添加到历史记录文件中。
+您可以在 `bashrc` 文件中使用 `export PROMPT_COMMAND='history -a'`（追加模式）来改变这一行为。它的作用是在终端显示 [命令提示符](https://itsfoss.com/basic-terminal-tips-ubuntu/#2-terminal-vs-shell-vs-prompt-vs-command-line)（终端上的那个 $ 符号）之前，将刚刚运行的命令添加到历史记录文件中。
 
 有些人使用 `export PROMPT_COMMAND='history -a; history -r'`，这样不仅记录每个会话的历史，还能从其他终端会话中获取命令历史，以便您可以按向上箭头键来使用其他终端会话的历史命令。这听起来不错，但很快就会变得一团糟。是否采用这种做法完全取决于您。
 
