@@ -3,10 +3,10 @@ title: CrowdStrike 不仅影响 Windows，还影响 Linux！ (某种程度上）
 date: {{release_date}}
 author:
   - fosscope-translation-team
-  - excniesNIED
+  - excniesnied
   - {{proofreader}}
-banner: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/crowdstrike-affects-linux-users.png
-cover: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/crowdstrike-affects-linux-users.png
+banner: https://static.fosscope.com/articles_img/2024/08/crowdstrike-didn't-just-affect-windows-but-linux-too-kind-of/crowdstrike-affects-linux-users.webp
+cover: https://static.fosscope.com/articles_img/2024/08/crowdstrike-didn't-just-affect-windows-but-linux-too-kind-of/crowdstrike-affects-linux-users.webp
 categories:
   - 翻译
   - 新闻
@@ -39,7 +39,7 @@ CrowdStrike 无处不在地造成破坏！
 
 ## CrowdStrike 的无能： 次等待遇的沉重代价
 
-![a screenshot of a forum post on rocky linux forums outlining an issue with crowdstrike falcon](https://news.itsfoss.com/content/images/2024/07/CrowdStrike_Linux_Booboo_a.png)
+![a screenshot of a forum post on rocky linux forums outlining an issue with crowdstrike falcon](https://static.fosscope.com/articles_img/2024/08/crowdstrike-didn't-just-affect-windows-but-linux-too-kind-of/CrowdStrike_Linux_Booboo_a.webp)
 
 今年5月，一位 Rocky Linux 用户在论坛上发布 [issue](https://forums.rockylinux.org/t/crowdstrike-freezing-rockylinux-after-9-4-upgrade/14041) 称，在配备 CrowdStrike [Falcon 平台 ](https://www.crowdstrike.com/platform/) 的服务器上升级到 [Rocky Linux 9.4](https://rockylinux.org/news/rocky-linux-9-4-ga-release) 会导致系统因 [内核错误](https://en.wikipedia.org/wiki/Kernel_panic) 而崩溃。
 
@@ -53,7 +53,7 @@ CrowdStrike 无处不在地造成破坏！
 
 ### **但是，等等，还有更多！**
 
-![a screenshot of red hat customer portal article outlining an issue with cloudflare falcon](https://news.itsfoss.com/content/images/2024/07/CrowdStrike_Linux_Booboo_b.png)
+![a screenshot of red hat customer portal article outlining an issue with cloudflare falcon](https://static.fosscope.com/articles_img/2024/08/crowdstrike-didn't-just-affect-windows-but-linux-too-kind-of/CrowdStrike_Linux_Booboo_b.webp)
 
 类似情况，**许多 Red Hat Enterprise Linux (RHEL) 用户也面临着 Falcon 带来的问题**，为此 Red Hat 不得不发布多个警告。
 

@@ -3,10 +3,10 @@ title: 瑞士规定公共部门必须使用开源软件
 date: {{release_date}}
 author:
   - fosscope-translation-team
-  - excniesNIED
+  - excniesnied
   - {{proofreader}}
-banner: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/switzerland-switches-to-opensource.png
-cover: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/switzerland-switches-to-opensource.png
+banner: https://static.fosscope.com/articles_img/2024/08/switzerland-makes-open-source-software-mandatory-for-public-sector/switzerland-switches-to-opensource.webp
+cover: https://static.fosscope.com/articles_img/2024/08/switzerland-makes-open-source-software-mandatory-for-public-sector/switzerland-switches-to-opensource.webp
 categories:
   - 翻译
   - 新闻
@@ -31,9 +31,9 @@ authorInfo: |
 
 不过，[瑞士](https://en.wikipedia.org/wiki/Switzerland) 政府还采取了一项范围更广的举措，那就是实施了在当今 [大科技](https://en.wikipedia.org/wiki/Big_Tech) 主导的世界中很少见的真正独特的措施。
 
-{% image https://news.itsfoss.com/content/images/2024/07/EMBAG.jpg EMBAG 官方草案的翻译摘录 %}
+{% image https://static.fosscope.com/articles_img/2024/08/switzerland-makes-open-source-software-mandatory-for-public-sector/EMBAG.jpg EMBAG 官方草案的翻译摘录 %}
 
-[《使用电子手段完成政府任务的联邦法（简称：EMBAG）》](https://www.fedlex.admin.ch/eli/fga/2023/787/de)于 2023 年通过，是一部具有里程碑意义的法律，最近已开始实施。
+[《使用电子手段完成政府任务的联邦法》（简称：EMBAG）](https://www.fedlex.admin.ch/eli/fga/2023/787/de)于 2023 年通过，是一部具有里程碑意义的法律，最近已开始实施。
 
 根据这项规定，**所有公共部门的政府机构都必须使用开源软件**，并有义务将这些机构开发的或为这些机构开发的任何源代码开源。
 

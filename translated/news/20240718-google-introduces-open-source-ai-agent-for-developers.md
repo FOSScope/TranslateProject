@@ -5,8 +5,8 @@ author:
   - fosscope-translation-team
   - excniesNIED
   - {{proofreader}}
-banner: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/google-new-project-oscar.png
-cover: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/google-new-project-oscar.png
+banner: https://static.fosscope.com/articles_img/2024/08/google-introduces-open-source-ai-agent-for-developers/google-new-project-oscar.webp
+cover: https://static.fosscope.com/articles_img/2024/08/google-introduces-open-source-ai-agent-for-developers/google-new-project-oscar.webp
 categories:
   - 翻译
   - 新闻
@@ -36,9 +36,7 @@ authorInfo: |
 
 ## 奥斯卡计划：人工智能代理的崛起？
 
-```
 {% video youtube:986_MUsOk1g %}
-```
 
 奥斯卡计划旨在提升开源软件开发的效率，它是 **一种实验性的开源贡献者代理架构**，可用于将代理部署到代码仓库中，以处理诸如接收问题、将问题与现有文档匹配等任务。
 

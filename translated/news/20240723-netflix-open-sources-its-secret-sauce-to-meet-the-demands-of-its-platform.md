@@ -3,10 +3,10 @@ title: Netflix 开源其秘诀以满足平台需求
 date: {{release_date}}
 author:
   - fosscope-translation-team
-  - excniesNIED
+  - excniesnied
   - {{proofreader}}
-banner: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/netflix-opensource-maestro.png
-cover: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/07/netflix-opensource-maestro.png
+banner: https://static.fosscope.com/articles_img/2024/08/netflix-open-sources-its-secret-sauce-to-meet-the-demands-of-its-platform/netflix-opensource-maestro.webp
+cover: https://static.fosscope.com/articles_img/2024/08/netflix-open-sources-its-secret-sauce-to-meet-the-demands-of-its-platform/netflix-opensource-maestro.webp
 categories:
   - 翻译
   - 新闻
@@ -36,7 +36,7 @@ Netflix 押注开源！
 
 ## 认识一下 Netflix 的工作流协调器「Maestro」
 
-![netflix maestro](https://news.itsfoss.com/content/images/2024/07/netflix-opensource-maestro-1.png)
+![netflix maestro](https://static.fosscope.com/articles_img/2024/08/netflix-open-sources-its-secret-sauce-to-meet-the-demands-of-its-platform/netflix-opensource-maestro.webp)
 
 如果你是云计算爱好者，那么「协调器」这个词可能会让你联想到 Kubernetes 或微服务。 但是，Maestro 并非如此。
 
