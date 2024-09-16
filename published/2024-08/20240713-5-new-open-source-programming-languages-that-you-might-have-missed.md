@@ -1,6 +1,6 @@
 ---
 title: 您可能忽略的 5 种新开源编程语言！
-date: {{release_date}}
+date: 2024-09-16 13:27:46
 author:
   - fosscope-translation-team
   - excniesNIED
@@ -10,7 +10,7 @@ cover: https://static.fosscope.com/articles_img/2024/08/5-new-open-source-progra
 categories:
   - 翻译
   - 新闻
-tags: 
+tags:
   - 编程语言
 authorInfo: |
   via: https://news.itsfoss.com/new-open-source-programming-languages
