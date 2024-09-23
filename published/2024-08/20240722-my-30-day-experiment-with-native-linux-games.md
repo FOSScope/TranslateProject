@@ -1,10 +1,11 @@
 ---
 title: 我与原生 Linux 游戏的 30 天实验
-date: {{release_date}}
+date: 2024-09-23 09:21:40
 author:
   - fosscope-translation-team
   - 2024zht
   - excniesnied
+  - Cubik65536
 banner: https://static.fosscope.com/articles_img/2024/08/my-30-day-experiment-with-native-linux-games/linux-gaming-review.webp
 cover: https://static.fosscope.com/articles_img/2024/08/my-30-day-experiment-with-native-linux-games/linux-gaming-review.webp
 categories:
@@ -19,7 +20,7 @@ authorInfo: |
   作者：[Sourav Rudra](https://news.itsfoss.com/author/sourav/)
   选题：[excniesNIED](https://github.com/excniesNIED)
   译者：[2024zht](https://github.com/2024zht)
-  校对：[excniesNIED](https://github.com/excniesNIED)
+  校对：[excniesNIED](https://github.com/excniesNIED) [Cubik65536](https://github.com/Cubik65536)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
 ---
@@ -38,7 +39,7 @@ authorInfo: |
 
 ![an illustration with a penguin and gamepad with a blue green background having a prism pattern](https://static.fosscope.com/articles_img/2024/08/my-30-day-experiment-with-native-linux-games/Native_Linux_Games_a.webp)
 
-本文中，我将通过官方 Steam 客户端（*.deb*）为 Linux 安装的三款流行原生游戏进行介绍。 测试系统的规格如下：
+本文中，我将展示三款通过官方 Steam 客户端（*.deb*）为 Linux 安装的流行原生游戏。 测试系统的规格如下：
 
 - **机型：** Dell G15 5530
 - **RAM：** 16 GB
@@ -58,13 +59,13 @@ authorInfo: |
 
 ![a screenshot of counter strike 2 running on ubuntu 22.04.4 lts](https://static.fosscope.com/articles_img/2024/08/my-30-day-experiment-with-native-linux-games/Native_Linux_Games_b.jpg)
 
-我尝试了多种游戏模式，如休闲模式、死亡竞赛、军备竞赛、竞技模式，以及我最喜欢的首相模式。在几乎所有这些比赛中，我都能获得流畅的 120 帧体验，没有任何音视频问题。
+我尝试了多种游戏模式，如休闲模式、死亡竞赛、军备竞赛、竞技模式，以及我最喜欢的 Premier 模式。在几乎所有这些比赛中，我都能获得流畅的 120 帧体验，没有任何音视频问题。
 
 但是，还有一些其他奇怪的问题。偶尔，游戏会突然崩溃，没有错误代码或任何提示，前一秒游戏还在正常运行，下一秒我就只能盯着桌面的壁纸发呆。
 
 另一个问题是当我连接了外部显示器时。每当我尝试将游戏拖动到更快的笔记本电脑屏幕上时，游戏拒绝最大化，我必须点击任务栏中的游戏图标才能使它回到前台。
 
-同样的情况有时也会发生在仅使用笔记本电脑的显示器时，为了解决这个问题，通常通过在应用程序之间切换 {% kbd Alt %} + {% kbd Tab %} 就能解决。
+同样的情况有时也会发生在仅使用笔记本电脑的显示器时，为了解决这个问题，通常通过使用 {% kbd Alt %} + {% kbd Tab %} 在应用程序之间切换就能解决。
 
 ## 美国卡车模拟器
 
@@ -90,25 +91,20 @@ authorInfo: |
 
 原始图像的方向是错误的，并且是镜像的，我不得不使用 [Shotwell](https://shotwell-project.org/doc/html/) 进行编辑，然后才将其添加到文章中。在 Steam 社区中也有 [一份报告](https://steamcommunity.com/app/270880/discussions/0/4554911223882789939/)，另一位用户遇到了类似的问题。我真心希望 [SCS 软件公司](https://www.scssoft.com/) 能修复导致这一问题的任何原因。
 
-我遇到的另一个问题是无法在游戏窗口外使用鼠标光标。即使在游戏中，超级键也不起作用，幸运的是，我可以通过 {% kbd Alt %} + {% kbd Tab %} 切换，但没有鼠标光标，我又回到了原点。
+我遇到的另一个问题是无法在游戏窗口外使用鼠标光标。即使在游戏中，{% kbd Super %} 键也不起作用，幸运的是，我可以通过 {% kbd Alt %} + {% kbd Tab %} 切换，但没有鼠标光标，我回到了方标。
 
-需要注意的是，上述问题在内部笔记本电脑显示器和连接外部 60 Hz显示器时都发生了。
+需要注意的是，上述问题在内部笔记本电脑显示器和连接外部 60 Hz 显示器时都发生了。
 
-## 铁路线
+## 铁路调度模拟器
 
 ![a screenshot of rail route running on ubuntu 22.04.4 lts](https://static.fosscope.com/articles_img/2024/08/my-30-day-experiment-with-native-linux-games/Native_Linux_Games_e.jpg)
 
-在本文提到的游戏中，[《铁路线》](https://store.steampowered.com/app/1124180/Rail_Route/)无疑是**表现最佳**的，它从未崩溃，在我更改工作区或显示器时也没有出现任何异常行为，窗口切换更是轻松自如。
+在本文提到的游戏中，[《铁路调度模拟器》](https://store.steampowered.com/app/1124180/Rail_Route/)无疑是**表现最佳**的，它从未崩溃，在我更改工作区或显示器时也没有出现任何异常行为，窗口切换更是轻松自如。
 
 如你所见，我能够在高峰时段游戏模式中管理一个庞大的客运和货运网络。这既有趣又具有挑战性。
-
-**推荐阅读** 📖
-
-{% link https://news.itsfoss.com/windows-game-on-linux-experience/ 在 Linux 上运行我最喜欢的 Windows 游戏：过程如下 icon:https://static.fosscope.com/articles_img/2024/08/my-30-day-experiment-with-native-linux-games/cyberpunk-game-ubuntu-review.jpg %}
 
 ## 我的想法
 
 尽管我遇到了一些问题，但我仍然每天在我的 Linux 电脑上玩游戏。我相信随着时间的推移，游戏体验会越来越好，特别是如果越来越多的人开始在 Linux 上玩游戏。这样，开发者可以收到准确的报告来修复问题，这应该间接地帮助其他非原生游戏。
 
 *💭 你对 Linux 游戏体验有何看法？你在 Linux 系统上玩什么游戏？*
-
