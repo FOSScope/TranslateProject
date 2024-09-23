@@ -1,10 +1,10 @@
 ---
 title: 谷歌推出面向开发人员的开源人工智能代理
-date: {{release_date}}
+date: 2024-09-23 09:10:22
 author:
   - fosscope-translation-team
   - excniesNIED
-  - {{proofreader}}
+  - Cubik65536
 banner: https://static.fosscope.com/articles_img/2024/08/google-introduces-open-source-ai-agent-for-developers/google-new-project-oscar.webp
 cover: https://static.fosscope.com/articles_img/2024/08/google-introduces-open-source-ai-agent-for-developers/google-new-project-oscar.webp
 categories:
@@ -19,7 +19,7 @@ authorInfo: |
   作者：[Sourav Rudra](https://news.itsfoss.com/author/sourav/)
   选题：[excniesNIED](https://github.com/excniesNIED)
   译者：[excniesNIED](https://github.com/excniesNIED)
-  校对：[{{proofreader}}](https://github.com/{{proofreader}})
+  校对：[Cubik65536](https://github.com/Cubik65536)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
 ---
@@ -28,17 +28,17 @@ authorInfo: |
 
 <!-- more -->
 
-谷歌虽然在过度利用用户数据方面声名狼藉，但也长期致力于为 [开源项目](https://opensource.google/projects) 做出贡献，甚至开源 [自己的一些项目](https://news.itsfoss.com/google-open-source-tools-ai/)。
+谷歌虽然在过度利用用户数据方面声名狼藉，但也长期致力于为 [开源项目](https://opensource.google/projects) 做出贡献，甚至开源了 [自己的一些项目](https://news.itsfoss.com/google-open-source-tools-ai/)。
 
 毋庸置疑，人工智能的热潮并没有被他们忽视，他们一直忙于开发新的基于人工智能的解决方案，以应对不断变化的数字环境。
 
-最近的一个例子是，他们推出了一项名为「**奥斯卡计划（Project Oscar）**」的开源框架，用于创建基于人工智能的助手或 "代理"，以帮助软件开发和维护工作。
+最近的一个例子是，他们推出了一项名为「**奥斯卡计划（Project Oscar）**」的开源框架，用于创建基于人工智能的助手或 "*代理*"，以帮助软件开发和维护工作。
 
 ## 奥斯卡计划：人工智能代理的崛起？
 
 {% video youtube:986_MUsOk1g %}
 
-奥斯卡计划旨在提升开源软件开发的效率，它是 **一种实验性的开源贡献者代理架构**，可用于将代理部署到代码仓库中，以处理诸如接收问题、将问题与现有文档匹配等任务。
+奥斯卡计划是 **一种实验性的开源贡献者代理架构**，旨在提升开源软件开发的效率。其可用于将代理部署到代码仓库中，以处理诸如接收问题、将问题与现有文档匹配等任务。
 
 该项目的 **一些关键目标** 包括减少维护者在处理问题、变更列表、拉取请求、论坛提问等方面的工作量，并为软件的更高效维护奠定基础。
 
