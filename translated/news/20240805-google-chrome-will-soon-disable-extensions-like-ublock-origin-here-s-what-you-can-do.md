@@ -22,6 +22,10 @@ authorInfo: |
   校对：[{{proofreader}}](https://github.com/{{proofreader}})
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
+applied: true
+translated: true
+proofread: false
+published: false
 ---
 
 谷歌浏览器正在通过逐步淘汰旧版扩展程序，为迁移至 Manifest v3 做准备。

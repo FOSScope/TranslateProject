@@ -21,6 +21,10 @@ authorInfo: |
   校对：[{{proofreader}}](https://github.com/{{proofreader}})
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
+applied: true
+translated: true
+proofread: false
+published: false
 ---
 
 这是对开源社区的极大鼓舞，也是对其他公共部门的激励！

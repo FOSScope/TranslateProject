@@ -22,6 +22,10 @@ authorInfo: |
   校对：[{{proofreader}}](https://github.com/{{proofreader}})
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
+applied: true
+translated: true
+proofread: false
+published: false
 ---
 
 如果将不可变作为其核心特性，Manjaro Linux 可能会成为一个更可靠的选择。您对此有何看法？
