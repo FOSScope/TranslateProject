@@ -4,7 +4,7 @@ date: {{release_date}}
 abbrlink: {{abbrlink}}
 author:
   - fosscope-translation-team
-  - {{translator}}
+  - Nyla11
   - {{proofreader}}
 banner: https://itsfoss.com/content/images/size/w600/format/webp/2024/06/ai-search-engines.png
 cover: https://itsfoss.com/content/images/size/w600/format/webp/2024/06/ai-search-engines.png
@@ -19,7 +19,7 @@ authorInfo: |
 
   作者：[Community](https://itsfoss.com/author/community/)
   选题：[excniesNIED](https://github.com/excniesNIED)
-  译者：[{{translator}}](https://github.com/{{translator}})
+  译者：[Nyla11](https://github.com/Nyla11)
   校对：[{{proofreader}}](https://github.com/{{proofreader}})
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
