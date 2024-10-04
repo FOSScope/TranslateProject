@@ -1,5 +1,5 @@
 ---
-title: GitHub Copilot Alternatives: Best Open Source LLMs for Coding
+title: GitHub Copilot平替：最强开源编程大模型
 date: {{release_date}}
 author:
   - fosscope-translation-team
@@ -23,22 +23,25 @@ authorInfo: |
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
 applied: true # 是否已被申领翻译
-translated: false # 是否已翻译完成
+translated: true # 是否已翻译完成
 proofread: false # 是否已校对完成
 published: false # 是否已发布
 ---
 
-Looking to deploy an AI model for coding or just want an open-source GitHub Copilot replacement? We got you!
+想让AT帮你敲代码？想要开源的GitHub Copilot平替编程助手？往下看看吧！
 
 <!-- more -->
 
 AI is everywhere. One of the most important types of AI models is Large Language Models (LLMs).
+AI 无处不在。大型语言模型 (LLM)就是最主流的一种AI模型。
 
-Of course, we are talking about the [open-source LLMs](https://itsfoss.com/open-source-llms/) (not the proprietary ones). While these LLMs help a great deal with generating text, helping you brainstorm with ideas, unleashing your creativity with images, they are also capable of helping you in the coding process. So, you can write code faster.
+当然，这里指的是[开源LLM](https://itsfoss.com/open-source-llms/)（而不是专有LLM）。这样的LLM不仅能帮你生成文本、活跃思维、画图创造，而且能够帮你编程，提高编写代码的效率。
 
 For that, you need LLMs that are fine-tuned and trained with programming languages for you to get results geared towards coding.
+为此，LLM需要首先经过微调，然后用编程语言训练，这样才能为你编程提供助力。
 
 Here, I shall mention some useful open-source LLMs for coding, along with a couple of open GitHub Copilot alternatives.
+本篇文章中，我将介绍一些好用的开源编程LLM，其中也包含了开源的GitHub Copilot平替编程助手。
 
 {% note color:cyan 📋 You can find all the open source LLMs on Ollama and get it installed locally without much hassle. %}
 
@@ -46,17 +49,17 @@ Here, I shall mention some useful open-source LLMs for coding, along with a coup
 
 ![wizardcoder](https://itsfoss.com/content/images/2024/07/wizardcoder-huggingface-1.jpg)
 
-[WizardCoder](https://github.com/nlpxucan/WizardLM) is an open-source code Large Language Model (LLM) optimized on Llama 2. It can handle complex instructions well and has been fine-tuned accordingly.
+[WizardCoder](https://github.com/nlpxucan/WizardLM)是一个开源编程大型语言模型 (LLM)，在 Llama 2的基础上进行了优化，并且经过了相应的微调，可以很好地处理复杂指令。
 
-The Evol-Instruct algorithm used ensures that the model is fine-tuned with more complete and rich instructions, making the WizardCoder model shine for coding tasks. The model claims that it outperforms Gemini Pro, ChatGPT 3.5, and more, thanks to this algorithm. So, a pretty good LLM for an AI coding assistant.
+WizardCoder使用Evol-Instruct算法，确保模型以更完整、更丰富的指令进行微调，在编码任务中脱颖而出。得益于这一算法，该模型声称，在性能上超过了 Gemini Pro、ChatGPT 3.5等大模型。因此，WizardCoder大模型非常适合作为AI编程助手。
 
-The latest release at the time, **WizardCoder-33B-V1.1** is trained from deepseek-coder-33b-base. You can also use their variants like WizardCoder-Python-34B-V1.0.
+最新版本是**WizardCoder-33B-V1.1**，是在deepseek-coder-33b-base上训练的。您也可以使用它的变体，比如WizardCoder-Python-34B-V1.0。
 
-It is available in the [Ollama](https://itsfoss.com/ollama/) library if you want to try it out.
+如果感兴趣，可前往[Ollama](https://itsfoss.com/ollama/)库一探究竟。
 
 <center>{% button "WizardCoder" https://huggingface.co/WizardLMTeam/WizardCoder-15B-V1.0 %}</center>
 
-**Suggested Read 📖**
+**推荐阅读📖**
 
 {% link https://itsfoss.com/ollama-setup-linux/ Running AI Locally Using Ollama on Ubuntu Linux icon:https://itsfoss.com/content/images/2024/05/run-ai-locally-in-linux-using-ollama.png %}
 
@@ -65,12 +68,16 @@ It is available in the [Ollama](https://itsfoss.com/ollama/) library if you want
 ![phind codellama](https://itsfoss.com/content/images/2024/07/phind-code-model-1.jpg)
 
 Phind is one of the [best AI search engines](https://itsfoss.com/ai-search-engines/), but their code LLM is just as good. Phind CodeLlama is a code generation model based on CodeLlama 34B fine-tuned for instruct use cases.
+Phind是[最好用的AI搜索引擎](https://itsfoss.com/ai-search-engines/)之一，其编程大模型也不遑多让。Phind CodeLlama是一个基于CodeLlama 34B的代码生成模型，经过微调以适应各种指令。
 
 The model is trained on a dataset that includes high-quality programming problems and solutions. It was also trained using DeepSpeed ZeRO 3 and Flash Attention 2 in three hours on 32 A100-80 GB GPUs.
+该模型不仅训练集中编程问题和回答质量高，还使用了DeepSpeed ZeRO 3和Flash Attention 2在32个A100-80 GB GPU上进行了3个小时的训练。
 
 To guarantee the accuracy of their findings, Phind utilized OpenAI's decontamination technique on their dataset by extracting portions of text from each assessment case and verifying if there were corresponding matches in the trained examples.
+为了保证准确性，Phind利用OpenAI的去污染技术对数据集进行处理，提取每个评估用例中的部分文本，并验证训练样本中是否存在相应的匹配项。
 
 Two variations of the model exist: v1 and v2. v1 is built on CodeLlama 34B and CodeLlama-Python 34B. The v2 variant is just an iteration of v1, trained on an additional 1.5B tokens of high-quality programming-related data.
+该模型存在两个版本：v1 和 v2。v1建立在CodeLlama 34B和CodeLlama-Python 34B之上。v2版本只是 v1的迭代版本，在额外的15亿个高质量编程相关数据令牌上进行了训练。
 
 <center>{% button "Phind CodeLlama" https://huggingface.co/Phind/Phind-CodeLlama-34B-v2 %}</center>
 
