@@ -1,5 +1,5 @@
 ---
-title: GitHub Copilot平替：最强开源编程大模型
+title: GitHub Copilot平替：几个最强的开源编程大模型
 date: {{release_date}}
 author:
   - fosscope-translation-team
