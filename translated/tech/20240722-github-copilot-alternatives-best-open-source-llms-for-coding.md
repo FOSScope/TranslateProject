@@ -32,13 +32,13 @@ published: false # 是否已发布
 
 <!-- more -->
 
-AI 无处不在。大语言模型 (LLM)就是最主流的一种AI模型。
+AI无处不在。大语言模型（LLM）就是最主流的一种AI模型。
 
-当然，这里指的是[开源LLM](https://itsfoss.com/open-source-llms/)（而不是专有LLM）。这样的LLM不仅能帮你生成文本、活跃思维、画图创造，而且能够帮你编程，提高编写代码的效率。
+当然，这里指的是[开源大语言模型](https://itsfoss.com/open-source-llms/)（而不是私有大语言模型）。这样的大语言模型不仅能帮你生成文本、活跃思维、画图创造，而且能够帮你编程，提高编写代码的效率。
 
-为此，LLM需要首先经过微调，然后用编程语言训练，这样才能为你编程提供助力。
+为此，大语言模型需要首先经过微调，然后用编程语言训练，这样才能为你编程提供帮助。
 
-本篇文章中，我将介绍一些好用的开源编程LLM，其中也包含了开源的GitHub Copilot平替编程助手。
+本篇文章中，我将介绍一些好用的开源编程大语言模型，其中也包含了开源的GitHub Copilot平替编程助手。
 
 {% note color:cyan 📋 You can find all the open source LLMs on Ollama and get it installed locally without much hassle. %}
 
@@ -46,7 +46,7 @@ AI 无处不在。大语言模型 (LLM)就是最主流的一种AI模型。
 
 ![wizardcoder](https://itsfoss.com/content/images/2024/07/wizardcoder-huggingface-1.jpg)
 
-[WizardCoder](https://github.com/nlpxucan/WizardLM)是一个开源编程大型语言模型 (LLM)，在 Llama 2的基础上进行了优化，并且经过了相应的微调，可以很好地处理复杂指令。
+[WizardCoder](https://github.com/nlpxucan/WizardLM)是一个开源编程大型语言模型，在 Llama 2的基础上进行了优化，并且经过了相应的微调，可以很好地处理复杂指令。
 
 WizardCoder使用Evol-Instruct算法，确保模型以更完整、更丰富的指令进行微调，在编码任务中脱颖而出。得益于这一算法，该模型声称，在性能上超过了 Gemini Pro、ChatGPT 3.5等大模型。因此，WizardCoder大模型非常适合作为AI编程助手。
 
@@ -134,11 +134,9 @@ CodeGeeX具备一些特殊功能，例如跨语言代码翻译，允许您将代
 
 在微软Copilot AI的开源自托管替代品中，Tabby可以说是最令人印象深刻。
 
-It can create code snippets from comments and contextual code and unlike some other copilot alternatives, it runs on your infrastructure. Written in Rust, Tabby is designed with performance in mind. You also have a [live demo](https://demo.tabbyml.com/) to test it out before installing it.
 Tabby可以从注释和上下文代码中创建代码片段。并且与其他一些copilot的替代品不同，它在您的基础设施上运行。Tabby用Rust编写而成，旨在提高性能。在安装前，还可以通过[在线网站](https://demo.tabbyml.com/)试用。
 
-Customization is straightforward with it. You have a number of open-source LLMs, like StarCoder, CodeLlama, and DeepseekCode, to choose from. You can also provide access to your repository model, so Tabby has more context. It can be a nice AI coding companion.
-Tabby是一个很好的AI编程助手，使用它进行自定义非常简单，可以从StarCoder、CodeLlama、DeepseekCode等多个开源大模型中选择。您还可以提供存储库模型的访问权限，以便Tabby有更多上下文。。
+Tabby是一个很好的AI编程助手，使用它进行自定义非常简单，可以从StarCoder、CodeLlama、DeepseekCode等多个开源大模型中选择。您还可以提供存储库模型的访问权限，以便Tabby有更多上下文。
 
 <center>{% button "Tabby" https://tabby.tabbyml.com/ %}</center>
 
