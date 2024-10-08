@@ -32,15 +32,12 @@ published: false # 是否已发布
 
 <!-- more -->
 
-AI is everywhere. One of the most important types of AI models is Large Language Models (LLMs).
-AI 无处不在。大型语言模型 (LLM)就是最主流的一种AI模型。
+AI 无处不在。大语言模型 (LLM)就是最主流的一种AI模型。
 
 当然，这里指的是[开源LLM](https://itsfoss.com/open-source-llms/)（而不是专有LLM）。这样的LLM不仅能帮你生成文本、活跃思维、画图创造，而且能够帮你编程，提高编写代码的效率。
 
-For that, you need LLMs that are fine-tuned and trained with programming languages for you to get results geared towards coding.
 为此，LLM需要首先经过微调，然后用编程语言训练，这样才能为你编程提供助力。
 
-Here, I shall mention some useful open-source LLMs for coding, along with a couple of open GitHub Copilot alternatives.
 本篇文章中，我将介绍一些好用的开源编程LLM，其中也包含了开源的GitHub Copilot平替编程助手。
 
 {% note color:cyan 📋 You can find all the open source LLMs on Ollama and get it installed locally without much hassle. %}
