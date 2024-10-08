@@ -151,7 +151,7 @@ Tabby是一个很好的AI编程助手，使用它进行自定义非常简单，�
 
 StarCoder是一款专注于代码的大模型，训练内容包含80多种编程语言、Git commit、GitHub issue和Jupyter notebook，训练参数超过150亿，拥有超过1万亿个词元。
 
-StarCoder模型可以分析比任何其他开放式大模型更多的输入文本，上下文长度超过8000个词元。虽然可能不太出名，但是一个不错的AI编程助手。
+StarCoder模型的可输入文本比其他任何开源大模型都长，上下文长度超过8000个词元。虽然可能不太出名，但是一个不错的AI编程助手。
 
 还有一个名为Starcoder2的版本，包含的数据集是Starcoder的4倍，具备三种参数级别，分别是30亿、70亿和150亿，在3.3到4.3万亿个词元上训练。
 
@@ -173,20 +173,20 @@ Deepseek Coder的13亿参数版本任务完成速度十分迅速，而330亿版�
 
 ![dolphinmixtral](https://itsfoss.com/content/images/2024/07/dolphin-mixtral-1.jpg)
 
-The Dolphin Model is based on Mixtral 8x7B with additional datasets of Synthia, OpenHermes, PureDove, New Dolphin-Coder, and MagiCoder, making it a tab bit more efficient than Mixtral. Well, that's an interesting mixture indeed.
+Dolphin模型在Mixtral 8x7B基础上，额外添加了Synthia、OpenHermes、PureDove、New Dolphin-Coder和MagiCoder的数据集，使其比Mixtral更有效率。好吧，这确实是一个有趣的组合。
 
-A point to note is the fact that this model is completely uncensored.
+需要注意的是，这个模型是完全未经审查的。
 
-DolphineMixtral is just a more fine-tuned version of the normal Mixtral without bias. You can tweak it for your use-case.
+DolphineMixtral只是Mixtral的一个普通微调版本，没有偏见。您可以根据您的用途调整它。
 
 <center>{% button "DolphinMixtral" https://huggingface.co/cognitivecomputations/dolphin-2.5-mixtral-8x7b %}</center>
 
-Even with all the AI coding companions mentioned, you can utilize any open-source AI-powered chatbot as per your use-cases. I try to pick some of the best, but you have an endless list of choices that you can explore. Some of them can be found here:
+即使上文提到了众多AI编程助手，但根据具体的场景，您可以使用任何其他的开源AI聊天机器人。在以下的网址中，我尝试选择出最好的几个聊天机器人，但仍有无数选择待您探索：
 
 {% link https://itsfoss.com/open-source-llms/ 14 Top Open Source LLMs For Research and Commercial Use icon:https://itsfoss.com/content/images/2024/05/open-source-llms.png %}
 
-## Wrapping Up
+## 总结
 
-There are many open LLMs for coding, and some of them tailored to be utilized as open-source alternatives to Copilot. All of these LLMs are extremely capable and help you with almost all of your programming problems.
+以上提到了很多开源编程大模型，其中一些完全可以作为Copilot的开源平替。所有这些大模型都非常强大，可以帮助您解决几乎所有编程问题。
 
-Almost every LLM here delivers different-sized models for all kinds of usage. So, make your pick and get started!
+几乎每个大模型都提供不同的参数版本，以满足各种使用场景。赶快选择一个试试吧！
