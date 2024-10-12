@@ -21,6 +21,10 @@ authorInfo: |
   校对：[{{proofreader}}](https://github.com/{{proofreader}})
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
+applied: false # 是否已被申领翻译
+translated: false # 是否已翻译完成
+proofread: false # 是否已校对完成
+published: false # 是否已发布
 ---
 
 <!-- 所有以 `{{variable}}` 形式展现的内容都需要替换为实际内容 -->
