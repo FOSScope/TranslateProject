@@ -1,5 +1,5 @@
 ---
-title: How You Can Contribute to Open Source in Hacktoberfest
+title: 如何通过 Hacktoberfest 参与开源项目
 date: {{release_date}}
 abbrlink: {{abbrlink}}
 author:
@@ -29,310 +29,303 @@ published: false # 是否已发布
 
 <!-- 所有以 `{{variable}}` 形式展现的内容都需要替换为实际内容 -->
 
-Hacktoberfest is the best place to give back to open-source projects. Here's everything you need to know about Hacktoberfest and how to participate in it...
+Hacktoberfest 是回馈开源项目的最佳场所。以下是你需要知道的关于 Hacktoberfest 的一切，以及如何参与其中...
 
 <!-- more -->
 
-[![Warp Terminal](https://itsfoss.com/assets/images/warp-terminal.webp)](https://www.warp.dev/?utm_source=its_foss&utm_medium=display&utm_campaign=linux_launch)
+开源项目以其[通常]良好的代码质量统治着世界，但更重要的是它们是免费提供的。这也意味着用户与贡献者的比例非常低。
 
-Open Source projects rule the world with their [usually] good code quality, but more importantly because they are available for free. This also means that the usage-to-contribution ratio is very low.  
+换种说法来讲，与数以百万计的用户相比，只有几百名贡献者在维护/改进这些开源项目。
 
-In other words, a few hundred contributors work on maintaining/improving those open-source projects compared to thousands or millions of users.
+Hacktoberfest 是来自 [DigitalOcean](https://itsfoss.com/recommends/digital-ocean/) 的一个活动，鼓励你回馈你喜欢的项目。作为回报，你可以选择从 DigitalOcean 领取礼物，或者选择种一棵树。
 
-Hacktoberfest is one such event from [DigitalOcean](https://itsfoss.com/recommends/digital-ocean/) that encourages you to contribute back to your favorite projects. In exchange for your contributions, you either get a gift from DigitalOcean, or you can choose to plant a tree instead.
+![向 Hacktoberfest 贡献](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/contribute-to-hacktoberfest.webp)
 
-<img alt="contribute to hacktoberfest" height="450" width="800" />\<img src="https://itsfoss.com/content/images/wordpress/2022/10/contribute-to-hacktoberfest.png" class="kg-image" alt="contribute to hacktoberfest" loading="lazy" width="800" height="450" srcset="https://itsfoss.com/content/images/size/w600/wordpress/2022/10/contribute-to-hacktoberfest.png 600w, https://itsfoss.com/content/images/wordpress/2022/10/contribute-to-hacktoberfest.png 800w" sizes="(min-width: 720px) 720px"\>
+## 谁可以参与 Hacktoberfest？
 
-## Who Can Participate in Hacktoberfest?
+Hacktoberfest 2024 欢迎所有人参与。
 
-Everyone is welcome to participate in Hacktoberfest 2024.
+你不需要是一个开发者或者计算机科学系学生。无论你是艺术家、作家还是翻译者，任何人都可以以某种方式回馈开源项目。
 
-You do not need to be a developer or a computer science student. Whether you’re an artist, a writer, or a translator, anyone can contribute back to open-source projects in one way or the other.
+## 为什么你应该参与 Hacktoberfest？
 
-## Why Should You Participate in Hacktoberfest?
+通过 Hacktoberfest，DigitalOcean 试图提高人们对开源项目的认识。它旨在鼓励用户探索开源项目开发者的经历。
 
-With Hacktoberfest, DigitalOcean is trying to bring awareness around open-source projects. It aims to encourage users to explore the adventure of an open-source project developer.
+你也会意识到开发者投入了大量的时间、精力和心力，免费提供代码的价值。
 
-You also realize the value of the developer who makes the code available for free by investing in their time, effort, and mental energy.
+**Hacktoberfest 活动鼓励你支持你喜欢的开源项目**。这样，你可以确保你喜欢的项目/工具不断改进，以满足你的需求。
 
-**The Hacktoberfest event encourages you to support your favorite open-source projects**. So, you can ensure that the project/tool you love constantly improves, and you get to use it for your requirements.
+归根结底，开源是关于社区努力和防止供应商锁定的。因此，你不能指望开发者为了你的利益而做所有的工作，对吧？
 
-After all, open-source is all about community efforts and preventing vendor lock-in. So, you cannot expect the developer to do all the work for your benefit, right?
+![hacktoberfest 2022](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/hacktoberfest-2022.webp)
 
-<img alt="hacktoberfest 2022" height="675" width="1200" />\<img src="https://itsfoss.com/content/images/wordpress/2022/10/hacktoberfest-2022.png" class="kg-image" alt="hacktoberfest 2022" loading="lazy" width="1200" height="675" srcset="https://itsfoss.com/content/images/size/w600/wordpress/2022/10/hacktoberfest-2022.png 600w, https://itsfoss.com/content/images/size/w1000/wordpress/2022/10/hacktoberfest-2022.png 1000w, https://itsfoss.com/content/images/wordpress/2022/10/hacktoberfest-2022.png 1200w" sizes="(min-width: 720px) 720px"\>
+**「但我能从中得到什么好处呢？」**
 
-**“But what do I get out of it?”**
+这个活动鼓励你**回馈**对你最有影响力的项目。这样做将确保项目得到其 bug 的修复和新功能的添加。不仅仅局限于你回馈的责任，更多的好处包括：
 
-This event encourages you to contribute *back* to the project you feel is most impactful to you. Doing so will ensure that the project will get its bug fixed and new features added. Not just limited to your responsibility of giving back, more perks include:
+* 增加你的创造力。
+* 体验开源项目开发背后的过程（这也有助于你的职业发展）。
+* 收到 Hacktoberfest T 恤之类的礼物。
 
-* Boosting your creativity.
-* Experiencing what happens behind open-source project development (can help you professionally as well).
-* Getting rewards like a Hacktoberfest T-Shirt.
+上述提到的好处只是几乎所有人都在谈论的。但其他好处也是有的。为开源项目做贡献将**改善你的作品集**，并告诉你的**未来雇主你可以与开源社区合作**。
 
-The benefits mentioned above are only what almost everyone is talking about. But there are other benefits as well. Contributing to an open source project will **improve your portfolio** and tell your **future employer that you can work with the open source community**.
+它还可以帮助你了解如何在未来维护你的开源项目。如果你选择这样做，学习社区如何相互交流将帮助你塑造你或你雇主的开源项目，使其既有利于你，**又**有利于整个社区。
 
-It also helps you learn about maintaining your open source project in the future if you choose to do so. Learning how the community interacts with each other will help you shape your or your employer’s open source project in a way that benefits you **and** the community at large.
+更不用说，接触来自世界各地的新人会让你以一种全新的方式了解「如何完成事情 X」。类似的经历可以帮助你在面对挑战性问题时跳出固有思维模式。
 
-Not to mention, all this exposure to new people around the globe will show you “how to do x” in a different way that will be new to you. Things like that help you think out of the box when you are cornered with a challenging problem.
+## 我可以为哪些项目做贡献？
 
-## What Projects Do I Contribute To?
+![hacktoberfest 2022 question](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/hacktoberfest-2022-question.webp)
 
-<img alt="hacktoberfest 2022 question" height="675" width="1200" />\<img src="https://itsfoss.com/content/images/wordpress/2022/10/hacktoberfest-2022-question.png" class="kg-image" alt="hacktoberfest 2022 question" loading="lazy" width="1200" height="675" srcset="https://itsfoss.com/content/images/size/w600/wordpress/2022/10/hacktoberfest-2022-question.png 600w, https://itsfoss.com/content/images/size/w1000/wordpress/2022/10/hacktoberfest-2022-question.png 1000w, https://itsfoss.com/content/images/wordpress/2022/10/hacktoberfest-2022-question.png 1200w" sizes="(min-width: 720px) 720px"\>
+严格来讲，你可以为任何你想要的项目做贡献。但是，有一些项目与 Hacktoberfest 的价值观不符；为这些项目做贡献将不会计入你完成活动的总目标。
 
-Technically, you can contribute to any project that you want. But, there are projects that do not align with the values of Hacktoberfest; contributing to those projects will not be counted against your total objectives to complete the event.
+最好的方法是在 GitHub 或 GitLab 上查找带有「Hacktoberfest」标签的项目。
 
-So it is best to look for projects on GitHub or GitLab that have the “Hacktoberfest” topic.
+* 你可以在 [GitHub](https://github.com/topics/hacktoberfest) 上找到符合要求的仓库。
+* 你可以在 [GitLab](https://gitlab.com/explore/projects/topics/hacktoberfest) 上找到符合要求的代码仓库。
 
-* You can find eligible repositories on [GitHub](https://github.com/topics/hacktoberfest).
-* You can find eligible code repositories on [GitLab](https://gitlab.com/explore/projects/topics/hacktoberfest).
+请确保你要为之做贡献的项目有「Hacktoberfest」主题。对其他项目的贡献可能不会计入你的最终目标。
 
-Please ensure that the project you are contributing to has the “**Hacktoberfest**” topic. Contributions made to other projects may not be counted towards your end goal.
-
-## What Can I Do and How to Get Started?
-
-[![Embedded YouTube video](https://img.youtube.com/vi/BDUtORDL_k4/0.jpg)](https://www.youtube.com/watch?v=BDUtORDL_k4)
+## 我可以做什么？如何开始？
 
 First, please ensure that you have **registered for Hacktoberfest using your GitHub or GitLab account**.
+首先，请确保你已经**使用你的 GitHub 或 GitLab 账户注册了 Hacktoberfest**。
 
-[Register for Hacktoberbest](https://hacktoberfest.com/auth/)
+[注册 Hacktoberfest](https://hacktoberfest.com/auth/)
 
-**“But I do not know to program, is that okay?”**
+**“但我不会编程，这没关系吗？”**
 
-Yes, that is completely fine! Contributing to open source does not mean you must know how to write code. Code is only one part of open source. There are many things an open-source project might need. Below are just a few off the top of my mind:
+这完全没关系！参与开源并不意味着你必须知道如何编写代码。代码只是开源的一部分。开源项目可能需要许多东西。以下只是我想到的一些：
 
-* **Adding/Fixing** **Code:** This is the obvious thing one might think about contributing to open-source projects. You can send in bug fixes, new features, or even fix a security issue. Send in a pull request for a feature that you have always wanted!  
+* **增加/修复代码**： 这是最明显的一种对开源项目的贡献方式。你可以提交 bug 修复、新功能，甚至修复安全问题。提交一个 Pull Reqwuest，实现你一直想要的功能！
+* **改进文档**：文档对每个项目都至关重要。开发者需要阅读文档，用户也需要文档。你可以帮助改进/修复文档。
+* **帮助翻译**：开源意味着全球任何人都可以访问你的项目。但这也意味着有些人可能无法阅读/写作/说英语。提供他们母语的翻译将促进合作。
+* **创造视觉内容**：有些软件项目没有人能够创造出好的 Logo 等图形。你也可以帮助完成这些任务。
+* **UI/UX 设计**：如果你无法提供图形设计，你可以帮助 UI/UX 设计。
 
-* **Improving** **Documentation:** Documentation is essential for every project. Developers read it, and users need it. You can help improve/fix the documentation.  
+你还可以帮忙宣传这个项目，与世界分享，提高其社交影响力。
 
-* **Helping in** **Translation:** Being open source means anyone around the globe can access your project. But that also means that there will be people who do not be able to write/read/speak English.  
-  Translation made available in their native language will boost collaboration.  
+**另外，如果你没有时间参与 Hacktoberfest，你也可以通过捐款来支持项目。**
 
-* **Creating** **Graphics:** Some software projects do not have anyone who can create graphics like a good Logo. You can help with such tasks as well.  
+[向项目捐款](https://hacktoberfest.com/donate/)
 
-* **UI/UX design:** If you can’t contribute with graphics, you can help with the UI/UX design.
+## 参与 Hacktoberfest 之前需要知道的事情
 
-You can also help spread the word, and share the project with the world to improve its social presence.
+![hacktoberfest 2022 rules](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/hacktoberfest-2022-rules.webp)
 
-**Additionally, you can support the projects financially if you do not have time to participate in Hacktoberbest.**
+参与 Hacktoberfest 很容易，但是要**完成 Hacktoberfest**（即“赢得 Hacktoberfest”），你需要知道其他一些事情：
 
-[Donate to Projects](https://hacktoberfest.com/donate/)
+* 你需要注册成为 Hacktoberfest 用户。
+* 你在 [GitLab](https://gitlab.com/explore/projects/topics/hacktoberfest) 或者 [GitHub](https://github.com/topics/hacktoberfest) 上提交的 Pull Request 必须在 10 月 1 日至 10 月 31 日期间（包括这两天）提交。
+* 你的至少**四个** Pull Request 必须在相应的仓库中被**合并或接受**。
+* 你的 Pull Request 必须被提交到有「**Hacktoberfest**」标签的仓库中，或者它必须被标记为「**Hacktoberfest-accepted**」。
 
-## Things to Know Before Joining the Hacktoberfest
+参与 2024 年的 Hacktoberfest 的人将获得一个来自 Holopin 的可定制的数字徽章，其每次提交/合并请求都会获得新的特性。在早期的 Hacktoberfest 版本中，你实际可以获得实体的纪念品和商品（如 T 恤/贴纸等），但人们开始通过提交虚假的 Pull Request 来获得这些奖励。
 
-<img alt="hacktoberfest 2022 rules" height="675" width="1200" />\<img src="https://itsfoss.com/content/images/wordpress/2022/10/hacktoberfest-2022-rules.png" class="kg-image" alt="hacktoberfest 2022 rules" loading="lazy" width="1200" height="675" srcset="https://itsfoss.com/content/images/size/w600/wordpress/2022/10/hacktoberfest-2022-rules.png 600w, https://itsfoss.com/content/images/size/w1000/wordpress/2022/10/hacktoberfest-2022-rules.png 1000w, https://itsfoss.com/content/images/wordpress/2022/10/hacktoberfest-2022-rules.png 1200w" sizes="(min-width: 720px) 720px"\>
+还有一些可能影响你参与的条件，包括：
 
-It is easy to participate, but there are a few things to know to **complete Hacktoberfest** (read: “win Hacktoberfest”):
+* 多于两个被标记为「**spam**（垃圾）」的 Pull Request 将使你从本次 Hacktoberfest *和* **未来的 DigitalOcean 活动中被取消资格**。
+* 任何被标记为「**Invalid**（无效）」（由维护者标记）的 Pull Request 将从你的总目标中被丢弃。
+* 任何被提交到与 Hacktoberfest 的价值观不符的仓库的 Pull Request 将不会计入你的总目标。目前，没有官方列表通知你有关这样的仓库。如果不确定，请在[官方 Hacktoberfest Discord 服务器](https://discord.gg/hacktoberfest)上提问。
+* 请避免提交只有*微小好处*或仅仅为了引入一个小改变的 Pull Request。例如：「*修复空格*」，「*修正拼写错误*」，「*使用空格重新格式化代码而不是制表符*」，以及「*从 0 递增到 i 而不是递减 i 到 0*」。
 
-* Be a registered Hacktoberfest user.
-* Any pull requests you have sent either in [GitLab](https://gitlab.com/explore/projects/topics/hacktoberfest) or [GitHub](https://github.com/topics/hacktoberfest) must be dated between **October 1st and October 31st** (inclusive).
-* At least **four** of your pull requests **must be merged or accepted** in the respective repositories.
-* Your pull request must be sent to repositories that have the topic “**Hacktoberfest**” in it, or it must be labeled as “**Hacktoberfest-accepted**“.
+## 我如何知道项目的贡献指南？
 
-Participants in Hacktoberfest 2024 get a customizable digital badge from Holopin that gains new characteristics with each of your pull/merge requests. In earlier versions of Hacktoberfests, you could get actual swag and merchandises like t-shirts/stickers etc but people started issuing it by submitting dummy pull requests.
+![hacktoberfest 2022 dark](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/hacktoberfest-2022-dark.webp)
 
-There are a few more conditions that could affect your participation, those include:
+任何接受 Hacktoberfest Pull Request 的仓库都会有一个名为 **CONTRIBUTING.md** 的文件，其中包含了你第一次为该仓库做贡献所需的所有信息。
 
-* More than two pull requests labeled as “**spam**” will **disqualify you** for this Hacktoberfest *and* **future DigitalOcean events**.
-* Any pull requests labeled as “**Invalid**” (by the maintainer) will be discarded from your total goal.
-* Any pull request sent to repositories that do not align with Hacktoberfest’s values will not be counted against your total. At the moment, there is no official list that notifies you of any such repositories. If unsure, ask a question on the [official Hacktoberfest Discord server](https://discord.gg/hacktoberfest).
-* Please avoid sending pull requests that are only *slightly beneficial* or are there just for the sake of introducing a minor change. Examples include “*Fixed whitespaces*“, “*Fix typos*“, “*Reformat code using spaces instead of tabs*“, and “*Increment from 0 to i instead of decrementing i to 0*“.
+尽管我会在下一节讨论为项目做贡献的流程，但在继续之前，你应该查看每个项目的指南。
 
-## How Do I Know The Contributing Guidelines for Projects?
+**CONTRIBUTING.md** 文件通常包含以下内容：
 
-<img alt="hacktoberfest 2022 dark" height="675" width="1200" />\<img src="https://itsfoss.com/content/images/wordpress/2022/10/hacktoberfest-2022-dark.png" class="kg-image" alt="hacktoberfest 2022 dark" loading="lazy" width="1200" height="675" srcset="https://itsfoss.com/content/images/size/w600/wordpress/2022/10/hacktoberfest-2022-dark.png 600w, https://itsfoss.com/content/images/size/w1000/wordpress/2022/10/hacktoberfest-2022-dark.png 1000w, https://itsfoss.com/content/images/wordpress/2022/10/hacktoberfest-2022-dark.png 1200w" sizes="(min-width: 720px) 720px"\>
+* **行为准则**：请**仔细**阅读。这是指个人在项目中的可接受行为。如果你没有遵守这一点，你未来的贡献可能会被忽视；甚至可能被直接拒绝。
+* **代码格式**：每个项目都有自己的代码风格。最好根据 CONTRIBUTING.md 中列出的代码格式来格式化代码。
+* **服务条款**：有些项目要求你在你的 Pull Request 被合并之前接受条款和条件（关于你对贡献代码的权利）。请仔细阅读这些内容，并确保你对限制（如果有的话）感到满意。
+* **许可证**：请阅读仓库代码所使用的许可证。你必须遵守该许可证。
+* **贡献者资源**：由于这个文件（CONTRIBUTING.md）是为首次进行贡献的贡献者准备的，你还将获得一些贡献者资源，帮助你了解代码审查是如何进行的，以及为了合并一个 Pull Request 需要做哪些事情。
+* **PR 标签**：有些维护者希望你使用标签创建一个 Pull Request。这些标签可能是「bug 修复」，「新功能」，「好的首次问题」等。这有助于维护者和社区关注他们感兴趣的问题。
+* **Issue 模板**：如果你发送一个 Pull Request，有时你需要运行一些命令。这些命令可能会做一些事情，比如「清理构建文件」，「删除自定义配置文件」等。
+* **如何设置开发环境**：有时，CONTRIBUTING.md 文件还会列出构建软件项目所需的所有包。有的时候你还会被告知如何打包。这些内容将被包括在内，以便你在发送 Pull Request 之前测试你的更改是否会破坏某些东西。
+* **所有权信息**：这一部分将包括诸如「X 处理 bug 修复的 Pull Request」之类的细节，因此如果你的 bug 修复 Pull Request 没有被接受，你可以向 X 询问意见，以及如何改进你的 Pull Request，使其被接受。
 
-The repositories accepting pull requests for Hacktoberfest will have a file named **CONTRIBUTING.md**, which includes all the necessary information for your first contribution to the said repository.
+## 这整个过程是如何工作的？
 
-While I discuss the process of contributing to a project in the next section, you should check every project’s guidelines before you proceed.
+现在你已经了解了前提条件。你该如何继续？如何提交你的第一个 Pull Request？对于第一次进行贡献的人来说，这是否太技术性了？
 
-The **CONTRIBUTING.md** file will usually contain some of the following items:
+并不一定。你只需要输入几个命令，并仔细按照逐步方法操作。没有什么是令人不安的。你只需要耐心地完成整个过程。
 
-* **Code of Conduct:** Please read this *VERY CAREFULLY*. This refers to the acceptable behavior of an individual for said project. If you fail to uphold this, your future contributions may go unnoticed; they might even get rejected outright.
-* **Code Formatting**: Each project has its coding style. It is best to format the code according to the code formatting laid out in the CONTRIBUTING.md
-* **ToC:** Some projects require you to accept the terms and conditions (about your rights to your contributed code) before your pull request merges. Please read this carefully and ensure you are comfortable with the restrictions (if any apply).
-* **License:** Please read the license under which the repository’s code is made available. You must adhere to said license.
-* **Contributor Resources**: Since this file (CONTRIBUTING.md) is intended for first-time contributors, you will also be given some contributor resources to help you understand how a code review takes place, and what things need to be done a pull request to be merged.
-* **PR tags:** Some maintainers expect you to create a pull request using a tag. Some of these tags might be “bug fix”, “new feature”, “good first issues”, etc. This helps the maintainer(s) and the community to focus on the issues of their interest.
-* **Issue templates:** If you send in a pull request, sometimes you are required to run a few commands. These commands may do a few things like “cleanup build files”, “remove custom configuration files”, etc.
-* **How to set up a development environment:** Sometimes, the CONTRIBUTING.md file will also list all the packages you need to build the software project. Optionally, you will also be told: “how to package this”. These items will be included so that you can test if your changes break something before you send in a pull request.
-* **Ownership** **info**: This section will include details like “Person **X** handles pull requests for bug fixes”, so if your pull request for a bug fix does not get accepted, you can ask person **X** for input and how you can improve your pull request, so it gets accepted.
+整体来讲，你需要做的事情如下：
 
-## How Does The Entire Process Work?
+1. **安装和设置 Git。**
+2. **创建一个 GitHub 或 GitLab 账户。**
+3. **Fork 你想要贡献的仓库。**
+4. **使用 Git 在仓库中工作。**
+5. **将代码/更改提交到仓库。**
 
-Now that you are aware of the prerequisites. How do you proceed? How do you make your first pull request? Is it too technical for first-time users?
+## How To Make Your First Pull Request?#
+## 如何提交你的第一个 Pull Request？
 
-Not really. You just have to type in a few commands, and follow a step-by-step method carefully. There’s nothing overwhelming. You just have to be patient with the entire process.
+不要害怕，我将按照正确的顺序为你提供所有步骤，帮你上手。
 
-To sum up, here’s what you have to do:
+### 1. 在你的系统上安装 Git
 
-1. **Install and Setup Git.**
-2. **Create a GitHub or GitLab account.**
-3. **Fork the repository you want to contribute to.**
-4. **Work with the repository using Git.**
-5. **Submit the code/change to the repository.**
+![hacktoberfest 2022 git](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/hacktoberfest-2022-git.webp)
 
-## How To Make Your First Pull Request?
+Git 是业界最常用的版本控制工具之一。它是由 Linus Torvalds 创建的。是的，就是那个创建了 Linux 的人。
 
-Fret not, I will provide you all the steps in the correct order to get you started.
+在我告诉你 git 的基础用法之前，让我先告诉你如何在你的计算机上安装 git。
 
-### 1. Install Git on Your System
+#### 在 Linux 上安装 git
 
-<img alt="hacktoberfest 2022 git" height="675" width="1200" />\<img src="https://itsfoss.com/content/images/wordpress/2022/10/hacktoberfest-2022-git.png" class="kg-image" alt="hacktoberfest 2022 git" loading="lazy" width="1200" height="675" srcset="https://itsfoss.com/content/images/size/w600/wordpress/2022/10/hacktoberfest-2022-git.png 600w, https://itsfoss.com/content/images/size/w1000/wordpress/2022/10/hacktoberfest-2022-git.png 1000w, https://itsfoss.com/content/images/wordpress/2022/10/hacktoberfest-2022-git.png 1200w" sizes="(min-width: 720px) 720px"\>
+使用基于 Debian/Ubuntu 的系统的用户可以使用 apt 包管理器安装 git，命令如下：
 
-Git is one of the most used version control tools in the industry. Linus Torvalds created it. Yes, the same person that created Linux.
-
-Before I give you a basic overview of using git, let me first tell you how you can install git on your computer.
-
-#### Install git on Linux
-
-Users of Debian/Ubuntu-based Linux distributions can use the apt package manager to install git can be done with the following command:
-
-```
+``` bash
 sudo apt install git git-man
 ```
 
-Users of Fedora/RHEL-based Linux distributions can install git using the dnf package manager like so:
+使用基于 Fedora/RHEL 的 Linux 发行版的用户可以使用 dnf 包管理器安装 git，命令如下：
 
-```
+``` bash
 sudo dnf install git git-core git-core-doc
 ```
 
-Users of Arch Linux can install git using the [pacman package manager ](https://itsfoss.com/pacman-command/)with the following command:
+Arch Linux 用户可以使用 [pacman 包管理器](https://itsfoss.com/pacman-command/)安装 git，命令如下：
 
-```
+``` bash
 sudo pacman -Sy git
 ```
 
-#### Install git on macOS
+#### 在 macOS 上安装 git
 
-macOS users can install git using either the `brew` or `macports` package managers.
+macOS 用户可以使用 `brew` 或 `macports` 包管理器安装 git。
 
-```
-# brew users
+``` bash
+# Homebrew 用户
 brew install git
-# macports users
+# MacPorts 用户
 sudo port install git
 ```
 
-#### Install git on Windows
+#### 在 Windows 上安装 git
 
-Windows users that prefer an installable .exe file, you can download it from [GitHub releases](https://github.com/git-for-windows/git/releases/latest).
+希望在 Windows 上使用可安装的 .exe 文件的用户可以从 [GitHub releases](https://github.com/git-for-windows/git/releases/latest) 下载安装包。
 
-Or, if you prefer using a package manager on Windows, use `winget` with the command:
+或者，如果你更喜欢在 Windows 上使用包管理器，通过以下命令使用 `winget` 安装：
 
-```
+``` bash
 winget install --id Git.Git -e --source winget
 ```
 
-### 2. Setup Git
+### 2. 配置 Git
 
-Once you have git installed, some configuration needs to be made. Git needs your name and e-mail address to log a commit.
+在你安装好 git 之后，需要进行一些配置。Git 需要你的名字和电子邮件地址来记录提交。
 
-You can add your name and e-mail address to git using the following commands:
+你可以通过以下命令向 git 添加你的名字和电子邮件地址：
 
-```
-git config --global user.name "your name here"
-git config --global user.email "your email here"
-```
-
-Doing so will help others know who made which change and how to contact them. Not to forget that without a name and an e-mail provided to git, you will not be able to create any commits.
-
-You can refer to our [Git command guide](https://itsfoss.com/basic-git-commands-cheat-sheet/) to explore other essential commands.
-
-### 3. Creating a GitHub or GitLab account
-
-Once Git is installed and set up, we can proceed to create a GitHub or GitLab account. If you already have an account, skip to the next step.
-
-To create a GitHub account, [click here](https://github.com/signup). If you want to create a GitLab account, [click here](https://gitlab.com/users/sign_up).
-
-Provide your name, and e-mail address, and choose a suitable username and a strong password. Once your account is set-up, it is highly advised that you also set-up two-factor authentication. The documentation to enable 2FA on GitHub can be found [here](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication), and GitLab users should [look here](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html).
-
-### 4. How do I send a pull request?
-
-To participate in Hacktoberfest 2022, you must have 4 of your pull requests accepted/merged. I will demonstrate how you can send a pull request.
-
-My personal preference is GitLab, but GitHub is more popular among the people new to the open source community, so I will demonstrate the procedure using GitHub. The steps will be same for GitLab users, with only minor UI differences.
-
-#### a. Fork a repository
-
-The action of “forking a repository” refers to creating your own copy of the repository to work on it. So let us find some Hacktoberfest repositories on [GitLab](https://gitlab.com/explore/projects/topics/hacktoberfest) and [GitHub](https://github.com/topics/hacktoberfest) to fork.
-
-I have selected the [compress-pdf](https://github.com/itsfoss/compress-pdf) repository on GitHub for this demonstration. Visit the repository of your choice and look for the “Fork” button.
-
-[<img alt="Deciding a name for your fork of the repository" height="487" width="800" />\<img src="https://itsfoss.com/content/images/wordpress/2022/10/01-fork-800x487.png" class="kg-image" alt="Deciding a name for your fork of the repository" loading="lazy" width="800" height="487" srcset="https://itsfoss.com/content/images/size/w600/wordpress/2022/10/01-fork-800x487.png 600w, https://itsfoss.com/content/images/wordpress/2022/10/01-fork-800x487.png 800w" sizes="(min-width: 720px) 720px"\>](https://itsfoss.com/content/images/wordpress/2022/10/02-name-repo.png)Forking a repository on GitHub *****(click to expand image)*****
-
-Once you click on it, you will be taken to a screen that is similar to the screenshot attached below. You will be asked to give this repository a name. It is best to keep the same name, but you can modify it if you want to do so. Then, click on the *Create fork* button. That will create a fork of a given repository.
-
-<img alt="Deciding a name for your fork of the repository" height="1217" width="2000" />\<img src="https://itsfoss.com/content/images/wordpress/2022/10/02-name-repo.png" class="kg-image" alt="Deciding a name for your fork of the repository" loading="lazy" width="2000" height="1217" srcset="https://itsfoss.com/content/images/size/w600/wordpress/2022/10/02-name-repo.png 600w, https://itsfoss.com/content/images/size/w1000/wordpress/2022/10/02-name-repo.png 1000w, https://itsfoss.com/content/images/size/w1600/wordpress/2022/10/02-name-repo.png 1600w, https://itsfoss.com/content/images/size/w2400/wordpress/2022/10/02-name-repo.png 2400w" sizes="(min-width: 720px) 720px"\>Deciding a name for your fork of the repository *****(click to expand image)*****
-
-Once you have your fork of the repository, clone it. My personal preference is to clone via SSH. If you haven’t setup SSH, you can refer to its [official documentation](https://docs.github.com/en/authentication/connecting-to-github-with-ssh).
-
-<img alt="Cloning the forked repository" height="1106" width="1700" />\<img src="https://itsfoss.com/content/images/wordpress/2022/10/03-clone.png" class="kg-image" alt="Cloning the forked repository" loading="lazy" width="1700" height="1106" srcset="https://itsfoss.com/content/images/size/w600/wordpress/2022/10/03-clone.png 600w, https://itsfoss.com/content/images/size/w1000/wordpress/2022/10/03-clone.png 1000w, https://itsfoss.com/content/images/size/w1600/wordpress/2022/10/03-clone.png 1600w, https://itsfoss.com/content/images/wordpress/2022/10/03-clone.png 1700w" sizes="(min-width: 720px) 720px"\>Cloning the forked repository
-
-After you clone the repository, you can start working on it locally.
-
-Next, I will demonstrate how to do this as well as how to send these changes back “upstream” in form of pull requests.
-
-#### b. Working with a Git repo, locally
-
-Once you have cloned a repository locally, immediately create a new branch. Use an appropriate name that best describes your changes. Below is the command to create a new branch in git:
-
-```
-git checkout -b BRANCH-NAME
+``` bash
+git config --global user.name "你的名字"
+git config --global user.email "你的电子邮件地址"
 ```
 
-By using the `git checkout` command along with the `-b` option, you will automatically be switched to this branch and you can get started with your work.
+这样你就可以帮助其他人知道谁做了哪些更改，以及如何联系他们。不要忘记，如果没有向 git 提供名字和电子邮件，你将无法创建任何提交。
 
-[<img alt="Deciding a name for your fork of the repository" height="520" width="800" />\<img src="https://itsfoss.com/content/images/wordpress/2022/10/04-new-branch-800x520.png" class="kg-image" alt="Deciding a name for your fork of the repository" loading="lazy" width="800" height="520" srcset="https://itsfoss.com/content/images/size/w600/wordpress/2022/10/04-new-branch-800x520.png 600w, https://itsfoss.com/content/images/wordpress/2022/10/04-new-branch-800x520.png 800w" sizes="(min-width: 720px) 720px"\>](https://itsfoss.com/content/images/wordpress/2022/10/02-name-repo.png)Creating a new local branch
+你还可以参考我们（译者注：It's FOSS）的 [Git 命令指南](https://itsfoss.com/basic-git-commands-cheat-sheet/) 来了解其他基本命令。
 
-You can see your modifications using the `git diff` command.
+### 3. 创建 GitHub 或 GitLab 账户
 
-<img alt="Checking what changes were made; using the 'git diff'" height="1106" width="1700" />\<img src="https://itsfoss.com/content/images/wordpress/2022/10/05-git-diff.png" class="kg-image" alt="Checking what changes were made; using the 'git diff'" loading="lazy" width="1700" height="1106" srcset="https://itsfoss.com/content/images/size/w600/wordpress/2022/10/05-git-diff.png 600w, https://itsfoss.com/content/images/size/w1000/wordpress/2022/10/05-git-diff.png 1000w, https://itsfoss.com/content/images/size/w1600/wordpress/2022/10/05-git-diff.png 1600w, https://itsfoss.com/content/images/wordpress/2022/10/05-git-diff.png 1700w" sizes="(min-width: 720px) 720px"\>Checking what changes were made; using the ‘git diff’
+在安装并配置好 Git 之后，我们就可以继续创建 GitHub 或 GitLab 账户了。如果你已经有了账户，请跳到下一步。
 
-If you are satisfied with your changes, now is the best time to check if they work or not. Once that is verified, you can use the `git add` command to add those changes to the staging area.
+要创建 GitHub 账户，请 [点击此处](https://github.com/signup)。如果你想要创建 GitLab 账户，请 [点击此处](https://gitlab.com/users/sign_up)。
 
-Then, use `git commit` to create a commit along with a useful message.
+提供你的名字、电子邮件地址，选择一个合适的用户名和一个强密码。在你设置好你的账户后，我们强烈建议你也设置双重认证。关于如何在 GitHub 上启用 2FA 的文档可以在 [这里](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication)找到，GitLab 用户应该 [查看这里](https://docs.gitlab.com/ee/user/profile/account/two_factor_authentication.html)。
 
-<img alt="The git log command showing the commit I made" height="1106" width="1700" />\<img src="https://itsfoss.com/content/images/wordpress/2022/10/06-git-log.png" class="kg-image" alt="The git log command showing the commit I made" loading="lazy" width="1700" height="1106" srcset="https://itsfoss.com/content/images/size/w600/wordpress/2022/10/06-git-log.png 600w, https://itsfoss.com/content/images/size/w1000/wordpress/2022/10/06-git-log.png 1000w, https://itsfoss.com/content/images/size/w1600/wordpress/2022/10/06-git-log.png 1600w, https://itsfoss.com/content/images/wordpress/2022/10/06-git-log.png 1700w" sizes="(min-width: 720px) 720px"\>The git log command showing the commit I made
+### 4. 我该如何提交一个 Pull Request？
 
-#### c. Pushing code to the repository
+要参与 Hacktoberfest 2022（原文为 2022，实际应为 2024），你必须有 4 个 Pull Request 被接受/合并。我将演示如何提交一个 Pull Request。
 
-Now that you have worked on implementing something or changing existing way of doing something and committed it, it is now time to send that code back to the original repository. Before that is done, our changes need to go in our forked repository.
+我更偏好使用 GitLab，但 GitHub 在新加入开源社区的人中更受欢迎，所以我将使用 GitHub 演示这个过程。对于 GitLab 用户，步骤是相同的，只有一些用户界面上的差异。
 
-To send our changes (that were made in a separate branch), use the `git push` command in following fashion:
+#### a. Fork 一个仓库
 
+「fork 一个仓库」的操作是指创建你自己的仓库副本，以便在其上工作。因此，让我们在 [GitLab](https://gitlab.com/explore/projects/topics/hacktoberfest) 和 [GitHub](https://github.com/topics/hacktoberfest) 上找到一些参与 Hacktoberfest 的仓库来 fork。
+
+我选择了 GitHub 上的 [compress-pdf](https://github.com/itsfoss/compress-pdf) 来做演示。访问你选择的仓库，然后找到「Fork」按钮。
+
+![Deciding a name for your fork of the repository](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/01-fork-800x487.webp)
+
+在你点击「fork」按钮之后，你将被带到一个类似于下面截图的页面。你将被要求给这个仓库起一个名字。最好保持相同的名字，但如果你想修改，也可以这样做。然后，点击「Create fork」按钮。这将创建一个给定仓库的 fork。
+
+![Deciding a name for your fork of the repository](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/02-name-repo.png)
+
+在你 fork 好仓库后，克隆（clone）它。我个人更喜欢通过 SSH 克隆。如果你还没有设置 SSH，你可以参考 GitHub 的 [官方文档](https://docs.github.com/en/authentication/connecting-to-github-with-ssh) 进行设置。
+
+![Cloning the forked repositor](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/03-clone.webp)
+
+在你克隆好仓库之后，你就可以在本地开始工作了。
+
+接下来我将展示如何进行工作，以及如何以 Pull Request 的形式将这些更改发送回「上游」。
+
+#### b. 在本地的 Git 仓库中工作
+
+在你讲仓库克隆到本地后，立即创建一个新分支。使用一个最能描述你将进行的更改的名称。以下命令可以在 git 中创建一个新分支：
+
+``` bash
+git checkout -b 分支名称
 ```
+
+当你使用 `git checkout` 命令和 `-b` 选项时，你将自动切换到这个分支，并可以开始工作。
+
+![Deciding a name for your fork of the repository](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/04-new-branch-800x520.webp)
+
+你可以使用 `git diff` 命令查看你的修改。
+
+![Checking what changes were made; using the 'git diff'](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/05-git-diff.webp)
+
+如果你对你的更改满意了，现在是检查它们是否嫩工作的最佳时机。一旦验证通过，你可以使用 `git add` 命令将这些更改添加到暂存区。
+
+然后，使用 `git commit` 命令创建一个提交，并附上一个有意义的消息。
+
+![The git log command showing the commit I made](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/06-git-log.webp)
+
+#### c. 将代码推送到仓库
+
+现在你已经完成了实现一个东西或者改变现有的某些东西的工作，并提交了它，现在是时候将代码发送回原始仓库了。在这之前，我们的更改需要被提交到我们 fork 的仓库。
+
+要发送我们的更改（这些更改是在一个单独的分支中进行的），请以下面的方式使用 `git push` 命令：
+
+``` bash
 git push --set-upstream origin BRANCH-NAME
 ```
 
-The branch that you created earlier will be sent to the forked repository.
+这样你之前创建的分支就会被发送到 fork 的仓库中。
 
-After the operation completes, if you are using GitHub, you will see a message that will provide you with a link. Visiting that link will create a pull request for your branch. Since this is specific to GitHub, I will show an alternative method to create a pull request.
+在这个步骤完成后，如果你使用的是 GitHub，你将会看到一个消息，其中会提供一个链接。访问这个链接将为你的分支创建一个 Pull Request。由于这是 GitHub 特有的，我将展示另外一个创建 Pull Request 的方法。
 
-<img alt="Pushing your local branch to the GitHub repository" height="1106" width="1700" />\<img src="https://itsfoss.com/content/images/wordpress/2022/10/07-git-push.png" class="kg-image" alt="Pushing your local branch to the GitHub repository" loading="lazy" width="1700" height="1106" srcset="https://itsfoss.com/content/images/size/w600/wordpress/2022/10/07-git-push.png 600w, https://itsfoss.com/content/images/size/w1000/wordpress/2022/10/07-git-push.png 1000w, https://itsfoss.com/content/images/size/w1600/wordpress/2022/10/07-git-push.png 1600w, https://itsfoss.com/content/images/wordpress/2022/10/07-git-push.png 1700w" sizes="(min-width: 720px) 720px"\>Pushing your local branch to the GitHub repository
+![Pushing your local branch to the GitHub repository](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/07-git-push.webp)
 
-In your browser, browse to the your fork of the repository. You will see a button that says “Compare & pull request”.
+在你的浏览器中，访问你 fork 的仓库。你会看到一个按钮，上面写着「Compare & pull request」。
 
-<img alt="Creating a pull request from the GitHub web UI" height="1217" width="2000" />\<img src="https://itsfoss.com/content/images/wordpress/2022/10/08-cmp-pull-req.png" class="kg-image" alt="Creating a pull request from the GitHub web UI" loading="lazy" width="2000" height="1217" srcset="https://itsfoss.com/content/images/size/w600/wordpress/2022/10/08-cmp-pull-req.png 600w, https://itsfoss.com/content/images/size/w1000/wordpress/2022/10/08-cmp-pull-req.png 1000w, https://itsfoss.com/content/images/size/w1600/wordpress/2022/10/08-cmp-pull-req.png 1600w, https://itsfoss.com/content/images/size/w2400/wordpress/2022/10/08-cmp-pull-req.png 2400w" sizes="(min-width: 720px) 720px"\>Creating a pull request from the GitHub web UI
+![Creating a pull request from the GitHub web UI](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/08-cmp-pull-req.png)
 
-Clicking on it will take you to a web page that will ask for a comment. This is where you describe things like “Why is my commit useful”, “What does my commit provide”, “If merging my commit will break any existing code”, etc.
+点击它将使你跳转到一个要求你填写一个评论的网页。这是你描述诸如「为什么我的提交有用」，「我的提交提供了什么」，「如果合并我的提交会破坏任何现有代码」等内容的地方。
 
-<img alt="Drafting a message/comment for your pull request" height="1217" width="2000" />\<img src="https://itsfoss.com/content/images/wordpress/2022/10/09-send-pr.png" class="kg-image" alt="Drafting a message/comment for your pull request" loading="lazy" width="2000" height="1217" srcset="https://itsfoss.com/content/images/size/w600/wordpress/2022/10/09-send-pr.png 600w, https://itsfoss.com/content/images/size/w1000/wordpress/2022/10/09-send-pr.png 1000w, https://itsfoss.com/content/images/size/w1600/wordpress/2022/10/09-send-pr.png 1600w, https://itsfoss.com/content/images/size/w2400/wordpress/2022/10/09-send-pr.png 2400w" sizes="(min-width: 720px) 720px"\>Drafting a message/comment for your pull request
+![Drafting a message/comment for your pull request](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/09-send-pr.webp)
 
-Once you have written a comment with all the details, click on the “**Create pull request**” button. Congratulations!
+在你写好包含所有细节的评论后，点击「**Create pull request**」按钮。恭喜你！
 
-You just sent in your first pull request!
+你刚刚提交了你的第一个 Pull Request！
 
-## It’s Your First, Hopefully You Can Contribute More
+## 这只是你的第一次贡献，希望你能做更多
 
-The first few pull requests will always make you feeling nervous about the changes that you just sent. Do not worry, that nervousness will go away after you get comfortable.
+前几个 Pull Request 总是会让你对刚刚发送的更改感到紧张。不要担心，当你熟悉流程后，这种紧张感会消失。
 
-As the project owner or the maintainer gets free enough, they will take a look at your pull request. If all the changes look okay to them, the pull request will get merged. How exciting!
+当一个项目的所有者或维护者有空时，他们会查看你的 Pull Request。如果所有的更改对他们来说没有问题，那么这个 Pull Request 将会被合并。多么令人兴奋！
 
-In case your pull request does not get merged, do not worry. **Politely** approach the person who rejected your pull request. Ask them feedback as to where the problem was and what could be done to get your change merged.
+如果你的 Pull Request 没有被合并，不要担心。**礼貌地**向拒绝你的 Pull Request 的人提出疑问。询问他们问题所在以及如何才能使你的更改被合并。
 
-Did you introduce a new library/dependency that had a better alternative? Or, is there something that can be rectified?
+你是否引入了一个有更优秀的替代品的新库/依赖项？或者，有什么可以被纠正的地方吗？
 
-Of course, the maintainers may not respond to every query you have. So, make sure you do not bother them repeatedly after you have sent your doubt regarding the pull request.
+当然，维护者可能不会回答你的每一个问题。所以，请确保在你发送了关于 Pull Request 的疑问后，不要反复打扰他们。
 
-Not having one pull request merged is not the end of the world. Try with other projects utilizing your passion and creativity, and it should be good to go!
+有一个没被合并的 Pull Request 不会引发世界末日。尝试使用你的激情和创造力参与其他项目，一切都会顺利的！
