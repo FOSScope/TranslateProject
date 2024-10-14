@@ -54,4 +54,4 @@ directory = "{{step}}/talk"
 [git]
 base = "main"
 branch_naming = "{{action_name}}/{{type_name}}/{{article_id}}"
-commit_message = "[{{action_desc}}][{{type_desc}}] {{article_title}}"
+commit_message = "[{{action_desc}}][{{type_name}}] {{article_title}}"
