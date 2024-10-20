@@ -71,7 +71,7 @@ Hacktoberfest 2024 欢迎所有人参与。
 
 它还可以帮助你了解如何在未来维护你的开源项目。如果你选择这样做，学习社区如何相互交流将帮助你塑造你或你雇主的开源项目，使其既有利于你，**又**有利于整个社区。
 
-更不用说，接触来自世界各地的新人会让你以一种全新的方式了解「如何完成事情 X」。类似的经历可以帮助你在面对挑战性问题时跳出固有思维模式。
+更不用说，接触来自世界各地的新面孔会让你以一种全新的方式了解「如何完成事情 X」。类似的经历可以帮助你在面对挑战性问题时跳出固有思维模式。
 
 ## 我可以为哪些项目做贡献？
 
@@ -88,7 +88,6 @@ Hacktoberfest 2024 欢迎所有人参与。
 
 ## 我可以做什么？如何开始？
 
-First, please ensure that you have **registered for Hacktoberfest using your GitHub or GitLab account**.
 首先，请确保你已经**使用你的 GitHub 或 GitLab 账户注册了 Hacktoberfest**。
 
 [注册 Hacktoberfest](https://hacktoberfest.com/auth/)
@@ -97,11 +96,11 @@ First, please ensure that you have **registered for Hacktoberfest using your Gi
 
 这完全没关系！参与开源并不意味着你必须知道如何编写代码。代码只是开源的一部分。开源项目可能需要许多东西。以下只是我想到的一些：
 
-* **增加/修复代码**： 这是最明显的一种对开源项目的贡献方式。你可以提交 bug 修复、新功能，甚至修复安全问题。提交一个 Pull Reqwuest，实现你一直想要的功能！
+* **增加/修复代码**： 这是最明显的一种对开源项目的贡献方式。你可以提交 bug 修复、新功能，甚至修复安全问题。提交一个 Pull Request，实现你一直想要的功能！
 * **改进文档**：文档对每个项目都至关重要。开发者需要阅读文档，用户也需要文档。你可以帮助改进/修复文档。
 * **帮助翻译**：开源意味着全球任何人都可以访问你的项目。但这也意味着有些人可能无法阅读/写作/说英语。提供他们母语的翻译将促进合作。
-* **创造视觉内容**：有些软件项目没有人能够创造出好的 Logo 等图形。你也可以帮助完成这些任务。
-* **UI/UX 设计**：如果你无法提供图形设计，你可以帮助 UI/UX 设计。
+* **创造视觉内容**：有些软件项目中还没有任何能够创作出诸如好的 Logo 图形等视觉内容的人。你也可以帮助完成这些任务。
+* **UI/UX 设计**：如果你无法在图形方面提供帮助，你仍然可以帮助 UI/UX 设计。
 
 你还可以帮忙宣传这个项目，与世界分享，提高其社交影响力。
 
@@ -120,14 +119,14 @@ First, please ensure that you have **registered for Hacktoberfest using your Gi
 * 你的至少**四个** Pull Request 必须在相应的仓库中被**合并或接受**。
 * 你的 Pull Request 必须被提交到有「**Hacktoberfest**」标签的仓库中，或者它必须被标记为「**Hacktoberfest-accepted**」。
 
-参与 2024 年的 Hacktoberfest 的人将获得一个来自 Holopin 的可定制的数字徽章，其每次提交/合并请求都会获得新的特性。在早期的 Hacktoberfest 版本中，你实际可以获得实体的纪念品和商品（如 T 恤/贴纸等），但人们开始通过提交虚假的 Pull Request 来获得这些奖励。
+参与 2024 年的 Hacktoberfest 的人将获得一个来自 Holopin 的可定制数字徽章，它可以使你的每次提交/合并请求都获得新的特性。在早期的 Hacktoberfest 版本中，你实际可以获得实体的纪念品和商品（如 T 恤/贴纸等），但有些人会通过提交虚假的 Pull Request 来获得这些奖励。
 
 还有一些可能影响你参与的条件，包括：
 
 * 多于两个被标记为「**spam**（垃圾）」的 Pull Request 将使你从本次 Hacktoberfest *和* **未来的 DigitalOcean 活动中被取消资格**。
 * 任何被标记为「**Invalid**（无效）」（由维护者标记）的 Pull Request 将从你的总目标中被丢弃。
 * 任何被提交到与 Hacktoberfest 的价值观不符的仓库的 Pull Request 将不会计入你的总目标。目前，没有官方列表通知你有关这样的仓库。如果不确定，请在[官方 Hacktoberfest Discord 服务器](https://discord.gg/hacktoberfest)上提问。
-* 请避免提交只有*微小好处*或仅仅为了引入一个小改变的 Pull Request。例如：「*修复空格*」，「*修正拼写错误*」，「*使用空格重新格式化代码而不是制表符*」，以及「*从 0 递增到 i 而不是递减 i 到 0*」。
+* 请避免提交只有*微小好处*或仅仅引入一个小改变的 Pull Request。例如：「*修复空格*」，「*修正拼写错误*」，「*使用空格重新格式化代码而不是制表符*」，以及「*从 0 递增到 i 而不是递减 i 到 0*」。
 
 ## 我如何知道项目的贡献指南？
 
@@ -141,7 +140,7 @@ First, please ensure that you have **registered for Hacktoberfest using your Gi
 
 * **行为准则**：请**仔细**阅读。这是指个人在项目中的可接受行为。如果你没有遵守这一点，你未来的贡献可能会被忽视；甚至可能被直接拒绝。
 * **代码格式**：每个项目都有自己的代码风格。最好根据 CONTRIBUTING.md 中列出的代码格式来格式化代码。
-* **服务条款**：有些项目要求你在你的 Pull Request 被合并之前接受条款和条件（关于你对贡献代码的权利）。请仔细阅读这些内容，并确保你对限制（如果有的话）感到满意。
+* **服务条款**：有些项目要求你在你的 Pull Request 被合并之前接受条款和条件（关于你对贡献代码的权利）。请仔细阅读这些内容，并确保你能接受这些限制（如果有的话）。
 * **许可证**：请阅读仓库代码所使用的许可证。你必须遵守该许可证。
 * **贡献者资源**：由于这个文件（CONTRIBUTING.md）是为首次进行贡献的贡献者准备的，你还将获得一些贡献者资源，帮助你了解代码审查是如何进行的，以及为了合并一个 Pull Request 需要做哪些事情。
 * **PR 标签**：有些维护者希望你使用标签创建一个 Pull Request。这些标签可能是「bug 修复」，「新功能」，「好的首次问题」等。这有助于维护者和社区关注他们感兴趣的问题。
@@ -151,9 +150,9 @@ First, please ensure that you have **registered for Hacktoberfest using your Gi
 
 ## 这整个过程是如何工作的？
 
-现在你已经了解了前提条件。你该如何继续？如何提交你的第一个 Pull Request？对于第一次进行贡献的人来说，这是否太技术性了？
+现在你已经了解了前提条件。那该如何继续呢？如何提交你的第一个 Pull Request？对于第一次进行贡献的人来说，这是否太技术性了？
 
-并不一定。你只需要输入几个命令，并仔细按照逐步方法操作。没有什么是令人不安的。你只需要耐心地完成整个过程。
+并不一定。你只需要输入几个命令，并仔细按照方法逐步操作。没有什么是令人无所适从的。你只需要耐心地完成整个过程。
 
 整体来讲，你需要做的事情如下：
 
@@ -163,10 +162,9 @@ First, please ensure that you have **registered for Hacktoberfest using your Gi
 4. **使用 Git 在仓库中工作。**
 5. **将代码/更改提交到仓库。**
 
-## How To Make Your First Pull Request?#
 ## 如何提交你的第一个 Pull Request？
 
-不要害怕，我将按照正确的顺序为你提供所有步骤，帮你上手。
+不要害怕，我将按照正确顺序告诉你所有的步骤，帮助你上手。
 
 ### 1. 在你的系统上安装 Git
 
@@ -174,7 +172,7 @@ First, please ensure that you have **registered for Hacktoberfest using your Gi
 
 Git 是业界最常用的版本控制工具之一。它是由 Linus Torvalds 创建的。是的，就是那个创建了 Linux 的人。
 
-在我告诉你 git 的基础用法之前，让我先告诉你如何在你的计算机上安装 git。
+在教你 git 的基础用法之前，让我先告诉你如何在你的计算机上安装 git。
 
 #### 在 Linux 上安装 git
 
@@ -228,7 +226,7 @@ git config --global user.name "你的名字"
 git config --global user.email "你的电子邮件地址"
 ```
 
-这样你就可以帮助其他人知道谁做了哪些更改，以及如何联系他们。不要忘记，如果没有向 git 提供名字和电子邮件，你将无法创建任何提交。
+这样你就可以帮助其他人了解是谁做了哪些更改，以及如何联系他们。不要忘记，如果没有向 git 提供名字和电子邮件，你将无法创建任何提交。
 
 你还可以参考我们（译者注：It's FOSS）的 [Git 命令指南](https://itsfoss.com/basic-git-commands-cheat-sheet/) 来了解其他基本命令。
 
@@ -242,7 +240,7 @@ git config --global user.email "你的电子邮件地址"
 
 ### 4. 我该如何提交一个 Pull Request？
 
-要参与 Hacktoberfest 2022（原文为 2022，实际应为 2024），你必须有 4 个 Pull Request 被接受/合并。我将演示如何提交一个 Pull Request。
+要参与 Hacktoberfest 2022（译者注：原文为 2022，实际应为 2024），你必须有 4 个 Pull Request 被接受/合并。我将演示如何提交一个 Pull Request。
 
 我更偏好使用 GitLab，但 GitHub 在新加入开源社区的人中更受欢迎，所以我将使用 GitHub 演示这个过程。对于 GitLab 用户，步骤是相同的，只有一些用户界面上的差异。
 
@@ -254,7 +252,7 @@ git config --global user.email "你的电子邮件地址"
 
 ![Deciding a name for your fork of the repository](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/01-fork-800x487.webp)
 
-在你点击「fork」按钮之后，你将被带到一个类似于下面截图的页面。你将被要求给这个仓库起一个名字。最好保持相同的名字，但如果你想修改，也可以这样做。然后，点击「Create fork」按钮。这将创建一个给定仓库的 fork。
+在你点击「Fork」按钮之后，你将被带到一个类似于下面截图的页面。你将被要求给这个仓库起一个名字。最好保持相同的名字，但如果你想修改也是可以的。然后，点击「Create fork」按钮。这将创建一个给定仓库的 fork。
 
 ![Deciding a name for your fork of the repository](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/02-name-repo.png)
 
@@ -262,13 +260,13 @@ git config --global user.email "你的电子邮件地址"
 
 ![Cloning the forked repositor](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/03-clone.webp)
 
-在你克隆好仓库之后，你就可以在本地开始工作了。
+在克隆好仓库之后，你就可以在本地开始工作了。
 
 接下来我将展示如何进行工作，以及如何以 Pull Request 的形式将这些更改发送回「上游」。
 
 #### b. 在本地的 Git 仓库中工作
 
-在你讲仓库克隆到本地后，立即创建一个新分支。使用一个最能描述你将进行的更改的名称。以下命令可以在 git 中创建一个新分支：
+在将仓库克隆到本地后，立即创建一个新分支。使用一个最能描述你将进行的更改的名称。以下命令可以在 git 中创建一个新分支：
 
 ``` bash
 git checkout -b 分支名称
@@ -282,7 +280,7 @@ git checkout -b 分支名称
 
 ![Checking what changes were made; using the 'git diff'](https://static.fosscope.com/articles_img/2024/10/how-you-can-contribute-to-open-source-in-hacktoberfest/05-git-diff.webp)
 
-如果你对你的更改满意了，现在是检查它们是否嫩工作的最佳时机。一旦验证通过，你可以使用 `git add` 命令将这些更改添加到暂存区。
+如果你对你的更改感到满意，那么现在就是检查它们是否工作的最佳时机。一旦验证通过，你就可以使用 `git add` 命令将这些更改添加到暂存区。
 
 然后，使用 `git commit` 命令创建一个提交，并附上一个有意义的消息。
 
@@ -290,15 +288,15 @@ git checkout -b 分支名称
 
 #### c. 将代码推送到仓库
 
-现在你已经完成了实现一个东西或者改变现有的某些东西的工作，并提交了它，现在是时候将代码发送回原始仓库了。在这之前，我们的更改需要被提交到我们 fork 的仓库。
+现在你已经完成了实现一个东西或者改变现有的某些东西的工作并且提交了它，现在是时候将代码发送回原始仓库了。在这之前，我们的更改需要被提交到我们所 fork 的仓库。
 
-要发送我们的更改（这些更改是在一个单独的分支中进行的），请以下面的方式使用 `git push` 命令：
+要发送我们的更改（这些更改是在一个单独的分支中进行的），请按照下面的方式使用 `git push` 命令：
 
 ``` bash
 git push --set-upstream origin BRANCH-NAME
 ```
 
-这样你之前创建的分支就会被发送到 fork 的仓库中。
+这样，你之前创建的分支就会被发送到 fork 的仓库中。
 
 在这个步骤完成后，如果你使用的是 GitHub，你将会看到一个消息，其中会提供一个链接。访问这个链接将为你的分支创建一个 Pull Request。由于这是 GitHub 特有的，我将展示另外一个创建 Pull Request 的方法。
 
@@ -324,8 +322,8 @@ git push --set-upstream origin BRANCH-NAME
 
 如果你的 Pull Request 没有被合并，不要担心。**礼貌地**向拒绝你的 Pull Request 的人提出疑问。询问他们问题所在以及如何才能使你的更改被合并。
 
-你是否引入了一个有更优秀的替代品的新库/依赖项？或者，有什么可以被纠正的地方吗？
+你是否引入了一个有着更优秀的替代品的新库/依赖项？或者，有什么可以被纠正的地方吗？
 
-当然，维护者可能不会回答你的每一个问题。所以，请确保在你发送了关于 Pull Request 的疑问后，不要反复打扰他们。
+当然，维护者可能不会回答你的每一个问题。所以，在你发送了关于 Pull Request 的疑问后，请确保不会反复打扰他们。
 
-有一个没被合并的 Pull Request 不会引发世界末日。尝试使用你的激情和创造力参与其他项目，一切都会顺利的！
+一个没被合并的 Pull Request 不会引发世界末日。尝试带着你的激情和创造力来参与其他项目，一切都会顺利的！
