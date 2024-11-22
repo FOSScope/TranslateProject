@@ -6,8 +6,8 @@ author:
   - fosscope-translation-team
   - {{translator}}
   - {{proofreader}}
-banner: {{cover_image}}
-cover: {{cover_image}}
+banner: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/11/linux-kernel-6-12-release.png
+cover: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/11/linux-kernel-6-12-release.png
 categories:
   - 翻译
   - {{category}}
