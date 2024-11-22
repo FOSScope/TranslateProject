@@ -4,10 +4,10 @@ date: {{release_date}}
 abbrlink: {{abbrlink}}
 author:
   - fosscope-translation-team
-  - {{translator}}
+  - Cubik65536
   - {{proofreader}}
-banner: {{cover_image}}
-cover: {{cover_image}}
+banner: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/09/zen-browser-aotw-1-.png
+cover: https://news.itsfoss.com/content/images/size/w1304/format/webp/2024/09/zen-browser-aotw-1-.png
 categories:
   - 翻译
   - {{category}}
@@ -17,11 +17,11 @@ authorInfo: |
 
   作者：[Sourav Rudra](https://news.itsfoss.com/author/sourav/)
   选题：[Cubik65536](https://github.com/Cubik65536)
-  译者：[{{translator}}](https://github.com/{{translator}})
+  译者：[Cubik65536](https://github.com/Cubik65536)
   校对：[{{proofreader}}](https://github.com/{{proofreader}})
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
-applied: false # 是否已被申领翻译
+applied: true # 是否已被申领翻译
 translated: false # 是否已翻译完成
 proofread: false # 是否已校对完成
 published: false # 是否已发布
