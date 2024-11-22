@@ -1,7 +1,7 @@
 ---
 title: Mozilla 再次裁员，解散倡导部门
-date: {{release_date}}
-abbrlink: {{abbrlink}}
+date: 2024-11-22 10:16:02
+abbrlink: 20241107-mozilla-boots-staff-yet-again-advocacy-unit-shut-down
 author:
   - fosscope-translation-team
   - Cubik65536
@@ -28,7 +28,7 @@ authorInfo: |
 applied: true # 是否已被申领翻译
 translated: true # 是否已翻译完成
 proofread: true # 是否已校对完成
-published: false # 是否已发布
+published: true # 是否已发布
 ---
 
 <!-- 所有以 `{{variable}}` 形式展现的内容都需要替换为实际内容 -->
