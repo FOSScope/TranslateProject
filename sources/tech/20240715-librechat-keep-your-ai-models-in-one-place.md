@@ -1,5 +1,5 @@
 ---
-title: LibreChat: Keep Your AI Models in One Place
+title: "LibreChat: Keep Your AI Models in One Place"
 date: {{release_date}}
 author:
   - fosscope-translation-team
