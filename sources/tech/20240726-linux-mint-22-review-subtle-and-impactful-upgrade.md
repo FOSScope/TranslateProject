@@ -1,5 +1,5 @@
 ---
-title: Linux Mint 22 Review: Subtle And Impactful Upgrade
+title: "Linux Mint 22 Review: Subtle And Impactful Upgrade"
 date: {{release_date}}
 abbrlink: {{abbrlink}}
 author:
