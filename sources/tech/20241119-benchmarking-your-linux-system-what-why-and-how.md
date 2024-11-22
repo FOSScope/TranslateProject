@@ -1,13 +1,13 @@
 ---
-title: Benchmarking Your Linux System: What, Why and How
+title: "Benchmarking Your Linux System: What, Why and How"
 date: {{release_date}}
 abbrlink: {{abbrlink}}
 author:
   - fosscope-translation-team
   - {{translator}}
   - {{proofreader}}
-banner: {{cover_image}}
-cover: {{cover_image}}
+banner: https://itsfoss.com/content/images/size/w600/format/webp/2024/11/Benchmark-linux-system.png
+cover: https://itsfoss.com/content/images/size/w600/format/webp/2024/11/Benchmark-linux-system.png
 categories:
   - 翻译
   - {{category}}
