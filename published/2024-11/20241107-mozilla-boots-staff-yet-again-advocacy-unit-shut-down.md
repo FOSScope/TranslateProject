@@ -33,6 +33,8 @@ published: true # 是否已发布
 
 <!-- 所有以 `{{variable}}` 形式展现的内容都需要替换为实际内容 -->
 
+Mozilla 正在采取这些高风险措施。接下来会发生什么？
+
 <!-- more -->
 
 Mozilla 是一个知名的组织，其产品如 [Firefox](https://www.mozilla.org/en-US/firefox/) 和 [Thunderbird](https://www.thunderbird.net/) 是互联网生态的重要组成部分，许多人每天都依赖这些产品。
