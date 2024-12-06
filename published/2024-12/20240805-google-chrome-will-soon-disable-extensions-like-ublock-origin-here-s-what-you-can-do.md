@@ -1,11 +1,11 @@
 ---
 title: 谷歌浏览器将逐步禁用 uBlock Origin 等扩展程序：以下是您能做的事情！
-date: {{release_date}}
-abbrlink: {{abbrlink}}
+date: 2024-12-07 12:02:41
+abbrlink: 20240805-google-chrome-will-soon-disable-extensions-like-ublock-origin-here-s-what-you-can-do
 author:
   - fosscope-translation-team
   - excniesnied
-  - {{proofreader}}
+  - Cubik65536
 banner: https://static.fosscope.com/articles_img/2024/08/google-chrome-will-soon-disable-extensions-like-ublock-origin-here-s-what-you-can-do/google-phase-out-manifest-3.webp
 cover: https://static.fosscope.com/articles_img/2024/08/google-chrome-will-soon-disable-extensions-like-ublock-origin-here-s-what-you-can-do/google-phase-out-manifest-3.webp
 categories:
@@ -13,38 +13,41 @@ categories:
   - 新闻
 tags: 
   - Google Chrome
+  - Manifest V3
+  - Manifest V2
+  - uBlock Origin
 authorInfo: |
   via: https://news.itsfoss.com/google-chrome-disable-extensions
 
   作者：[Sourav Rudra](https://news.itsfoss.com/author/sourav/)
   选题：[excniesNIED](https://github.com/excniesNIED)
   译者：[excniesNIED](https://github.com/excniesNIED)
-  校对：[{{proofreader}}](https://github.com/{{proofreader}})
+  校对：[Cubik65536](https://github.com/Cubik65536)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
 applied: true
 translated: true
-proofread: false
-published: false
+proofread: true
+published: true
 ---
 
 谷歌浏览器正在通过逐步淘汰旧版扩展程序，为迁移至 Manifest v3 做准备。
 
 <!-- more -->
 
-无论您喜欢与否，[谷歌浏览器（Google Chrome）](https://www.google.com/chrome/)在桌面端和移动端都是全球使用最广泛的网络浏览器。对于桌面用户而言，它有一个显著的优势，那就是可以使用扩展程序来进一步增强浏览器的功能。
+无论您喜欢与否，[谷歌浏览器（Google Chrome）](https://www.google.com/chrome/)**在桌面端和移动端都是全球使用最广泛的网络浏览器**。对于桌面用户而言，它有一个显著的优势，那就是可以使用扩展程序来进一步增强浏览器的功能。
 
-如果您最近一直在关注新闻，那您一定听说过，谷歌正在逐步淘汰 Manifest V2 扩展程序，为 Manifest V3 扩展程序铺平道路。据说这一举措旨在提升隐私性、安全性和性能。
+如果您最近一直在关注新闻，那您一定听说过，谷歌正在逐步淘汰 [Manifest V2](https://developer.chrome.com/docs/extensions/) 扩展程序，为 Manifest V3 扩展程序铺平道路。据说这一举措旨在提升隐私性、安全性和性能。
 
 至于 Manifest，它是一个 [JSON 文件](https://developer.chrome.com/docs/extensions/reference/manifest)，伴随着扩展程序一起，由浏览器读取以获取重要信息，如扩展程序的名称、版本号、所需权限等。
 
 根据他们的 Manifest V2 [淘汰计划](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline)，开发者在今年 [早些时候](https://blog.chromium.org/2024/05/manifest-v2-phase-out-begins.html) 表示，谷歌浏览器将于 2024 年 6 月开始淘汰进程，首先从谷歌浏览器的 *Beta*、*Dev* 和 *Canary* 渠道开始。
 
-他们已经在 [Chrome 网上应用店](https://chromewebstore.google.com/) 上移除了 Manifest V2 应用的“*精选*”徽章，这也影响了包括 uBlock Origin 在内的一些受欢迎的扩展程序。
+他们已经从 [Chrome 网上应用商店](https://chromewebstore.google.com/) 上移除了 Manifest V2 应用的“*精选*”徽章，这也影响了包括 uBlock Origin 在内的一些受欢迎的扩展程序。
 
 而且，他们并不打算止步于此。[uBlock Origin](https://github.com/gorhill/uBlock) 可能需要继续关注相关进展。
 
-## uBlock Origin 即将在谷歌浏览器上消失？😨
+## uBlock Origin 即将从谷歌浏览器上消失？😨
 
 ![a screenshot of the ublock origin extension listing on the chrome web store with a warning](https://static.fosscope.com/articles_img/2024/08/google-chrome-will-soon-disable-extensions-like-ublock-origin-here-s-what-you-can-do/Chrome_ManifestV2_Phaseout_a.webp)
 
@@ -54,13 +57,13 @@ published: false
 
 此外，在搜索 uBlock Origin，搜索栏中没有将其显示在搜索结果的顶部，但在搜索结果页面上却将其置顶显示。
 
-当我在 Vivaldi（*基于 Chromium 的浏览器*）上测试时，网页应用商店并没有显示任何警告，但搜索扩展时的行为是相同的。
+当我在 Vivaldi（*一个基于 Chromium 的浏览器*）上测试时，网上应用商店并没有显示任何警告，但搜索扩展时的行为是相同的。
 
 随后，我进入了谷歌浏览器扩展设置，看到了一个新的对话框。👇
 
 ![a screenshot of the ublock origin extension settings on chrome](https://static.fosscope.com/articles_img/2024/08/google-chrome-will-soon-disable-extensions-like-ublock-origin-here-s-what-you-can-do/Chrome_ManifestV2_Phaseout_b.webp)
 
-它显示了与之前类似的警告，称该扩展可能很快就不再支持，并附有一个“查找替代品”的按钮。
+它显示了与之前类似的警告，称该扩展可能很快就不再支持，并附有一个“*查找替代品*”的按钮。
 
 ![a screenshot of recommended extensions for replacing ublock origin on chrome](https://static.fosscope.com/articles_img/2024/08/google-chrome-will-soon-disable-extensions-like-ublock-origin-here-s-what-you-can-do/Chrome_ManifestV2_Phaseout_c.webp)
 
@@ -84,13 +87,13 @@ published: false
 
 这个扩展甚至没有元素选择器和元素清除模式，这可是对付那些试图在奇怪位置隐藏广告或弹出付费墙网站的必备功能。
 
-但 uBlock Origin Lite 也并非完全不堪。**在我对 uBlock Origin Lite 进行测试时，使用的版本是 Chrome 127**，它成功地屏蔽了 YouTube 上的广告。对于浏览网页或流媒体等日常使用场景来说，它应该还是可以胜任的。
+但 uBlock Origin Lite 也并非完全不堪。**在我使用 Chrome 127 对 uBlock Origin Lite 进行测试时**，它成功地屏蔽了 YouTube 上的广告。对于浏览网页或流媒体等日常使用场景来说，它应该还是可以胜任的。
 
 ## 📥 获取 uBlock Origin Lite
 
 如果想在谷歌浏览器中安装 uBlock Origin Lite，您可以从 [Chrome 应用商店](https://chromewebstore.google.com/detail/ddkjiahejlhfcafbddmgiahcphecmpfh) 中获取。
 
-如需源代码请访问 [Github 仓库](https://github.com/uBlockOrigin/uBOL-home)，您可以在那里找到 uBlock Origin Lite 和原版 uBlock Origin 有哪些不同之处。
+如需源代码请访问 [Github 仓库](https://github.com/uBlockOrigin/uBOL-home)，您可以在那里找到 uBlock Origin Lite 和原版 uBlock Origin 有哪些 [不同之处](https://arc.net/l/quote/lqysztvx)。
 
 <center>{% button "uBlock Origin Lite" https://chromewebstore.google.com/detail/ddkjiahejlhfcafbddmgiahcphecmpfh %}</center>
 
