@@ -41,7 +41,7 @@ published: true # 是否已发布
 
 ## Linux 用户需要担心 Bootkitty 吗
 
-{% image https://news.itsfoss.com/content/images/2024/11/Bootkitty_a-1.png "来源：<a href="https://news.itsfoss.com/bootkitty-linux/#:~:text=Source%3A-,ESET,-Known%20for%20their">ESET</a>" %}
+{% image https://news.itsfoss.com/content/images/2024/11/Bootkitty_a-1.png 来源：<a href="https://news.itsfoss.com/bootkitty-linux/#:~:text=Source%3A-,ESET,-Known%20for%20their">ESET</a> %}
 
 知名网络安全公司 ESET 的研究人员首次在 [VirusTotal](https://www.virustotal.com/gui/file/f1f84819bdf395d42c36adb36ded0e7de338e2036e174716b5de71abc56f5d40) 上发现了这一恶意程序，该程序被匿名上传为一个未知的 UEFI 应用「*bootkit.efi*」。
 
@@ -64,7 +64,7 @@ ESET 团队对其进行分析后发现，这是**一款针对特定版本 Ubuntu
 <!-- cell -->
 {% image https://news.itsfoss.com/content/images/2024/11/Bootkitty_b.png %}
 <!-- cell -->
-{% image https://news.itsfoss.com/content/images/2024/11/Bootkitty_c.png "来源：<a href="https://www.welivesecurity.com/en/eset-research/bootkitty-analyzing-first-uefi-bootkit-linux/">ESET</a>" %}
+{% image https://news.itsfoss.com/content/images/2024/11/Bootkitty_c.png 来源：<a href="https://www.welivesecurity.com/en/eset-research/bootkitty-analyzing-first-uefi-bootkit-linux/">ESET</a> %}
 {% endgrid %}
 
 第二个是包含可能的 Bootkitty 作者（*已被 ESET 抹除*）和其他与恶意软件相关的人的列表，以及在每次启动时被打印出来的另一组字符串，其中包含以下文本：
@@ -72,6 +72,7 @@ ESET 团队对其进行分析后发现，这是**一款针对特定版本 Ubuntu
 > Bootkitty's Bootkit
 > \- Developed By BlackCat
 > 
+> （翻译：）
 > Bootkitty 的引导工具包
 > \- 由 BlackCat 开发
 
