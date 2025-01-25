@@ -38,17 +38,17 @@ published: false # 是否已发布
 
 [[articles]]
 type = "news"
-description = "新闻"
+description = "新闻 (News)"
 directory = "{{step}}/news"
 
 [[articles]]
 type = "tech"
-description = "技术"
+description = "技术 (Tech)"
 directory = "{{step}}/tech"
 
 [[articles]]
 type = "talk"
-description = "评论"
+description = "评论 (Talk)"
 directory = "{{step}}/talk"
 
 [git]
