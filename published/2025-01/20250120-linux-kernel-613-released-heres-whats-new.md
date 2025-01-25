@@ -47,8 +47,6 @@ Linus Torvalds 分享了他对这次发布的 [一些想法](https://lore.kernel
 
 ## Linux 内核 6.13：有什么新特性？
 
-Unlike the [previous release](https://news.itsfoss.com/linux-kernel-6-12/), Linux 6.13 is **not a long-term support (LTS) release**, so expect a short period of official maintenance and updates—typically around 9–12 weeks—before it reaches end-of-life.
-
 与 [上一版本](https://news.itsfoss.com/linux-kernel-6-12/) 不同，Linux 6.13 **不是长期支持（LTS）版本**，因此，在其生命周期结束前，预计将有一段较短的官方维护和更新期 —— 通常在 9-12 周左右。
 
 如果你需要更长时间的支持，继续使用 LTS 版本会是更好的选择。
