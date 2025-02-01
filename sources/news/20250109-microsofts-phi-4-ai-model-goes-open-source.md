@@ -4,24 +4,25 @@ date: {{release_date}}
 abbrlink: {{abbrlink}}
 author:
   - fosscope-translation-team
-  - {{translator}}
+  - excniesnied
   - {{proofreader}}
 banner: {{cover_image}}
 cover: {{cover_image}}
 categories:
   - 翻译
-  - {{category}}
-tags: {{tags}}
+  - 新闻
+tags:
+  - LLM
 authorInfo: |
   via: https://news.itsfoss.com/microsofts-phi-4-ai-model-open-source/
 
   作者：[{{author}}]({{author_link}})
   选题：[Cubik65536](https://github.com/Cubik65536)
-  译者：[{{translator}}](https://github.com/{{translator}})
+  译者：[Churnie HXCN](https://github.com/excniesnied)
   校对：[{{proofreader}}](https://github.com/{{proofreader}})
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
-applied: false # 是否已被申领翻译
+applied: true # 是否已被申领翻译
 translated: false # 是否已翻译完成
 proofread: false # 是否已校对完成
 published: false # 是否已发布
