@@ -25,11 +25,7 @@ authorInfo: |
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
 applied: true # 是否已被申领翻译
-<<<<<<< HEAD
-translated: true # 是否已翻译完成
-=======
 translated: false # 是否已翻译完成
->>>>>>> 8aa253a64997b408c10828b2cfba44b63095e405
 proofread: false # 是否已校对完成
 published: false # 是否已发布
 ---
