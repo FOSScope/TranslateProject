@@ -1,11 +1,11 @@
 ---
-title: Linux 将强力驱动 Nvidia Project DIGITS，打造桌面上的AI超级计算机
-date: {{release_date}}
-abbrlink: {{abbrlink}}
+title: Linux 将驱动 Nvidia Project DIGITS，打造你桌面上的 AI 超级计算机
+date: 2025-02-04 22:06:19
+abbrlink: linux-will-power-nvidia-project-digits-the-ai-supercomputer-on-your-desk
 author:
   - fosscope-translation-team
   - excniesnied
-  - {{proofreader}}
+  - Cubik65536
 banner: https://static.fosscope.com/articles_img/2025/01/linux-will-power-nvidia-project-digits-the-ai-supercomputer-on-your-desk/nvidia-digits-linux-pc.webp
 cover: https://static.fosscope.com/articles_img/2025/01/linux-will-power-nvidia-project-digits-the-ai-supercomputer-on-your-desk/nvidia-digits-linux-pc.webp
 categories:
@@ -13,19 +13,24 @@ categories:
   - 新闻
 tags:
   - Linux
+  - AI
+  - 人工智能
+  - Nvidia
+  - 英伟达
+  - 家庭实验室
 authorInfo: |
   via: https://news.itsfoss.com/nvidia-project-digits/
 
   作者：[Sourav Rudra](https://news.itsfoss.com/author/sourav/)
   选题：[Cubik65536](https://github.com/Cubik65536)
   译者：[Churnie HXCN](https://github.com/excniesnied)
-  校对：[{{proofreader}}](https://github.com/{{proofreader}})
+  校对：[Cubik65536](https://github.com/Cubik65536)
 
   本文由 [FOSScope翻译组](https://github.com/FOSScope/TranslateProject) 原创编译，[开源观察](https://fosscope.com/) 荣誉推出
 applied: true # 是否已被申领翻译
 translated: true # 是否已翻译完成
-proofread: false # 是否已校对完成
-published: false # 是否已发布
+proofread: true # 是否已校对完成
+published: true # 是否已发布
 ---
 
 <!-- 所有以 `{{variable}}` 形式展现的内容都需要替换为实际内容 -->
@@ -36,9 +41,9 @@ published: false # 是否已发布
 
 [人工智能](https://zh.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD) 已成为21世纪最受瞩目的领域之一，它成功地颠覆了医疗、娱乐、金融等多个行业，甚至改变了我们与科技互动的方式。
 
-谈及此，唯有一家公司的名字浮现脑海——[NVIDIA](https://www.nvidia.com/zh-cn/)。他们比其他巨头更早押注人工智能，而此后的回报堪称惊人，推动其市值一路飙升。
+谈及此，唯有一家公司的名字浮现脑海 —— [NVIDIA](https://www.nvidia.com/zh-cn/)。他们比其他巨头更早押注人工智能，而此后的回报堪称惊人，推动其市值一路飙升。
 
-在最近的[国际消费电子展（CES）](https://www.ces.tech/)上，NVIDIA 展示了一款新型AI超级计算机，**其体积小巧，可置于桌面**，依托强大的硬件配置和Linux驱动的操作系统，实现了高效运行。
+在最近的 [国际消费电子展（CES）](https://www.ces.tech/) 上，NVIDIA 展示了一款新型AI超级计算机，**其体积小巧，可置于桌面**，依托强大的硬件配置和 Linux 驱动的操作系统，实现了高效运行。
 
 让我们一探究竟。😃
 
@@ -46,13 +51,13 @@ published: false # 是否已发布
 
 {% image https://static.fosscope.com/articles_img/2025/01/linux-will-power-nvidia-project-digits-the-ai-supercomputer-on-your-desk/NVIDIA_Project_Digits_a.jpg 图片来源：NVIDIA %}
 
-Project DIGITS 提供 **1 PFLOPS 的 FP4 AI 计算性能**，[搭载与联发科](https://corp.mediatek.com/news-events/press-releases/mediatek-collaborates-with-nvidia-on-the-new-nvidia-gb10-grace-blackwell-superchip-powering-the-nvidia-project-digits-personal-ai-supercomputer)合作研发的全新 [SoC](https://en.wikipedia.org/wiki/System_on_a_chip)。开发者可用其在本机开发和运行AI模型推理。
+Project DIGITS [搭载与联发科](https://corp.mediatek.com/news-events/press-releases/mediatek-collaborates-with-nvidia-on-the-new-nvidia-gb10-grace-blackwell-superchip-powering-the-nvidia-project-digits-personal-ai-supercomputer) 合作研发的全新 [SoC](https://en.wikipedia.org/wiki/System_on_a_chip)，可提供 **1 PFLOPS 的 FP4 AI 计算性能**。开发者可用其在本机开发和运行 AI 模型推理。
 
-Project DIGITS 搭载 [DGX OS](https://docs.nvidia.com/dgx/dgx-os-6-user-guide/introduction.html)——**一款基于 Ubuntu 22.04 的 Linux 操作系统**。NVIDIA 对其进行了深度定制，包含多项优化、附加驱动及诊断/监控工具。
+Project DIGITS 搭载 [DGX OS](https://docs.nvidia.com/dgx/dgx-os-6-user-guide/introduction.html) —— **一款基于 Ubuntu 22.04 的 Linux 操作系统**。NVIDIA 对其进行了深度定制，包含多项优化、附加驱动及诊断/监控工具。
 
 开发者还将获得完整的 AI 开发工具链，涵盖 SDK、编排工具、PyTorch 等 AI 框架，以及来自 NVIDIA [NGC 目录](https://catalog.ngc.nvidia.com/) 的预训练模型和资源库。
 
-[NVIDIA NeMo 框架](https://www.nvidia.com/en-us/ai-data-science/products/nemo/)和 [RAPIDS 库](https://developer.nvidia.com/rapids) 等工具亦将预装，助力开发者将工作部署至云端和数据中心。
+[NVIDIA NeMo 框架](https://www.nvidia.com/en-us/ai-data-science/products/nemo/) 和 [RAPIDS 库](https://developer.nvidia.com/rapids) 等工具也可使用，助力开发者将工作部署至云端和数据中心。
 
 {% image https://static.fosscope.com/articles_img/2025/01/linux-will-power-nvidia-project-digits-the-ai-supercomputer-on-your-desk/NVIDIA_Project_Digits_b.jpg 图片来源：NVIDIA %}
 
