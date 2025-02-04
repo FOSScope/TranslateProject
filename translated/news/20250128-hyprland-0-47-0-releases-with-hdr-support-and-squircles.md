@@ -1,5 +1,5 @@
 ---
-title: Hyprland 0.47.0 Releases with HDR Support and Squircles
+title: Hyprland 0.47.0 正式发布：支持 HDR 与圆角窗口
 date: {{release_date}}
 abbrlink: 
 author:
