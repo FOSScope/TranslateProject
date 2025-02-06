@@ -48,7 +48,7 @@ published: false # 是否已发布
 
 ## KleverNotes：Markdown 的正确打开方式
 
-{% image https://static.fosscope.com/articles_img/2025/01/KleverNotes_a.webp '' %}
+{% image https://static.fosscope.com/articles_img/2025/01/klevernotes/KleverNotes_a.webp '' %}
 
 该应用的诞生源于首席开发者 [Louis Schul](https://invent.kde.org/louis-schul) 的个人需求：学习 QML 和 C++ 并激励自己在课堂上做笔记。KleverNotes 的首个稳定版本发布于 [2024 年 10 月](https://blogs.kde.org/2024/06/05/klevernotes-version-1-0-official-release/)。
 
@@ -69,33 +69,33 @@ published: false # 是否已发布
 
 设置完成后，系统会自动加载演示笔记，其中展示了各类 Markdown 元素的使用技巧。
 
-{% image https://static.fosscope.com/articles_img/2025/01/KleverNotes_b.webp '' %}
+{% image https://static.fosscope.com/articles_img/2025/01/klevernotes/KleverNotes_b.webp '' %}
 
 在完成上述配置后，**一个演示笔记会被自动加载，其中展示了 KleverNotes 的各项功能**，并包含对多种 Markdown 元素的说明。通过右键现有分类可轻松创建新类别，并添加多个笔记。
 
-{% image https://static.fosscope.com/articles_img/2025/01/KleverNotes_c-1.webp '' %}
+{% image https://static.fosscope.com/articles_img/2025/01/klevernotes/KleverNotes_c-1.webp '' %}
 
-{% image https://static.fosscope.com/articles_img/2025/01/KleverNotes_d.webp '' %}
+{% image https://static.fosscope.com/articles_img/2025/01/klevernotes/KleverNotes_d.webp '' %}
 
 **Markdown 编辑体验令人愉悦**，虽偶有小瑕疵，但整体流畅自然。用户既可直接键入 Markdown 代码，也可通过顶部工具栏的便捷按钮操作（适合笔者这样的懒人）。
 
-{% image https://static.fosscope.com/articles_img/2025/01/KleverNotes_e.webp '' %} 
+{% image https://static.fosscope.com/articles_img/2025/01/klevernotes/KleverNotes_e.webp '' %} 
 
-{% image https://static.fosscope.com/articles_img/2025/01/KleverNotes_f.webp '' %}
+{% image https://static.fosscope.com/articles_img/2025/01/klevernotes/KleverNotes_f.webp '' %}
 
-{% image https://static.fosscope.com/articles_img/2025/01/KleverNotes_g.webp '以编辑 [Bond Forger](https://spy-x-family.fandom.com/wiki/Bond_Forger) 日记为例展示 KleverNotes 的编辑体验。' %}
+{% image https://static.fosscope.com/articles_img/2025/01/klevernotes/KleverNotes_g.webp '以编辑 [Bond Forger](https://spy-x-family.fandom.com/wiki/Bond_Forger) 日记为例展示 KleverNotes 的编辑体验。' %}
 
 还可以通过点击工具栏中的图片按钮 **为笔记添加图片**，KleverNotes 会将图片添加到光标所在的行。我既可以从网站添加网络图片，也可以上传本地图片，还能绘制图片。
 
 如果我愿意，我可以让应用程序将上传的图片保存在与笔记相同的文件夹中，以防止图片丢失。我建议你启用此功能，这样你就不会丢失任何重要图片了。 
 
-{% image https://static.fosscope.com/articles_img/2025/01/KleverNotes_h.webp 'KleverNotes 中的 Markdown 速查表' %}
+{% image https://static.fosscope.com/articles_img/2025/01/klevernotes/KleverNotes_h.webp 'KleverNotes 中的 Markdown 速查表' %}
 
 编辑器左下方提供**Markdown 速查表**，便于用户随时查阅语法元素。
 
-{% image https://static.fosscope.com/articles_img/2025/01/KleverNotes_i.webp '' %}
+{% image https://static.fosscope.com/articles_img/2025/01/klevernotes/KleverNotes_i.webp '' %}
 
-{% image https://static.fosscope.com/articles_img/2025/01/KleverNotes_j.webp '' %}
+{% image https://static.fosscope.com/articles_img/2025/01/klevernotes/KleverNotes_j.webp '' %}
 
 KleverNotes 也可用于创建待办事项。
 
@@ -103,9 +103,9 @@ KleverNotes 也可用于创建待办事项。
 
 如果你注意到上面的截图，**工具栏中的许多按钮是不可见的**。我不得不慢慢将鼠标悬停在它们上面，才能分辨出每个按钮的功能。不过，我使用了快速表情符号插件来装饰任务列表，效果还不错。 
 
-{% image https://static.fosscope.com/articles_img/2025/01/KleverNotes_l.webp '' %}
+{% image https://static.fosscope.com/articles_img/2025/01/klevernotes/KleverNotes_l.webp '' %}
 
-{% image https://static.fosscope.com/articles_img/2025/01/KleverNotes_k.webp '插件管理与笔记预览设置界面' %}
+{% image https://static.fosscope.com/articles_img/2025/01/klevernotes/KleverNotes_k.webp '插件管理与笔记预览设置界面' %}
 
 但要首先启用该功能，用户必须进入「插件」设置页面并手动开启。同样，设置菜单中还包含其他一些实用选项，可用于更改样式、字体和文本颜色。
 
